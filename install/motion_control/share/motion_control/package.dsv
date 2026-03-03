@@ -1,0 +1,6 @@
+source;share/motion_control/hook/pythonpath.ps1
+source;share/motion_control/hook/pythonpath.dsv
+source;share/motion_control/hook/pythonpath.sh
+source;../../build/motion_control/share/motion_control/hook/pythonpath_develop.ps1
+source;../../build/motion_control/share/motion_control/hook/pythonpath_develop.dsv
+source;../../build/motion_control/share/motion_control/hook/pythonpath_develop.sh

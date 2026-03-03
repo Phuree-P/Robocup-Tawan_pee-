@@ -1,0 +1,1 @@
+/home/pi/robot_ws/build/ired_bringup/ament_cmake_core/ired_bringupConfig.cmake

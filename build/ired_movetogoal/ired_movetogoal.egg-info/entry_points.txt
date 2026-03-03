@@ -1,0 +1,2 @@
+[console_scripts]
+movetogoal = ired_movetogoal.movetogoal:main

@@ -1,0 +1,14 @@
+[01m[K/home/pi/robot_ws/src/robot/ired_bringup/src/inverse_kinematics.cpp:[m[K In member function ‘[01m[Kvoid INVERSEKINEMATICS::[01;32m[KcalculateInverseKinematics[m[K()[m[K’:
+[01m[K/home/pi/robot_ws/src/robot/ired_bringup/src/inverse_kinematics.cpp:79:39:[m[K [01;31m[Kerror: [m[K‘[01m[KDEG2RAD[m[K’ was not declared in this scope
+   79 |     wheel_speed_cmd_[FLEFT]     = sin([01;31m[KDEG2RAD[m[K(-45.0)) * goal_linear_velocity_x_ + cos(DEG2RAD(-45.0)) * goal_linear_velocity_y_ + wheel_seperation_ * goal_angular_velocity_z_;
+      |                                       [01;31m[K^~~~~~~[m[K
+[01m[K/home/pi/robot_ws/src/robot/ired_bringup/src/forward_kinematics.cpp:[m[K In member function ‘[01m[Kvoid FORWARDKINEMATICS::[01;32m[KcalculateForwardKinematics[m[K()[m[K’:
+[01m[K/home/pi/robot_ws/src/robot/ired_bringup/src/forward_kinematics.cpp:76:70:[m[K [01;31m[Kerror: [m[K‘[01m[KDEG2RAD[m[K’ was not declared in this scope
+   76 |     robot_speed_.twist.linear.x = ( cal_wheel_speed_fb_[FLEFT] * sin([01;31m[KDEG2RAD[m[K(-45.0)) + cal_wheel_speed_fb_[FRIGHT] * sin(DEG2RAD(45.0)) +
+      |                                                                      [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/inverse_kinematics_node.dir/build.make:76: CMakeFiles/inverse_kinematics_node.dir/src/inverse_kinematics.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:171: CMakeFiles/inverse_kinematics_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/forward_kinematics_node.dir/build.make:76: CMakeFiles/forward_kinematics_node.dir/src/forward_kinematics.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:145: CMakeFiles/forward_kinematics_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

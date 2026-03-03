@@ -1,0 +1,1 @@
+/home/pi/robot_ws/build/ired_msgs/rosidl_generator_c/ired_msgs/msg/imu_data.h

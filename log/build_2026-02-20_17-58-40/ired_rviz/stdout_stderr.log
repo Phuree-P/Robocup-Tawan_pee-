@@ -1,0 +1,28 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/pi/robot_ws/build/ired_rviz
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/pi/robot_ws/install/ired_rviz/share/ired_rviz/launch/navigation.launch.py
+-- Up-to-date symlink: /home/pi/robot_ws/install/ired_rviz/share/ired_rviz/launch/slam.launch.py
+-- Up-to-date symlink: /home/pi/robot_ws/install/ired_rviz/share/ired_rviz/rviz/bringup.rviz
+-- Up-to-date symlink: /home/pi/robot_ws/install/ired_rviz/share/ired_rviz/rviz/navi.rviz
+-- Up-to-date symlink: /home/pi/robot_ws/install/ired_rviz/share/ired_rviz/rviz/robot_urdf.rviz
+-- Up-to-date symlink: /home/pi/robot_ws/install/ired_rviz/share/ired_rviz/rviz/slam.rviz
+-- Up-to-date symlink: /home/pi/robot_ws/install/ired_rviz/share/ament_index/resource_index/package_run_dependencies/ired_rviz
+-- Up-to-date symlink: /home/pi/robot_ws/install/ired_rviz/share/ament_index/resource_index/parent_prefix_path/ired_rviz
+-- Up-to-date symlink: /home/pi/robot_ws/install/ired_rviz/share/ired_rviz/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/pi/robot_ws/install/ired_rviz/share/ired_rviz/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/pi/robot_ws/install/ired_rviz/share/ired_rviz/environment/path.sh
+-- Up-to-date symlink: /home/pi/robot_ws/install/ired_rviz/share/ired_rviz/environment/path.dsv
+-- Up-to-date symlink: /home/pi/robot_ws/install/ired_rviz/share/ired_rviz/local_setup.bash
+-- Up-to-date symlink: /home/pi/robot_ws/install/ired_rviz/share/ired_rviz/local_setup.sh
+-- Up-to-date symlink: /home/pi/robot_ws/install/ired_rviz/share/ired_rviz/local_setup.zsh
+-- Up-to-date symlink: /home/pi/robot_ws/install/ired_rviz/share/ired_rviz/local_setup.dsv
+-- Symlinking: /home/pi/robot_ws/install/ired_rviz/share/ired_rviz/package.dsv
+-- Up-to-date symlink: /home/pi/robot_ws/install/ired_rviz/share/ament_index/resource_index/packages/ired_rviz
+-- Up-to-date symlink: /home/pi/robot_ws/install/ired_rviz/share/ired_rviz/cmake/ired_rvizConfig.cmake
+-- Up-to-date symlink: /home/pi/robot_ws/install/ired_rviz/share/ired_rviz/cmake/ired_rvizConfig-version.cmake
+-- Up-to-date symlink: /home/pi/robot_ws/install/ired_rviz/share/ired_rviz/package.xml

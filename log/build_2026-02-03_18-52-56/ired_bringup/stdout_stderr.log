@@ -1,0 +1,13 @@
+[ 36%] Built target odom_node
+[ 36%] Built target forward_kinematics_node
+[ 54%] Built target imu_node
+[ 81%] Built target iredcr_modbus_node
+[ 90%] [32mBuilding CXX object CMakeFiles/inverse_kinematics_node.dir/src/inverse_kinematics.cpp.o[0m
+[01m[K/home/pi/robot_ws/src/robot/ired_bringup/src/inverse_kinematics.cpp:[m[K In member function ‘[01m[Kvoid INVERSEKINEMATICS::[01;32m[KcalculateInverseKinematics[m[K()[m[K’:
+[01m[K/home/pi/robot_ws/src/robot/ired_bringup/src/inverse_kinematics.cpp:85:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmotor_spee_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmotor_speed_[m[K’?
+   85 |     [01;31m[Kmotor_spee_[m[K.speed[FRIGHT]  = -1.0 * wheel_speed_cmd_[FRIGHT] * mps_to_rpm_;
+      |     [01;31m[K^~~~~~~~~~~[m[K
+      |     [32m[Kmotor_speed_[m[K
+gmake[2]: *** [CMakeFiles/inverse_kinematics_node.dir/build.make:76: CMakeFiles/inverse_kinematics_node.dir/src/inverse_kinematics.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:171: CMakeFiles/inverse_kinematics_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,22 @@
+[1.177s] Invoking command in '/home/pi/robot_ws/build/motion_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/robot_ws/build/motion_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/robot_ws/install/motion_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/robot_ws/build/motion_control/build --no-deps symlink_data
+[1.383s] running develop
+[1.500s] running egg_info
+[1.500s] creating motion_control.egg-info
+[1.511s] writing motion_control.egg-info/PKG-INFO
+[1.511s] writing dependency_links to motion_control.egg-info/dependency_links.txt
+[1.511s] writing requirements to motion_control.egg-info/requires.txt
+[1.511s] writing top-level names to motion_control.egg-info/top_level.txt
+[1.511s] writing manifest file 'motion_control.egg-info/SOURCES.txt'
+[1.535s] reading manifest file 'motion_control.egg-info/SOURCES.txt'
+[1.536s] writing manifest file 'motion_control.egg-info/SOURCES.txt'
+[1.549s] running build_ext
+[1.549s] Creating /home/pi/robot_ws/install/motion_control/lib/python3.12/site-packages/motion-control.egg-link (link to .)
+[1.549s] 
+[1.549s] Installed /home/pi/robot_ws/build/motion_control
+[1.549s] running symlink_data
+[1.550s] creating /home/pi/robot_ws/install/motion_control/share/ament_index
+[1.550s] creating /home/pi/robot_ws/install/motion_control/share/ament_index/resource_index
+[1.550s] creating /home/pi/robot_ws/install/motion_control/share/ament_index/resource_index/packages
+[1.550s] symbolically linking /home/pi/robot_ws/build/motion_control/resource/motion_control -> /home/pi/robot_ws/install/motion_control/share/ament_index/resource_index/packages
+[1.550s] symbolically linking /home/pi/robot_ws/build/motion_control/package.xml -> /home/pi/robot_ws/install/motion_control/share/motion_control
+[1.602s] Invoked command in '/home/pi/robot_ws/build/motion_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/robot_ws/build/motion_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/robot_ws/install/motion_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/robot_ws/build/motion_control/build --no-deps symlink_data

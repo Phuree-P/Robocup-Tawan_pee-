@@ -1,0 +1,1 @@
+/home/pi/robot_ws/src/aruco_marker/ired_aruco/launch/aruco_detect.launch.py

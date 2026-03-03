@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "ired_msgs/msg/MotorSpeed",
+      "fields": [
+        {
+          "name": "speed",
+          "type": {
+            "type_id": 59,
+            "capacity": 4,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "ired_msgs/msg/MotorSpeed",
+      "hash_string": "RIHS01_720cb1f84a487c231bf4a789007cb4826ccc6a05126d7d02c42a02494f3011cd"
+    }
+  ]
+}

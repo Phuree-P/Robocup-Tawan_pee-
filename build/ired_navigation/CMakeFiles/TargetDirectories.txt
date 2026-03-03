@@ -1,0 +1,9 @@
+/home/pi/robot_ws/build/ired_navigation/CMakeFiles/uninstall.dir
+/home/pi/robot_ws/build/ired_navigation/CMakeFiles/ired_navigation_uninstall.dir
+/home/pi/robot_ws/build/ired_navigation/CMakeFiles/test.dir
+/home/pi/robot_ws/build/ired_navigation/CMakeFiles/edit_cache.dir
+/home/pi/robot_ws/build/ired_navigation/CMakeFiles/rebuild_cache.dir
+/home/pi/robot_ws/build/ired_navigation/CMakeFiles/list_install_components.dir
+/home/pi/robot_ws/build/ired_navigation/CMakeFiles/install.dir
+/home/pi/robot_ws/build/ired_navigation/CMakeFiles/install/local.dir
+/home/pi/robot_ws/build/ired_navigation/CMakeFiles/install/strip.dir

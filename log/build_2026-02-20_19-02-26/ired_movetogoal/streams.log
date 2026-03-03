@@ -1,0 +1,32 @@
+[1.053s] Invoking command in '/home/pi/robot_ws/build/ired_movetogoal': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/robot_ws/build/ired_movetogoal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/robot_ws/install/ired_movetogoal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/pi/robot_ws/build/ired_movetogoal/build
+[1.311s] running develop
+[1.464s] Removing /home/pi/robot_ws/install/ired_movetogoal/lib/python3.12/site-packages/ired-movetogoal.egg-link (link to .)
+[1.519s] Invoked command in '/home/pi/robot_ws/build/ired_movetogoal' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/robot_ws/build/ired_movetogoal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/robot_ws/install/ired_movetogoal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/pi/robot_ws/build/ired_movetogoal/build
+[1.520s] Invoking command in '/home/pi/robot_ws/src/robot/ired_movetogoal': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/robot_ws/build/ired_movetogoal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/robot_ws/install/ired_movetogoal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ired_movetogoal build --build-base /home/pi/robot_ws/build/ired_movetogoal/build install --record /home/pi/robot_ws/build/ired_movetogoal/install.log --single-version-externally-managed install_data --force
+[1.735s] running egg_info
+[1.748s] writing ../../../build/ired_movetogoal/ired_movetogoal.egg-info/PKG-INFO
+[1.748s] writing dependency_links to ../../../build/ired_movetogoal/ired_movetogoal.egg-info/dependency_links.txt
+[1.748s] writing entry points to ../../../build/ired_movetogoal/ired_movetogoal.egg-info/entry_points.txt
+[1.748s] writing requirements to ../../../build/ired_movetogoal/ired_movetogoal.egg-info/requires.txt
+[1.748s] writing top-level names to ../../../build/ired_movetogoal/ired_movetogoal.egg-info/top_level.txt
+[1.773s] reading manifest file '../../../build/ired_movetogoal/ired_movetogoal.egg-info/SOURCES.txt'
+[1.773s] adding license file 'LICENSE'
+[1.773s] writing manifest file '../../../build/ired_movetogoal/ired_movetogoal.egg-info/SOURCES.txt'
+[1.774s] running build
+[1.774s] running build_py
+[1.775s] running install
+[1.778s] running install_lib
+[1.792s] creating /home/pi/robot_ws/install/ired_movetogoal/lib/python3.12/site-packages/ired_movetogoal
+[1.792s] copying /home/pi/robot_ws/build/ired_movetogoal/build/lib/ired_movetogoal/movetogoal.py -> /home/pi/robot_ws/install/ired_movetogoal/lib/python3.12/site-packages/ired_movetogoal
+[1.792s] copying /home/pi/robot_ws/build/ired_movetogoal/build/lib/ired_movetogoal/__init__.py -> /home/pi/robot_ws/install/ired_movetogoal/lib/python3.12/site-packages/ired_movetogoal
+[1.793s] byte-compiling /home/pi/robot_ws/install/ired_movetogoal/lib/python3.12/site-packages/ired_movetogoal/movetogoal.py to movetogoal.cpython-312.pyc
+[1.794s] byte-compiling /home/pi/robot_ws/install/ired_movetogoal/lib/python3.12/site-packages/ired_movetogoal/__init__.py to __init__.cpython-312.pyc
+[1.794s] running install_data
+[1.794s] copying resource/ired_movetogoal -> /home/pi/robot_ws/install/ired_movetogoal/share/ament_index/resource_index/packages
+[1.795s] copying package.xml -> /home/pi/robot_ws/install/ired_movetogoal/share/ired_movetogoal
+[1.795s] running install_egg_info
+[1.809s] Copying ../../../build/ired_movetogoal/ired_movetogoal.egg-info to /home/pi/robot_ws/install/ired_movetogoal/lib/python3.12/site-packages/ired_movetogoal-2.0.1-py3.12.egg-info
+[1.809s] running install_scripts
+[1.909s] Installing movetogoal script to /home/pi/robot_ws/install/ired_movetogoal/lib/ired_movetogoal
+[1.909s] writing list of installed files to '/home/pi/robot_ws/build/ired_movetogoal/install.log'
+[1.967s] Invoked command in '/home/pi/robot_ws/src/robot/ired_movetogoal' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/robot_ws/build/ired_movetogoal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/robot_ws/install/ired_movetogoal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ired_movetogoal build --build-base /home/pi/robot_ws/build/ired_movetogoal/build install --record /home/pi/robot_ws/build/ired_movetogoal/install.log --single-version-externally-managed install_data --force

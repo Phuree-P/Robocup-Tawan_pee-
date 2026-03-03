@@ -1,0 +1,1 @@
+/home/pi/robot_ws/src/robot/ired_navigation/launch/navigation.launch.py

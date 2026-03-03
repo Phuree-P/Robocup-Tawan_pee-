@@ -1,0 +1,37 @@
+running develop
+Removing /home/pi/robot_ws/install/ired_teleop/lib/python3.12/site-packages/ired-teleop.egg-link (link to .)
+running egg_info
+writing ../../../build/ired_teleop/ired_teleop.egg-info/PKG-INFO
+writing dependency_links to ../../../build/ired_teleop/ired_teleop.egg-info/dependency_links.txt
+writing entry points to ../../../build/ired_teleop/ired_teleop.egg-info/entry_points.txt
+writing requirements to ../../../build/ired_teleop/ired_teleop.egg-info/requires.txt
+writing top-level names to ../../../build/ired_teleop/ired_teleop.egg-info/top_level.txt
+reading manifest file '../../../build/ired_teleop/ired_teleop.egg-info/SOURCES.txt'
+writing manifest file '../../../build/ired_teleop/ired_teleop.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pi/robot_ws/build/ired_teleop/build
+creating /home/pi/robot_ws/build/ired_teleop/build/lib
+creating /home/pi/robot_ws/build/ired_teleop/build/lib/ired_teleop
+copying ired_teleop/__init__.py -> /home/pi/robot_ws/build/ired_teleop/build/lib/ired_teleop
+creating /home/pi/robot_ws/build/ired_teleop/build/lib/ired_teleop/script
+copying ired_teleop/script/teleop_keyboard.py -> /home/pi/robot_ws/build/ired_teleop/build/lib/ired_teleop/script
+copying ired_teleop/script/__init__.py -> /home/pi/robot_ws/build/ired_teleop/build/lib/ired_teleop/script
+running install
+running install_lib
+creating /home/pi/robot_ws/install/ired_teleop/lib/python3.12/site-packages/ired_teleop
+copying /home/pi/robot_ws/build/ired_teleop/build/lib/ired_teleop/__init__.py -> /home/pi/robot_ws/install/ired_teleop/lib/python3.12/site-packages/ired_teleop
+creating /home/pi/robot_ws/install/ired_teleop/lib/python3.12/site-packages/ired_teleop/script
+copying /home/pi/robot_ws/build/ired_teleop/build/lib/ired_teleop/script/teleop_keyboard.py -> /home/pi/robot_ws/install/ired_teleop/lib/python3.12/site-packages/ired_teleop/script
+copying /home/pi/robot_ws/build/ired_teleop/build/lib/ired_teleop/script/__init__.py -> /home/pi/robot_ws/install/ired_teleop/lib/python3.12/site-packages/ired_teleop/script
+byte-compiling /home/pi/robot_ws/install/ired_teleop/lib/python3.12/site-packages/ired_teleop/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/pi/robot_ws/install/ired_teleop/lib/python3.12/site-packages/ired_teleop/script/teleop_keyboard.py to teleop_keyboard.cpython-312.pyc
+byte-compiling /home/pi/robot_ws/install/ired_teleop/lib/python3.12/site-packages/ired_teleop/script/__init__.py to __init__.cpython-312.pyc
+running install_data
+copying resource/ired_teleop -> /home/pi/robot_ws/install/ired_teleop/share/ament_index/resource_index/packages
+copying package.xml -> /home/pi/robot_ws/install/ired_teleop/share/ired_teleop
+running install_egg_info
+Copying ../../../build/ired_teleop/ired_teleop.egg-info to /home/pi/robot_ws/install/ired_teleop/lib/python3.12/site-packages/ired_teleop-2.0.1-py3.12.egg-info
+running install_scripts
+Installing teleop_keyboard script to /home/pi/robot_ws/install/ired_teleop/lib/ired_teleop
+writing list of installed files to '/home/pi/robot_ws/build/ired_teleop/install.log'

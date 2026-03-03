@@ -1,0 +1,49 @@
+[0.474s] Invoking command in '/home/pi/robot_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/robot_ws/install/ros2_aruco:/home/pi/robot_ws/install/ired_teleop:/home/pi/robot_ws/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pi/robot_ws/src/robot/rplidar_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/robot_ws/install/rplidar_ros
+[0.485s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.663s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.669s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.689s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.695s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.704s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.714s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.756s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.757s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.812s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.861s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.907s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[0.995s] -- Configuring done (0.5s)
+[1.012s] -- Generating done (0.0s)
+[1.018s] -- Build files have been written to: /home/pi/robot_ws/build/rplidar_ros
+[1.026s] Invoked command in '/home/pi/robot_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/robot_ws/install/ros2_aruco:/home/pi/robot_ws/install/ired_teleop:/home/pi/robot_ws/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pi/robot_ws/src/robot/rplidar_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/robot_ws/install/rplidar_ros
+[1.027s] Invoking command in '/home/pi/robot_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/robot_ws/install/ros2_aruco:/home/pi/robot_ws/install/ired_teleop:/home/pi/robot_ws/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/robot_ws/build/rplidar_ros -- -j16 -l16
+[1.098s] [  5%] Built target rplidar_client
+[1.111s] [ 52%] Built target rplidar_composition
+[1.114s] [100%] Built target rplidar_node
+[1.126s] Invoked command in '/home/pi/robot_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/robot_ws/install/ros2_aruco:/home/pi/robot_ws/install/ired_teleop:/home/pi/robot_ws/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/robot_ws/build/rplidar_ros -- -j16 -l16
+[1.127s] Invoking command in '/home/pi/robot_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/robot_ws/install/ros2_aruco:/home/pi/robot_ws/install/ired_teleop:/home/pi/robot_ws/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pi/robot_ws/build/rplidar_ros
+[1.136s] -- Install configuration: ""
+[1.136s] -- Execute custom install script
+[1.137s] -- Up-to-date symlink: /home/pi/robot_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py
+[1.137s] -- Up-to-date symlink: /home/pi/robot_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py
+[1.137s] -- Up-to-date symlink: /home/pi/robot_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz
+[1.137s] -- Up-to-date symlink: /home/pi/robot_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node
+[1.137s] -- Up-to-date symlink: /home/pi/robot_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[1.138s] -- Up-to-date symlink: /home/pi/robot_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_client
+[1.138s] -- Up-to-date symlink: /home/pi/robot_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[1.138s] -- Up-to-date symlink: /home/pi/robot_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[1.138s] -- Up-to-date symlink: /home/pi/robot_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[1.138s] -- Up-to-date symlink: /home/pi/robot_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[1.138s] -- Up-to-date symlink: /home/pi/robot_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[1.139s] -- Up-to-date symlink: /home/pi/robot_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[1.139s] -- Up-to-date symlink: /home/pi/robot_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[1.139s] -- Up-to-date symlink: /home/pi/robot_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[1.139s] -- Up-to-date symlink: /home/pi/robot_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[1.139s] -- Up-to-date symlink: /home/pi/robot_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[1.139s] -- Symlinking: /home/pi/robot_ws/install/rplidar_ros/share/rplidar_ros/package.dsv
+[1.150s] -- Up-to-date symlink: /home/pi/robot_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[1.150s] -- Up-to-date symlink: /home/pi/robot_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.150s] -- Up-to-date symlink: /home/pi/robot_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.150s] -- Up-to-date symlink: /home/pi/robot_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[1.150s] -- Up-to-date symlink: /home/pi/robot_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[1.150s] -- Up-to-date symlink: /home/pi/robot_ws/install/rplidar_ros/share/rplidar_ros/package.xml
+[1.152s] Invoked command in '/home/pi/robot_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/robot_ws/install/ros2_aruco:/home/pi/robot_ws/install/ired_teleop:/home/pi/robot_ws/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pi/robot_ws/build/rplidar_ros

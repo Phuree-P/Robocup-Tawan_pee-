@@ -1,0 +1,1 @@
+/home/pi/robot_ws/build/ired_msgs/rosidl_typesupport_introspection_c/ired_msgs/msg/detail/imu_data__rosidl_typesupport_introspection_c.h

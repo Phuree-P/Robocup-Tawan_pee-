@@ -1,0 +1,35 @@
+[0.648s] Invoking command in '/home/pi/robot_ws/build/ros2_laser_scan_matcher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/robot_ws/install/ired_teleop:/home/pi/robot_ws/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pi/robot_ws/src/robot/ros2_laser_scan_matcher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/robot_ws/install/ros2_laser_scan_matcher
+[0.673s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.047s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.057s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.096s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.107s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.121s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.138s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.241s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.279s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.281s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.342s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.389s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.408s] -- Found tf2_ros: 0.36.16 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.485s] -- Found tf2_geometry_msgs: 0.36.16 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[1.487s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.488s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.505s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[1.505s]   By not providing "Findcsm.cmake" in CMAKE_MODULE_PATH this project has
+[1.505s]   asked CMake to find a package configuration file provided by "csm", but
+[1.505s]   CMake did not find one.
+[1.506s] 
+[1.506s]   Could not find a package configuration file provided by "csm" with any of
+[1.506s]   the following names:
+[1.506s] 
+[1.506s]     csmConfig.cmake
+[1.506s]     csm-config.cmake
+[1.506s] 
+[1.506s]   Add the installation prefix of "csm" to CMAKE_PREFIX_PATH or set "csm_DIR"
+[1.506s]   to a directory containing one of the above files.  If "csm" provides a
+[1.506s]   separate development package or SDK, be sure it has been installed.
+[1.506s] 
+[1.506s] [0m
+[1.506s] -- Configuring incomplete, errors occurred!
+[1.514s] Invoked command in '/home/pi/robot_ws/build/ros2_laser_scan_matcher' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/robot_ws/install/ired_teleop:/home/pi/robot_ws/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pi/robot_ws/src/robot/ros2_laser_scan_matcher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/robot_ws/install/ros2_laser_scan_matcher

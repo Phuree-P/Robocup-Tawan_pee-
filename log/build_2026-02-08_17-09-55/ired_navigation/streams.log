@@ -1,0 +1,30 @@
+[0.171s] Invoking command in '/home/pi/robot_ws/build/ired_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/robot_ws/install/ros2_aruco:/home/pi/robot_ws/install/ired_teleop:/home/pi/robot_ws/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/robot_ws/build/ired_navigation -- -j16 -l16
+[0.468s] Invoked command in '/home/pi/robot_ws/build/ired_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/robot_ws/install/ros2_aruco:/home/pi/robot_ws/install/ired_teleop:/home/pi/robot_ws/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/robot_ws/build/ired_navigation -- -j16 -l16
+[0.468s] Invoking command in '/home/pi/robot_ws/build/ired_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/robot_ws/install/ros2_aruco:/home/pi/robot_ws/install/ired_teleop:/home/pi/robot_ws/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pi/robot_ws/build/ired_navigation
+[0.478s] -- Install configuration: ""
+[0.479s] -- Execute custom install script
+[0.479s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_navigation/share/ired_navigation/config/ired_rplidar_2d.lua
+[0.479s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_navigation/share/ired_navigation/launch/navigation.launch.py
+[0.480s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_navigation/share/ired_navigation/launch/occupancy_grid.launch.py
+[0.480s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_navigation/share/ired_navigation/launch/save_map.launch.py
+[0.481s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_navigation/share/ired_navigation/launch/slam.launch.py
+[0.481s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_navigation/share/ired_navigation/maps/1
+[0.481s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_navigation/share/ired_navigation/maps/map.pgm
+[0.481s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_navigation/share/ired_navigation/maps/map.yaml
+[0.481s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_navigation/share/ired_navigation/param/navigation.yaml
+[0.481s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_navigation/share/ament_index/resource_index/package_run_dependencies/ired_navigation
+[0.482s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_navigation/share/ament_index/resource_index/parent_prefix_path/ired_navigation
+[0.482s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_navigation/share/ired_navigation/environment/ament_prefix_path.sh
+[0.482s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_navigation/share/ired_navigation/environment/ament_prefix_path.dsv
+[0.482s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_navigation/share/ired_navigation/environment/path.sh
+[0.482s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_navigation/share/ired_navigation/environment/path.dsv
+[0.482s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_navigation/share/ired_navigation/local_setup.bash
+[0.484s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_navigation/share/ired_navigation/local_setup.sh
+[0.489s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_navigation/share/ired_navigation/local_setup.zsh
+[0.489s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_navigation/share/ired_navigation/local_setup.dsv
+[0.490s] -- Symlinking: /home/pi/robot_ws/install/ired_navigation/share/ired_navigation/package.dsv
+[0.497s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_navigation/share/ament_index/resource_index/packages/ired_navigation
+[0.497s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_navigation/share/ired_navigation/cmake/ired_navigationConfig.cmake
+[0.498s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_navigation/share/ired_navigation/cmake/ired_navigationConfig-version.cmake
+[0.498s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_navigation/share/ired_navigation/package.xml
+[0.535s] Invoked command in '/home/pi/robot_ws/build/ired_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/robot_ws/install/ros2_aruco:/home/pi/robot_ws/install/ired_teleop:/home/pi/robot_ws/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pi/robot_ws/build/ired_navigation

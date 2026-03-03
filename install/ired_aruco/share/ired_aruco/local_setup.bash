@@ -1,0 +1,1 @@
+/home/pi/robot_ws/build/ired_aruco/ament_cmake_environment_hooks/local_setup.bash

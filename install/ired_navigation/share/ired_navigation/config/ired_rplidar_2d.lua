@@ -1,0 +1,1 @@
+/home/pi/robot_ws/src/robot/ired_navigation/config/ired_rplidar_2d.lua

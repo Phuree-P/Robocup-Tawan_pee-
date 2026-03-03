@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: ired-movetogoal
+Version: 2.0.1
+Summary: iRED Move to goal: This package is used for moving the robot with the point of interestT
+Author: AIMs Lab, KMITL
+Author-email: aimslabkmitl@gmail.com
+Maintainer: Thitipong T.
+Maintainer-email: t.thepsit@gmail.com
+License: Apache-2.0

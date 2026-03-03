@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing ired_teleop.egg-info/PKG-INFO
+writing dependency_links to ired_teleop.egg-info/dependency_links.txt
+writing entry points to ired_teleop.egg-info/entry_points.txt
+writing requirements to ired_teleop.egg-info/requires.txt
+writing top-level names to ired_teleop.egg-info/top_level.txt
+reading manifest file 'ired_teleop.egg-info/SOURCES.txt'
+writing manifest file 'ired_teleop.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pi/robot_ws/install/ired_teleop/lib/python3.12/site-packages/ired-teleop.egg-link (link to .)
+Installing teleop_keyboard script to /home/pi/robot_ws/install/ired_teleop/lib/ired_teleop
+
+Installed /home/pi/robot_ws/build/ired_teleop
+running symlink_data
+symbolically linking /home/pi/robot_ws/build/ired_teleop/resource/ired_teleop -> /home/pi/robot_ws/install/ired_teleop/share/ament_index/resource_index/packages
+symbolically linking /home/pi/robot_ws/build/ired_teleop/package.xml -> /home/pi/robot_ws/install/ired_teleop/share/ired_teleop

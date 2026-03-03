@@ -1,0 +1,1 @@
+/home/pi/robot_ws/build/ros2_aruco_interfaces/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake

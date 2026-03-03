@@ -1,0 +1,1 @@
+/home/pi/robot_ws/src/aruco_marker/ros2_aruco/ros2_aruco_interfaces/msg/ArucoMarkers.msg

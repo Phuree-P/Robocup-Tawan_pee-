@@ -1,0 +1,14 @@
+source;share/ired_msgs/hook/cmake_prefix_path.ps1
+source;share/ired_msgs/hook/cmake_prefix_path.dsv
+source;share/ired_msgs/hook/cmake_prefix_path.sh
+source;share/ired_msgs/hook/ld_library_path_lib.ps1
+source;share/ired_msgs/hook/ld_library_path_lib.dsv
+source;share/ired_msgs/hook/ld_library_path_lib.sh
+source;share/ired_msgs/hook/pythonpath.ps1
+source;share/ired_msgs/hook/pythonpath.dsv
+source;share/ired_msgs/hook/pythonpath.sh
+source;share/ired_msgs/local_setup.bash
+source;share/ired_msgs/local_setup.dsv
+source;share/ired_msgs/local_setup.ps1
+source;share/ired_msgs/local_setup.sh
+source;share/ired_msgs/local_setup.zsh

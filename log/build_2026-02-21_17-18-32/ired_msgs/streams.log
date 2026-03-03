@@ -1,0 +1,219 @@
+[0.038s] Invoking command in '/home/pi/robot_ws/build/ired_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/robot_ws/install/ros2_aruco:/home/pi/robot_ws/install/ired_teleop:/home/pi/robot_ws/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pi/robot_ws/src/robot/ired_msgs -DCMAKE_INSTALL_PREFIX=/home/pi/robot_ws/install/ired_msgs
+[0.507s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.507s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.507s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.507s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.507s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.507s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.507s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.508s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.508s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.508s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.508s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.702s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.783s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.784s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.005s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.026s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.048s] -- Added test 'lint_cmake' to check CMake code style
+[1.053s] -- Added test 'xmllint' to check XML markup files
+[1.056s] -- Configuring done (1.0s)
+[1.114s] -- Generating done (0.0s)
+[1.124s] -- Build files have been written to: /home/pi/robot_ws/build/ired_msgs
+[1.135s] Invoked command in '/home/pi/robot_ws/build/ired_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/robot_ws/install/ros2_aruco:/home/pi/robot_ws/install/ired_teleop:/home/pi/robot_ws/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pi/robot_ws/src/robot/ired_msgs -DCMAKE_INSTALL_PREFIX=/home/pi/robot_ws/install/ired_msgs
+[1.135s] Invoking command in '/home/pi/robot_ws/build/ired_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/robot_ws/install/ros2_aruco:/home/pi/robot_ws/install/ired_teleop:/home/pi/robot_ws/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/robot_ws/build/ired_msgs -- -j16 -l16
+[1.185s] [  1%] Built target ired_msgs__rosidl_generator_type_description
+[1.197s] [  1%] Built target ament_cmake_python_symlink_ired_msgs
+[1.215s] [  2%] Built target ired_msgs__cpp
+[1.221s] [ 25%] Built target ired_msgs__rosidl_generator_c
+[1.252s] [ 44%] Built target ired_msgs__rosidl_typesupport_c
+[1.252s] [ 44%] Built target ired_msgs__rosidl_typesupport_introspection_c
+[1.252s] [ 54%] Built target ired_msgs__rosidl_typesupport_introspection_cpp
+[1.254s] [ 66%] Built target ired_msgs__rosidl_typesupport_fastrtps_cpp
+[1.254s] [ 72%] Built target ired_msgs__rosidl_typesupport_fastrtps_c
+[1.256s] [ 82%] Built target ired_msgs__rosidl_typesupport_cpp
+[1.277s] [ 82%] Built target ired_msgs
+[1.301s] [ 83%] Built target ired_msgs__py
+[1.332s] [ 91%] Built target ired_msgs__rosidl_generator_py
+[1.359s] [100%] Built target ired_msgs_s__rosidl_typesupport_fastrtps_c
+[1.359s] [100%] Built target ired_msgs_s__rosidl_typesupport_introspection_c
+[1.359s] [100%] Built target ired_msgs_s__rosidl_typesupport_c
+[1.377s] running egg_info
+[1.389s] writing ired_msgs.egg-info/PKG-INFO
+[1.389s] writing dependency_links to ired_msgs.egg-info/dependency_links.txt
+[1.389s] writing top-level names to ired_msgs.egg-info/top_level.txt
+[1.425s] reading manifest file 'ired_msgs.egg-info/SOURCES.txt'
+[1.426s] writing manifest file 'ired_msgs.egg-info/SOURCES.txt'
+[1.456s] [100%] Built target ament_cmake_python_build_ired_msgs_egg
+[1.470s] Invoked command in '/home/pi/robot_ws/build/ired_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/robot_ws/install/ros2_aruco:/home/pi/robot_ws/install/ired_teleop:/home/pi/robot_ws/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/robot_ws/build/ired_msgs -- -j16 -l16
+[1.472s] Invoking command in '/home/pi/robot_ws/build/ired_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/robot_ws/install/ros2_aruco:/home/pi/robot_ws/install/ired_teleop:/home/pi/robot_ws/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pi/robot_ws/build/ired_msgs
+[1.481s] -- Install configuration: ""
+[1.481s] -- Execute custom install script
+[1.483s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ament_index/resource_index/rosidl_interfaces/ired_msgs
+[1.483s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/msg/IMUData.json
+[1.483s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/msg/MotorControl.json
+[1.483s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/msg/MotorData.json
+[1.483s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/msg/MotorSpeed.json
+[1.483s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/srv/PIDTuning.json
+[1.484s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/imu_data__functions.h
+[1.484s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/imu_data__struct.h
+[1.484s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/imu_data__type_support.h
+[1.484s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_control__functions.h
+[1.485s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_control__struct.h
+[1.486s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_control__type_support.h
+[1.486s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_data__functions.h
+[1.486s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_data__struct.h
+[1.486s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_data__type_support.h
+[1.486s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_speed__functions.h
+[1.486s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_speed__struct.h
+[1.486s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_speed__type_support.h
+[1.486s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/imu_data.h
+[1.486s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/motor_control.h
+[1.486s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/motor_data.h
+[1.486s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/motor_speed.h
+[1.486s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.487s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/srv/detail/pid_tuning__functions.h
+[1.487s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/srv/detail/pid_tuning__struct.h
+[1.487s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/srv/detail/pid_tuning__type_support.h
+[1.487s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/srv/pid_tuning.h
+[1.487s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/environment/library_path.sh
+[1.487s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/environment/library_path.dsv
+[1.487s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/imu_data__rosidl_typesupport_fastrtps_c.h
+[1.488s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_control__rosidl_typesupport_fastrtps_c.h
+[1.488s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_data__rosidl_typesupport_fastrtps_c.h
+[1.488s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_speed__rosidl_typesupport_fastrtps_c.h
+[1.489s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.489s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/srv/detail/pid_tuning__rosidl_typesupport_fastrtps_c.h
+[1.490s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/imu_data__builder.hpp
+[1.490s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/imu_data__struct.hpp
+[1.490s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/imu_data__traits.hpp
+[1.490s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/imu_data__type_support.hpp
+[1.490s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_control__builder.hpp
+[1.490s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_control__struct.hpp
+[1.490s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_control__traits.hpp
+[1.490s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_control__type_support.hpp
+[1.490s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_data__builder.hpp
+[1.490s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_data__struct.hpp
+[1.490s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_data__traits.hpp
+[1.491s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_data__type_support.hpp
+[1.491s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_speed__builder.hpp
+[1.491s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_speed__struct.hpp
+[1.491s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_speed__traits.hpp
+[1.491s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_speed__type_support.hpp
+[1.491s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/imu_data.hpp
+[1.491s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/motor_control.hpp
+[1.491s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/motor_data.hpp
+[1.492s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/motor_speed.hpp
+[1.492s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.492s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/srv/detail/pid_tuning__builder.hpp
+[1.492s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/srv/detail/pid_tuning__struct.hpp
+[1.492s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/srv/detail/pid_tuning__traits.hpp
+[1.492s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/srv/detail/pid_tuning__type_support.hpp
+[1.492s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/srv/pid_tuning.hpp
+[1.493s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/imu_data__rosidl_typesupport_fastrtps_cpp.hpp
+[1.493s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_control__rosidl_typesupport_fastrtps_cpp.hpp
+[1.494s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_data__rosidl_typesupport_fastrtps_cpp.hpp
+[1.494s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_speed__rosidl_typesupport_fastrtps_cpp.hpp
+[1.495s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.495s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/srv/detail/pid_tuning__rosidl_typesupport_fastrtps_cpp.hpp
+[1.496s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/imu_data__rosidl_typesupport_introspection_c.h
+[1.496s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_control__rosidl_typesupport_introspection_c.h
+[1.497s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_data__rosidl_typesupport_introspection_c.h
+[1.497s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_speed__rosidl_typesupport_introspection_c.h
+[1.497s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.497s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/srv/detail/pid_tuning__rosidl_typesupport_introspection_c.h
+[1.497s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/imu_data__rosidl_typesupport_introspection_cpp.hpp
+[1.497s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_control__rosidl_typesupport_introspection_cpp.hpp
+[1.497s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_data__rosidl_typesupport_introspection_cpp.hpp
+[1.497s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_speed__rosidl_typesupport_introspection_cpp.hpp
+[1.497s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/include/ired_msgs/ired_msgs/srv/detail/pid_tuning__rosidl_typesupport_introspection_cpp.hpp
+[1.497s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/environment/pythonpath.sh
+[1.497s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/environment/pythonpath.dsv
+[1.498s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/lib/python3.12/site-packages/ired_msgs-2.0.1-py3.12.egg-info/PKG-INFO
+[1.498s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/lib/python3.12/site-packages/ired_msgs-2.0.1-py3.12.egg-info/SOURCES.txt
+[1.498s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/lib/python3.12/site-packages/ired_msgs-2.0.1-py3.12.egg-info/dependency_links.txt
+[1.499s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/lib/python3.12/site-packages/ired_msgs-2.0.1-py3.12.egg-info/top_level.txt
+[1.500s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/__init__.py
+[1.500s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/_ired_msgs_s.ep.rosidl_typesupport_c.c
+[1.500s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/_ired_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.500s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/_ired_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.500s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/ired_msgs_s__rosidl_typesupport_c.so
+[1.500s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/ired_msgs_s__rosidl_typesupport_fastrtps_c.so
+[1.501s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/ired_msgs_s__rosidl_typesupport_introspection_c.so
+[1.501s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/msg/__init__.py
+[1.501s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/msg/_imu_data.py
+[1.501s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/msg/_imu_data_s.c
+[1.501s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/msg/_motor_control.py
+[1.501s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/msg/_motor_control_s.c
+[1.501s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/msg/_motor_data.py
+[1.502s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/msg/_motor_data_s.c
+[1.502s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/msg/_motor_speed.py
+[1.502s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/msg/_motor_speed_s.c
+[1.502s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/srv/__init__.py
+[1.502s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/srv/_pid_tuning.py
+[1.502s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/srv/_pid_tuning_s.c
+[1.503s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/ired_msgs_s__rosidl_typesupport_fastrtps_c.so
+[1.503s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/ired_msgs_s__rosidl_typesupport_introspection_c.so
+[1.503s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/ired_msgs_s__rosidl_typesupport_c.so
+[1.503s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/msg/IMUData.idl
+[1.504s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/msg/MotorControl.idl
+[1.504s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/msg/MotorData.idl
+[1.504s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/msg/MotorSpeed.idl
+[1.505s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/srv/PIDTuning.idl
+[1.505s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/msg/IMUData.msg
+[1.505s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/msg/MotorControl.msg
+[1.505s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/msg/MotorData.msg
+[1.505s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/msg/MotorSpeed.msg
+[1.505s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/srv/PIDTuning.srv
+[1.506s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ament_index/resource_index/package_run_dependencies/ired_msgs
+[1.506s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ament_index/resource_index/parent_prefix_path/ired_msgs
+[1.506s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/environment/ament_prefix_path.sh
+[1.506s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/environment/ament_prefix_path.dsv
+[1.506s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/environment/path.sh
+[1.507s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/environment/path.dsv
+[1.507s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/local_setup.bash
+[1.507s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/local_setup.sh
+[1.507s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/local_setup.zsh
+[1.507s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/local_setup.dsv
+[1.507s] -- Symlinking: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/package.dsv
+[1.517s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ament_index/resource_index/packages/ired_msgs
+[1.517s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/cmake/rosidl_cmake-extras.cmake
+[1.518s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.518s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.518s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.518s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.518s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.519s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.519s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/cmake/ired_msgsConfig.cmake
+[1.519s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/cmake/ired_msgsConfig-version.cmake
+[1.519s] -- Up-to-date symlink: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/package.xml
+[1.520s] -- Up-to-date: /home/pi/robot_ws/install/ired_msgs/lib/libired_msgs__rosidl_generator_c.so
+[1.521s] -- Up-to-date: /home/pi/robot_ws/install/ired_msgs/lib/libired_msgs__rosidl_typesupport_fastrtps_c.so
+[1.521s] -- Up-to-date: /home/pi/robot_ws/install/ired_msgs/lib/libired_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.522s] -- Up-to-date: /home/pi/robot_ws/install/ired_msgs/lib/libired_msgs__rosidl_typesupport_introspection_c.so
+[1.523s] -- Up-to-date: /home/pi/robot_ws/install/ired_msgs/lib/libired_msgs__rosidl_typesupport_c.so
+[1.524s] -- Up-to-date: /home/pi/robot_ws/install/ired_msgs/lib/libired_msgs__rosidl_typesupport_introspection_cpp.so
+[1.524s] -- Up-to-date: /home/pi/robot_ws/install/ired_msgs/lib/libired_msgs__rosidl_typesupport_cpp.so
+[1.556s] Listing '/home/pi/robot_ws/install/ired_msgs/lib/python3.12/site-packages/ired_msgs'...
+[1.556s] Compiling '/home/pi/robot_ws/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/__init__.py'...
+[1.556s] Listing '/home/pi/robot_ws/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/msg'...
+[1.556s] Listing '/home/pi/robot_ws/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/srv'...
+[1.561s] -- Up-to-date: /home/pi/robot_ws/install/ired_msgs/lib/libired_msgs__rosidl_generator_py.so
+[1.561s] -- Up-to-date: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/cmake/export_ired_msgs__rosidl_generator_cExport.cmake
+[1.561s] -- Up-to-date: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/cmake/export_ired_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.561s] -- Up-to-date: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/cmake/export_ired_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.562s] -- Up-to-date: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/cmake/export_ired_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.562s] -- Up-to-date: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/cmake/export_ired_msgs__rosidl_generator_cppExport.cmake
+[1.562s] -- Up-to-date: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/cmake/export_ired_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.562s] -- Up-to-date: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/cmake/export_ired_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.562s] -- Up-to-date: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/cmake/ired_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.562s] -- Up-to-date: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/cmake/ired_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.562s] -- Up-to-date: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/cmake/ired_msgs__rosidl_typesupport_cExport.cmake
+[1.563s] -- Up-to-date: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/cmake/ired_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.563s] -- Up-to-date: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/cmake/ired_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.563s] -- Up-to-date: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/cmake/ired_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.563s] -- Up-to-date: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/cmake/ired_msgs__rosidl_typesupport_cppExport.cmake
+[1.563s] -- Up-to-date: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/cmake/ired_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.563s] -- Up-to-date: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/cmake/export_ired_msgs__rosidl_generator_pyExport.cmake
+[1.563s] -- Up-to-date: /home/pi/robot_ws/install/ired_msgs/share/ired_msgs/cmake/export_ired_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.566s] Invoked command in '/home/pi/robot_ws/build/ired_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/robot_ws/install/ros2_aruco:/home/pi/robot_ws/install/ired_teleop:/home/pi/robot_ws/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pi/robot_ws/build/ired_msgs

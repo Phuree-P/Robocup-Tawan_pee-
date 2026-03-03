@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: ired-teleop
+Version: 2.0.1
+Summary: iRED Teleop : This package is used for command to move the iRED robot.
+Author: AIMs Lab, KMITL
+Author-email: aimslabkmitl@gmail.com
+Maintainer: T. Thepsit
+Maintainer-email: t.thepsit@gmail.com
+License: Apache-2.0
+Keywords: ROS
