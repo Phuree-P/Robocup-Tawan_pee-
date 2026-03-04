@@ -1,0 +1,37 @@
+/laser_scan_matcher:
+  ros__parameters:
+    publish_odom: ''                      # If publish odometry from laser_scan. Empty if not, otherwise name of the topic
+    publish_tf: true                      # If publish tf odom->base_link
+    base_frame: base_footprint            # Which frame to use for the robot base
+    odom_frame: odom                      # Which frame to use for the odom
+    map_frame: map                        # Which frame to use for the map
+    laser_frame: base_scan                # Which frame to use for the laser
+    kf_dist_linear: 0.1                   # When to generate keyframe scan.
+    kf_dist_angular: 0.17453292519943295  # When to generate keyframe scan.
+    max_angular_correction_deg: 45.0      # Maximum angular displacement between scansr.
+    max_linear_correction: 0.5            # Maximum translation between scans (m).
+    max_iterations: 5                     # Maximum ICP cycle iterationsr.
+    epsilon_xy: 1.0e-06                   # A threshold for stopping (m).
+    epsilon_theta: 1.0e-06                # A threshold for stopping (rad).
+    max_correspondence_dist: 0.3          # Maximum distance for a correspondence to be valid.
+    sigma: 0.01                           # Noise in the scan (m).
+    use_corr_tricks: 1                    # Use smart tricks for finding correspondences.
+    restart: 0                            # Restart if error is over threshold.
+    restart_threshold_mean_error: 0.01    # Threshold for restarting.
+    restart_dt: 1.0                       # Displacement for restarting. (m).
+    restart_dtheta: 0.1                   # Displacement for restarting. (rad).
+    clustering_threshold: 0.25            # Max distance for staying in the same clustering.
+    orientation_neighbourhood: 20         # Number of neighbour rays used to estimate the orientation.
+    use_point_to_line_distance: 1         # If 0, it's vanilla ICP.
+    do_alpha_test: 0                      # Discard correspondences based on the angles.
+    do_alpha_test_thresholdDeg: 20.0      # Discard correspondences based on the angles - threshold angle, in degrees.
+    outliers_maxPerc: 0.9                 # Percentage of correspondences to consider: if 0.9, always discard the top 10% of correspondences with more error
+    outliers_adaptive_order: 0.7
+    outliers_adaptive_mult: 2.0
+    do_visibility_test: 0
+    outliers_remove_doubles: 1            # No two points in laser_sens can have the same corr.
+    do_compute_covariance: 0              # If 1, computes the covariance of ICP using the method http://purl.org/censi/2006/icpcov
+    debug_verify_tricks: 0                # Checks that find_correspondences_tricks gives the right answer.
+    use_ml_weights: 0                     # If 1, the field 'true_alpha' (or 'alpha') in the first scan is used to compute the incidence beta, and the factor (1/cos^2(beta)) used to weight the correspondence.
+    use_sigma_weights: 0                  # If 1, the field 'readings_sigma' in the second scan is used to weight the correspondence by 1/sigma^2
+    use_sim_time: false

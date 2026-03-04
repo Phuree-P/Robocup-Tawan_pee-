@@ -1,0 +1,36 @@
+/laser_scan_matcher:
+  ros__parameters:
+    publish_odom: ''
+    publish_tf: true
+    base_frame: base_footprint
+    odom_frame: odom
+    map_frame: map
+    laser_frame: base_scan
+    kf_dist_linear: 0.1
+    kf_dist_angular: 0.17453292519943295
+    max_angular_correction_deg: 45.0
+    max_linear_correction: 0.5
+    max_iterations: 20
+    epsilon_xy: 1.0e-06
+    epsilon_theta: 1.0e-06
+    max_correspondence_dist: 0.3
+    sigma: 0.01
+    use_corr_tricks: 1
+    restart: 0
+    restart_threshold_mean_error: 0.01
+    restart_dt: 1.0
+    restart_dtheta: 0.1
+    clustering_threshold: 0.25
+    orientation_neighbourhood: 20
+    use_point_to_line_distance: 1
+    do_alpha_test: 0
+    do_alpha_test_thresholdDeg: 20.0
+    outliers_maxPerc: 0.9
+    outliers_adaptive_order: 0.7
+    outliers_adaptive_mult: 2.0
+    do_visibility_test: 0
+    outliers_remove_doubles: 1
+    do_compute_covariance: 0
+    debug_verify_tricks: 0
+    use_ml_weights: 0
+    use_sigma_weights: 0

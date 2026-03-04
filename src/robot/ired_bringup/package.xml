@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>ired_bringup</name>
+  <version>2.0.2</version>
+  <description>
+    iRED Bringup: This package is used for starting all node that use for iRED Robot.
+                  (Serial Modbus, Forward and Inverse Kinematics, IMU, Odometry)
+  </description>
+  <maintainer email="t.thepsit@gmail.com">T. Thepsit</maintainer>
+  <author email="aimslabkmitl@gmail.com">AIMs Lab, KMITL</author>
+  <license>Apache-2.0</license>
+  <url type="website">https://aimslab.kmitl.ac.th</url>
+  <url type="repository">https://gitlab.raikmitl.com/ired/ired_bringup.git</url>
+  
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  
+  <depend>geometry_msgs</depend>
+  <depend>ired_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>rclcpp</depend>
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>std_srvs</depend>
+  <depend>tf2</depend>
+  <depend>tf2_msgs</depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

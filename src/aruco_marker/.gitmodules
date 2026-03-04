@@ -1,0 +1,8 @@
+[submodule "ired_aruco"]
+	path = ired_aruco
+	url = http://gitlab.raikmitl.com/ired/ired_aruco.git
+	branch = jazzy
+[submodule "ros2_aruco"]
+	path = ros2_aruco
+	url = http://gitlab.raikmitl.com/ired/ros2_aruco.git
+	branch = jazzy
