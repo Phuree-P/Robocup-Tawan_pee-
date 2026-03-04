@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ired_msgs/msg/MotorData.msg
+// generated code does not contain a copyright notice
+
+
+module ired_msgs {
+  module msg {
+    typedef double double__4[4];
+    typedef double double__3[3];
+    struct MotorData {
+      double__4 speed_sp;
+
+      double__4 speed_fb;
+
+      double__3 pid_motor_front_left;
+
+      double__3 pid_motor_front_right;
+
+      double__3 pid_motor_rear_left;
+
+      double__3 pid_motor_rear_right;
+    };
+  };
+};

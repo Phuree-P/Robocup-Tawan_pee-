@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+motion_control/__init__.py
+motion_control/omni_docking_controller.py
+motion_control.egg-info/PKG-INFO
+motion_control.egg-info/SOURCES.txt
+motion_control.egg-info/dependency_links.txt
+motion_control.egg-info/entry_points.txt
+motion_control.egg-info/requires.txt
+motion_control.egg-info/top_level.txt
+motion_control.egg-info/zip-safe
+resource/motion_control

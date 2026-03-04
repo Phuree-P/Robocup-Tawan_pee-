@@ -1,1 +1,1 @@
-/home/pi/robot_ws/build/ros2_aruco_interfaces/ament_cmake_core/ros2_aruco_interfacesConfig.cmake
+/home/pp/Tawan-pe-/build/ros2_aruco_interfaces/ament_cmake_core/ros2_aruco_interfacesConfig.cmake

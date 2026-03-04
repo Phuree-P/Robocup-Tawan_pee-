@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/robot_ws/src/robot/rplidar_ros
+CMAKE_SOURCE_DIR = /home/pp/Tawan-pe-/src/robot/rplidar_ros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/robot_ws/build/rplidar_ros
+CMAKE_BINARY_DIR = /home/pp/Tawan-pe-/build/rplidar_ros
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/pi/robot_ws/build/rplidar_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/robot_ws/src/robot/rplidar_ros /home/pi/robot_ws/src/robot/rplidar_ros /home/pi/robot_ws/build/rplidar_ros /home/pi/robot_ws/build/rplidar_ros /home/pi/robot_ws/build/rplidar_ros/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/pp/Tawan-pe-/build/rplidar_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pp/Tawan-pe-/src/robot/rplidar_ros /home/pp/Tawan-pe-/src/robot/rplidar_ros /home/pp/Tawan-pe-/build/rplidar_ros /home/pp/Tawan-pe-/build/rplidar_ros /home/pp/Tawan-pe-/build/rplidar_ros/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uninstall.dir/depend
 

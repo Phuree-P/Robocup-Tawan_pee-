@@ -1,0 +1,32 @@
+running develop
+Removing /home/pp/Tawan-pe-/install/motion_control/lib/python3.12/site-packages/motion-control.egg-link (link to .)
+running egg_info
+writing ../../../build/motion_control/motion_control.egg-info/PKG-INFO
+writing dependency_links to ../../../build/motion_control/motion_control.egg-info/dependency_links.txt
+writing entry points to ../../../build/motion_control/motion_control.egg-info/entry_points.txt
+writing requirements to ../../../build/motion_control/motion_control.egg-info/requires.txt
+writing top-level names to ../../../build/motion_control/motion_control.egg-info/top_level.txt
+reading manifest file '../../../build/motion_control/motion_control.egg-info/SOURCES.txt'
+writing manifest file '../../../build/motion_control/motion_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pp/Tawan-pe-/build/motion_control/build
+creating /home/pp/Tawan-pe-/build/motion_control/build/lib
+creating /home/pp/Tawan-pe-/build/motion_control/build/lib/motion_control
+copying motion_control/omni_docking_controller.py -> /home/pp/Tawan-pe-/build/motion_control/build/lib/motion_control
+copying motion_control/__init__.py -> /home/pp/Tawan-pe-/build/motion_control/build/lib/motion_control
+running install
+running install_lib
+creating /home/pp/Tawan-pe-/install/motion_control/lib/python3.12/site-packages/motion_control
+copying /home/pp/Tawan-pe-/build/motion_control/build/lib/motion_control/omni_docking_controller.py -> /home/pp/Tawan-pe-/install/motion_control/lib/python3.12/site-packages/motion_control
+copying /home/pp/Tawan-pe-/build/motion_control/build/lib/motion_control/__init__.py -> /home/pp/Tawan-pe-/install/motion_control/lib/python3.12/site-packages/motion_control
+byte-compiling /home/pp/Tawan-pe-/install/motion_control/lib/python3.12/site-packages/motion_control/omni_docking_controller.py to omni_docking_controller.cpython-312.pyc
+byte-compiling /home/pp/Tawan-pe-/install/motion_control/lib/python3.12/site-packages/motion_control/__init__.py to __init__.cpython-312.pyc
+running install_data
+copying resource/motion_control -> /home/pp/Tawan-pe-/install/motion_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/pp/Tawan-pe-/install/motion_control/share/motion_control
+running install_egg_info
+Copying ../../../build/motion_control/motion_control.egg-info to /home/pp/Tawan-pe-/install/motion_control/lib/python3.12/site-packages/motion_control-0.0.0-py3.12.egg-info
+running install_scripts
+Installing omni_docking_controller script to /home/pp/Tawan-pe-/install/motion_control/lib/motion_control
+writing list of installed files to '/home/pp/Tawan-pe-/build/motion_control/install.log'

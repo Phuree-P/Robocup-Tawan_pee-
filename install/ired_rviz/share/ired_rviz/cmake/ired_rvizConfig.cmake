@@ -1,1 +1,1 @@
-/home/pi/robot_ws/build/ired_rviz/ament_cmake_core/ired_rvizConfig.cmake
+/home/pp/Tawan-pe-/build/ired_rviz/ament_cmake_core/ired_rvizConfig.cmake

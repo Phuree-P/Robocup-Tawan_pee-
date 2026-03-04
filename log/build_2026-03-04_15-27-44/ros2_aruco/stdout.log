@@ -1,0 +1,38 @@
+running develop
+Removing /home/pp/Tawan-pe-/install/ros2_aruco/lib/python3.12/site-packages/ros2-aruco.egg-link (link to .)
+running egg_info
+writing ../../../../build/ros2_aruco/ros2_aruco.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/ros2_aruco/ros2_aruco.egg-info/dependency_links.txt
+writing entry points to ../../../../build/ros2_aruco/ros2_aruco.egg-info/entry_points.txt
+writing requirements to ../../../../build/ros2_aruco/ros2_aruco.egg-info/requires.txt
+writing top-level names to ../../../../build/ros2_aruco/ros2_aruco.egg-info/top_level.txt
+reading manifest file '../../../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pp/Tawan-pe-/build/ros2_aruco/build
+creating /home/pp/Tawan-pe-/build/ros2_aruco/build/lib
+creating /home/pp/Tawan-pe-/build/ros2_aruco/build/lib/ros2_aruco
+copying ros2_aruco/__init__.py -> /home/pp/Tawan-pe-/build/ros2_aruco/build/lib/ros2_aruco
+copying ros2_aruco/aruco_node.py -> /home/pp/Tawan-pe-/build/ros2_aruco/build/lib/ros2_aruco
+copying ros2_aruco/aruco_generate_marker.py -> /home/pp/Tawan-pe-/build/ros2_aruco/build/lib/ros2_aruco
+running install
+running install_lib
+creating /home/pp/Tawan-pe-/install/ros2_aruco/lib/python3.12/site-packages/ros2_aruco
+copying /home/pp/Tawan-pe-/build/ros2_aruco/build/lib/ros2_aruco/__init__.py -> /home/pp/Tawan-pe-/install/ros2_aruco/lib/python3.12/site-packages/ros2_aruco
+copying /home/pp/Tawan-pe-/build/ros2_aruco/build/lib/ros2_aruco/aruco_node.py -> /home/pp/Tawan-pe-/install/ros2_aruco/lib/python3.12/site-packages/ros2_aruco
+copying /home/pp/Tawan-pe-/build/ros2_aruco/build/lib/ros2_aruco/aruco_generate_marker.py -> /home/pp/Tawan-pe-/install/ros2_aruco/lib/python3.12/site-packages/ros2_aruco
+byte-compiling /home/pp/Tawan-pe-/install/ros2_aruco/lib/python3.12/site-packages/ros2_aruco/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/pp/Tawan-pe-/install/ros2_aruco/lib/python3.12/site-packages/ros2_aruco/aruco_node.py to aruco_node.cpython-312.pyc
+byte-compiling /home/pp/Tawan-pe-/install/ros2_aruco/lib/python3.12/site-packages/ros2_aruco/aruco_generate_marker.py to aruco_generate_marker.cpython-312.pyc
+running install_data
+copying resource/ros2_aruco -> /home/pp/Tawan-pe-/install/ros2_aruco/share/ament_index/resource_index/packages
+copying package.xml -> /home/pp/Tawan-pe-/install/ros2_aruco/share/ros2_aruco
+copying launch/aruco_recognition.launch.py -> /home/pp/Tawan-pe-/install/ros2_aruco/share/ros2_aruco/launch
+copying config/aruco_parameters.yaml -> /home/pp/Tawan-pe-/install/ros2_aruco/share/ros2_aruco/config
+running install_egg_info
+Copying ../../../../build/ros2_aruco/ros2_aruco.egg-info to /home/pp/Tawan-pe-/install/ros2_aruco/lib/python3.12/site-packages/ros2_aruco-0.1.0-py3.12.egg-info
+running install_scripts
+Installing aruco_generate_marker script to /home/pp/Tawan-pe-/install/ros2_aruco/lib/ros2_aruco
+Installing aruco_node script to /home/pp/Tawan-pe-/install/ros2_aruco/lib/ros2_aruco
+writing list of installed files to '/home/pp/Tawan-pe-/build/ros2_aruco/install.log'

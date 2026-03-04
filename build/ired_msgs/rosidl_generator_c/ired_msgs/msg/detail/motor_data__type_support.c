@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "ired_msgs/msg/detail/motor_data__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "ired_msgs/msg/detail/motor_data__struct.h"
 #include "ired_msgs/msg/detail/motor_data__type_support.h"
+#include "ired_msgs/msg/detail/motor_data__functions.h"
 
 #ifdef __cplusplus
 extern "C"

@@ -1,13 +1,13 @@
 {
   "package_name": "ired_msgs",
-  "output_dir": "/home/pi/robot_ws/build/ired_msgs/rosidl_typesupport_fastrtps_c/ired_msgs",
+  "output_dir": "/home/pp/Tawan-pe-/build/ired_msgs/rosidl_typesupport_fastrtps_c/ired_msgs",
   "template_dir": "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource",
   "idl_tuples": [
-    "/home/pi/robot_ws/build/ired_msgs/rosidl_adapter/ired_msgs:msg/IMUData.idl",
-    "/home/pi/robot_ws/build/ired_msgs/rosidl_adapter/ired_msgs:msg/MotorControl.idl",
-    "/home/pi/robot_ws/build/ired_msgs/rosidl_adapter/ired_msgs:msg/MotorData.idl",
-    "/home/pi/robot_ws/build/ired_msgs/rosidl_adapter/ired_msgs:msg/MotorSpeed.idl",
-    "/home/pi/robot_ws/build/ired_msgs/rosidl_adapter/ired_msgs:srv/PIDTuning.idl"
+    "/home/pp/Tawan-pe-/build/ired_msgs/rosidl_adapter/ired_msgs:msg/IMUData.idl",
+    "/home/pp/Tawan-pe-/build/ired_msgs/rosidl_adapter/ired_msgs:msg/MotorControl.idl",
+    "/home/pp/Tawan-pe-/build/ired_msgs/rosidl_adapter/ired_msgs:msg/MotorData.idl",
+    "/home/pp/Tawan-pe-/build/ired_msgs/rosidl_adapter/ired_msgs:msg/MotorSpeed.idl",
+    "/home/pp/Tawan-pe-/build/ired_msgs/rosidl_adapter/ired_msgs:srv/PIDTuning.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/jazzy/share/std_msgs/msg/Bool.idl",
@@ -53,11 +53,11 @@
     "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em",
     "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
     "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
-    "/home/pi/robot_ws/build/ired_msgs/rosidl_adapter/ired_msgs/msg/IMUData.idl",
-    "/home/pi/robot_ws/build/ired_msgs/rosidl_adapter/ired_msgs/msg/MotorControl.idl",
-    "/home/pi/robot_ws/build/ired_msgs/rosidl_adapter/ired_msgs/msg/MotorData.idl",
-    "/home/pi/robot_ws/build/ired_msgs/rosidl_adapter/ired_msgs/msg/MotorSpeed.idl",
-    "/home/pi/robot_ws/build/ired_msgs/rosidl_adapter/ired_msgs/srv/PIDTuning.idl",
+    "/home/pp/Tawan-pe-/build/ired_msgs/rosidl_adapter/ired_msgs/msg/IMUData.idl",
+    "/home/pp/Tawan-pe-/build/ired_msgs/rosidl_adapter/ired_msgs/msg/MotorControl.idl",
+    "/home/pp/Tawan-pe-/build/ired_msgs/rosidl_adapter/ired_msgs/msg/MotorData.idl",
+    "/home/pp/Tawan-pe-/build/ired_msgs/rosidl_adapter/ired_msgs/msg/MotorSpeed.idl",
+    "/home/pp/Tawan-pe-/build/ired_msgs/rosidl_adapter/ired_msgs/srv/PIDTuning.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/Bool.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/Byte.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/ByteMultiArray.idl",

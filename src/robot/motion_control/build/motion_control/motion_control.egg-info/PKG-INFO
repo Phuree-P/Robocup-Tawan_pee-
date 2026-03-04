@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: motion-control
+Version: 0.0.0
+Summary: TODO: Package description
+Maintainer: pi
+Maintainer-email: plainakalin@gmail.com
+License: TODO: License declaration
+Provides-Extra: test

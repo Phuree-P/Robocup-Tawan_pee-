@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/robot_ws/src/robot/ired_msgs
+CMAKE_SOURCE_DIR = /home/pp/Tawan-pe-/src/robot/ired_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/robot_ws/build/ired_msgs
+CMAKE_BINARY_DIR = /home/pp/Tawan-pe-/build/ired_msgs
 
 # Utility rule file for ired_msgs_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ired_msgs_uninstall.dir/compiler_depend.make
 include CMakeFiles/ired_msgs_uninstall.dir/progress.make
 
 CMakeFiles/ired_msgs_uninstall:
-	/usr/bin/cmake -P /home/pi/robot_ws/build/ired_msgs/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/pp/Tawan-pe-/build/ired_msgs/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 ired_msgs_uninstall: CMakeFiles/ired_msgs_uninstall
 ired_msgs_uninstall: CMakeFiles/ired_msgs_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ired_msgs_uninstall.dir/clean:
 .PHONY : CMakeFiles/ired_msgs_uninstall.dir/clean
 
 CMakeFiles/ired_msgs_uninstall.dir/depend:
-	cd /home/pi/robot_ws/build/ired_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/robot_ws/src/robot/ired_msgs /home/pi/robot_ws/src/robot/ired_msgs /home/pi/robot_ws/build/ired_msgs /home/pi/robot_ws/build/ired_msgs /home/pi/robot_ws/build/ired_msgs/CMakeFiles/ired_msgs_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/pp/Tawan-pe-/build/ired_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pp/Tawan-pe-/src/robot/ired_msgs /home/pp/Tawan-pe-/src/robot/ired_msgs /home/pp/Tawan-pe-/build/ired_msgs /home/pp/Tawan-pe-/build/ired_msgs /home/pp/Tawan-pe-/build/ired_msgs/CMakeFiles/ired_msgs_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ired_msgs_uninstall.dir/depend
 

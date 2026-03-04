@@ -1,0 +1,76 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "ired_msgs/msg/MotorData",
+      "fields": [
+        {
+          "name": "speed_sp",
+          "type": {
+            "type_id": 59,
+            "capacity": 4,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "speed_fb",
+          "type": {
+            "type_id": 59,
+            "capacity": 4,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "pid_motor_front_left",
+          "type": {
+            "type_id": 59,
+            "capacity": 3,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "pid_motor_front_right",
+          "type": {
+            "type_id": 59,
+            "capacity": 3,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "pid_motor_rear_left",
+          "type": {
+            "type_id": 59,
+            "capacity": 3,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "pid_motor_rear_right",
+          "type": {
+            "type_id": 59,
+            "capacity": 3,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "ired_msgs/msg/MotorData",
+      "hash_string": "RIHS01_43d94faba7c758fd263014bcbd8d330f8b5b3b4f20de7c849c179757bc0ae5d5"
+    }
+  ]
+}

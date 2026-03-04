@@ -1,1 +1,0 @@
-/home/pi/robot_ws/src/robot/ired_movetogoal/setup.py

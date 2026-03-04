@@ -1,8 +1,8 @@
-# Install script for directory: /home/pi/robot_ws/src/robot/ros2_laser_scan_matcher
+# Install script for directory: /home/pp/Tawan-pe-/src/robot/ros2_laser_scan_matcher
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/pi/robot_ws/install/ros2_laser_scan_matcher")
+  set(CMAKE_INSTALL_PREFIX "/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/pi/robot_ws/build/ros2_laser_scan_matcher/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/pp/Tawan-pe-/build/ros2_laser_scan_matcher/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/pi/robot_ws/build/ros2_laser_scan_matcher/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/pp/Tawan-pe-/build/ros2_laser_scan_matcher/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

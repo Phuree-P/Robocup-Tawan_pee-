@@ -1,0 +1,48 @@
+[0.419s] Invoking command in '/home/pp/Tawan-pe-/build/lidar_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pp/Tawan-pe-/src/lidar_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pp/Tawan-pe-/install/lidar_bringup
+[0.924s] -- The C compiler identification is GNU 13.3.0
+[0.924s] -- The CXX compiler identification is GNU 13.3.0
+[0.924s] -- Detecting C compiler ABI info
+[0.925s] -- Detecting C compiler ABI info - done
+[0.925s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.925s] -- Detecting C compile features
+[0.925s] -- Detecting C compile features - done
+[0.925s] -- Detecting CXX compiler ABI info
+[0.925s] -- Detecting CXX compiler ABI info - done
+[0.925s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.925s] -- Detecting CXX compile features
+[0.925s] -- Detecting CXX compile features - done
+[0.925s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.021s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.130s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.187s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.417s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.417s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.423s] -- Added test 'lint_cmake' to check CMake code style
+[1.424s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.428s] -- Added test 'xmllint' to check XML markup files
+[1.435s] -- Configuring done (1.0s)
+[1.445s] -- Generating done (0.0s)
+[1.452s] -- Build files have been written to: /home/pp/Tawan-pe-/build/lidar_bringup
+[1.803s] Invoked command in '/home/pp/Tawan-pe-/build/lidar_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pp/Tawan-pe-/src/lidar_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pp/Tawan-pe-/install/lidar_bringup
+[1.803s] Invoking command in '/home/pp/Tawan-pe-/build/lidar_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pp/Tawan-pe-/build/lidar_bringup -- -j12 -l12
+[1.969s] Invoked command in '/home/pp/Tawan-pe-/build/lidar_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pp/Tawan-pe-/build/lidar_bringup -- -j12 -l12
+[1.970s] Invoking command in '/home/pp/Tawan-pe-/build/lidar_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pp/Tawan-pe-/build/lidar_bringup
+[1.988s] -- Install configuration: ""
+[1.991s] -- Execute custom install script
+[1.996s] -- Symlinking: /home/pp/Tawan-pe-/install/lidar_bringup/share/lidar_bringup/launch/hokuyo_launch.py
+[2.026s] -- Symlinking: /home/pp/Tawan-pe-/install/lidar_bringup/share/ament_index/resource_index/package_run_dependencies/lidar_bringup
+[2.052s] -- Symlinking: /home/pp/Tawan-pe-/install/lidar_bringup/share/ament_index/resource_index/parent_prefix_path/lidar_bringup
+[2.077s] -- Symlinking: /home/pp/Tawan-pe-/install/lidar_bringup/share/lidar_bringup/environment/ament_prefix_path.sh
+[2.091s] -- Symlinking: /home/pp/Tawan-pe-/install/lidar_bringup/share/lidar_bringup/environment/ament_prefix_path.dsv
+[2.111s] -- Symlinking: /home/pp/Tawan-pe-/install/lidar_bringup/share/lidar_bringup/environment/path.sh
+[2.152s] -- Symlinking: /home/pp/Tawan-pe-/install/lidar_bringup/share/lidar_bringup/environment/path.dsv
+[2.174s] -- Symlinking: /home/pp/Tawan-pe-/install/lidar_bringup/share/lidar_bringup/local_setup.bash
+[2.205s] -- Symlinking: /home/pp/Tawan-pe-/install/lidar_bringup/share/lidar_bringup/local_setup.sh
+[2.232s] -- Symlinking: /home/pp/Tawan-pe-/install/lidar_bringup/share/lidar_bringup/local_setup.zsh
+[2.261s] -- Symlinking: /home/pp/Tawan-pe-/install/lidar_bringup/share/lidar_bringup/local_setup.dsv
+[2.286s] -- Symlinking: /home/pp/Tawan-pe-/install/lidar_bringup/share/lidar_bringup/package.dsv
+[2.329s] -- Symlinking: /home/pp/Tawan-pe-/install/lidar_bringup/share/ament_index/resource_index/packages/lidar_bringup
+[2.356s] -- Symlinking: /home/pp/Tawan-pe-/install/lidar_bringup/share/lidar_bringup/cmake/lidar_bringupConfig.cmake
+[2.379s] -- Symlinking: /home/pp/Tawan-pe-/install/lidar_bringup/share/lidar_bringup/cmake/lidar_bringupConfig-version.cmake
+[2.392s] -- Symlinking: /home/pp/Tawan-pe-/install/lidar_bringup/share/lidar_bringup/package.xml
+[2.408s] Invoked command in '/home/pp/Tawan-pe-/build/lidar_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pp/Tawan-pe-/build/lidar_bringup

@@ -1,0 +1,37 @@
+[1.815s] Invoking command in '/home/pp/Tawan-pe-/build/ired_movetogoal': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pp/Tawan-pe-/build/ired_movetogoal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pp/Tawan-pe-/install/ired_movetogoal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/pp/Tawan-pe-/build/ired_movetogoal/build
+[2.293s] running develop
+[2.575s] Removing /home/pp/Tawan-pe-/install/ired_movetogoal/lib/python3.12/site-packages/ired-movetogoal.egg-link (link to .)
+[2.649s] Invoked command in '/home/pp/Tawan-pe-/build/ired_movetogoal' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pp/Tawan-pe-/build/ired_movetogoal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pp/Tawan-pe-/install/ired_movetogoal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/pp/Tawan-pe-/build/ired_movetogoal/build
+[2.650s] Invoking command in '/home/pp/Tawan-pe-/src/robot/ired_movetogoal': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pp/Tawan-pe-/build/ired_movetogoal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pp/Tawan-pe-/install/ired_movetogoal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ired_movetogoal build --build-base /home/pp/Tawan-pe-/build/ired_movetogoal/build install --record /home/pp/Tawan-pe-/build/ired_movetogoal/install.log --single-version-externally-managed install_data --force
+[2.962s] running egg_info
+[2.987s] writing ../../../build/ired_movetogoal/ired_movetogoal.egg-info/PKG-INFO
+[2.988s] writing dependency_links to ../../../build/ired_movetogoal/ired_movetogoal.egg-info/dependency_links.txt
+[2.990s] writing entry points to ../../../build/ired_movetogoal/ired_movetogoal.egg-info/entry_points.txt
+[2.990s] writing requirements to ../../../build/ired_movetogoal/ired_movetogoal.egg-info/requires.txt
+[2.990s] writing top-level names to ../../../build/ired_movetogoal/ired_movetogoal.egg-info/top_level.txt
+[3.048s] reading manifest file '../../../build/ired_movetogoal/ired_movetogoal.egg-info/SOURCES.txt'
+[3.049s] adding license file 'LICENSE'
+[3.049s] writing manifest file '../../../build/ired_movetogoal/ired_movetogoal.egg-info/SOURCES.txt'
+[3.049s] running build
+[3.049s] running build_py
+[3.049s] creating /home/pp/Tawan-pe-/build/ired_movetogoal/build
+[3.049s] creating /home/pp/Tawan-pe-/build/ired_movetogoal/build/lib
+[3.049s] creating /home/pp/Tawan-pe-/build/ired_movetogoal/build/lib/ired_movetogoal
+[3.049s] copying ired_movetogoal/__init__.py -> /home/pp/Tawan-pe-/build/ired_movetogoal/build/lib/ired_movetogoal
+[3.049s] copying ired_movetogoal/movetogoal.py -> /home/pp/Tawan-pe-/build/ired_movetogoal/build/lib/ired_movetogoal
+[3.050s] running install
+[3.057s] running install_lib
+[3.088s] creating /home/pp/Tawan-pe-/install/ired_movetogoal/lib/python3.12/site-packages/ired_movetogoal
+[3.088s] copying /home/pp/Tawan-pe-/build/ired_movetogoal/build/lib/ired_movetogoal/__init__.py -> /home/pp/Tawan-pe-/install/ired_movetogoal/lib/python3.12/site-packages/ired_movetogoal
+[3.088s] copying /home/pp/Tawan-pe-/build/ired_movetogoal/build/lib/ired_movetogoal/movetogoal.py -> /home/pp/Tawan-pe-/install/ired_movetogoal/lib/python3.12/site-packages/ired_movetogoal
+[3.089s] byte-compiling /home/pp/Tawan-pe-/install/ired_movetogoal/lib/python3.12/site-packages/ired_movetogoal/__init__.py to __init__.cpython-312.pyc
+[3.092s] byte-compiling /home/pp/Tawan-pe-/install/ired_movetogoal/lib/python3.12/site-packages/ired_movetogoal/movetogoal.py to movetogoal.cpython-312.pyc
+[3.092s] running install_data
+[3.092s] copying resource/ired_movetogoal -> /home/pp/Tawan-pe-/install/ired_movetogoal/share/ament_index/resource_index/packages
+[3.092s] copying package.xml -> /home/pp/Tawan-pe-/install/ired_movetogoal/share/ired_movetogoal
+[3.092s] running install_egg_info
+[3.123s] Copying ../../../build/ired_movetogoal/ired_movetogoal.egg-info to /home/pp/Tawan-pe-/install/ired_movetogoal/lib/python3.12/site-packages/ired_movetogoal-2.0.1-py3.12.egg-info
+[3.124s] running install_scripts
+[3.265s] Installing movetogoal script to /home/pp/Tawan-pe-/install/ired_movetogoal/lib/ired_movetogoal
+[3.265s] writing list of installed files to '/home/pp/Tawan-pe-/build/ired_movetogoal/install.log'
+[3.299s] Invoked command in '/home/pp/Tawan-pe-/src/robot/ired_movetogoal' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pp/Tawan-pe-/build/ired_movetogoal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pp/Tawan-pe-/install/ired_movetogoal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ired_movetogoal build --build-base /home/pp/Tawan-pe-/build/ired_movetogoal/build install --record /home/pp/Tawan-pe-/build/ired_movetogoal/install.log --single-version-externally-managed install_data --force

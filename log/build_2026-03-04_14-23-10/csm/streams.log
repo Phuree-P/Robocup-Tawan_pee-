@@ -1,0 +1,90 @@
+[0.038s] Invoking command in '/home/pp/Tawan-pe-/build/csm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pp/Tawan-pe-/src/robot/cms -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pp/Tawan-pe-/install/csm
+[0.935s] -- The C compiler identification is GNU 13.3.0
+[0.935s] -- The CXX compiler identification is GNU 13.3.0
+[0.936s] -- Detecting C compiler ABI info
+[0.936s] -- Detecting C compiler ABI info - done
+[0.937s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.937s] -- Detecting C compile features
+[0.937s] -- Detecting C compile features - done
+[0.938s] -- Detecting CXX compiler ABI info
+[0.938s] -- Detecting CXX compiler ABI info - done
+[0.938s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.938s] -- Detecting CXX compile features
+[0.938s] -- Detecting CXX compile features - done
+[0.938s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.938s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.939s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.939s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.939s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.939s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.940s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.940s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.940s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.940s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.940s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.940s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.940s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.205s] -- Configuring done (1.2s)
+[1.219s] -- Generating done (0.0s)
+[1.223s] -- Build files have been written to: /home/pp/Tawan-pe-/build/csm
+[1.248s] Invoked command in '/home/pp/Tawan-pe-/build/csm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pp/Tawan-pe-/src/robot/cms -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pp/Tawan-pe-/install/csm
+[1.249s] Invoking command in '/home/pp/Tawan-pe-/build/csm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pp/Tawan-pe-/build/csm -- -j12 -l12
+[1.355s] [  4%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/math_utils.cpp.o[0m
+[1.357s] [  8%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/orientation.cpp.o[0m
+[1.360s] [ 12%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/laser_data.cpp.o[0m
+[1.392s] [ 16%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/utils.cpp.o[0m
+[1.404s] [ 50%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/clustering.cpp.o[0m
+[1.410s] [ 20%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/math_utils_gsl.cpp.o[0m
+[1.416s] [ 25%] [32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl.cpp.o[0m
+[1.416s] [ 29%] [32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl_ops.cpp.o[0m
+[1.416s] [ 33%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/sm_options.cpp.o[0m
+[1.418s] [ 37%] [32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl_conversions.cpp.o[0m
+[1.419s] [ 41%] [32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl_misc.cpp.o[0m
+[1.421s] [ 45%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/logging.cpp.o[0m
+[3.511s] [ 54%] [32mBuilding CXX object CMakeFiles/csm.dir/src/gpc/gpc.cpp.o[0m
+[3.574s] [ 58%] [32mBuilding CXX object CMakeFiles/csm.dir/src/gpc/gpc_utils.cpp.o[0m
+[3.745s] [ 62%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp.cpp.o[0m
+[3.787s] [ 66%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_corr_dumb.cpp.o[0m
+[4.044s] [ 70%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_corr_tricks.cpp.o[0m
+[4.258s] [ 75%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_covariance.cpp.o[0m
+[4.434s] [ 79%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_debug.cpp.o[0m
+[4.460s] [ 83%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_loop.cpp.o[0m
+[4.541s] [ 87%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_outliers.cpp.o[0m
+[4.570s] [ 91%] [32mBuilding CXX object CMakeFiles/csm.dir/src/options/options.cpp.o[0m
+[4.729s] [ 95%] [32mBuilding CXX object CMakeFiles/csm.dir/src/options/options_interface.cpp.o[0m
+[19.305s] [100%] [32m[1mLinking CXX shared library libcsm.so[0m
+[19.647s] [100%] Built target csm
+[19.658s] Invoked command in '/home/pp/Tawan-pe-/build/csm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pp/Tawan-pe-/build/csm -- -j12 -l12
+[19.659s] Invoking command in '/home/pp/Tawan-pe-/build/csm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pp/Tawan-pe-/build/csm
+[19.666s] -- Install configuration: ""
+[19.667s] -- Execute custom install script
+[19.667s] -- Symlinking: /home/pp/Tawan-pe-/install/csm/lib/libcsm.so
+[19.677s] -- Symlinking: /home/pp/Tawan-pe-/install/csm/include/..//include/csm/algos.h
+[19.686s] -- Symlinking: /home/pp/Tawan-pe-/install/csm/include/..//include/csm/csm.h
+[19.695s] -- Symlinking: /home/pp/Tawan-pe-/install/csm/include/..//include/csm/laser_data.h
+[19.705s] -- Symlinking: /home/pp/Tawan-pe-/install/csm/include/..//include/csm/laser_data_inline.h
+[19.714s] -- Symlinking: /home/pp/Tawan-pe-/install/csm/include/..//include/csm/restrict.h
+[19.724s] -- Symlinking: /home/pp/Tawan-pe-/install/csm/include/..//include/gsl_eigen/gsl_eigen.h
+[19.733s] -- Symlinking: /home/pp/Tawan-pe-/install/csm/share/csm/resource/csm
+[19.743s] -- Symlinking: /home/pp/Tawan-pe-/install/csm/include/../gsl_eigen/gsl_eigen.h
+[19.752s] -- Symlinking: /home/pp/Tawan-pe-/install/csm/share/csm/environment/library_path.sh
+[19.762s] -- Symlinking: /home/pp/Tawan-pe-/install/csm/share/csm/environment/library_path.dsv
+[19.771s] -- Symlinking: /home/pp/Tawan-pe-/install/csm/share/ament_index/resource_index/package_run_dependencies/csm
+[19.780s] -- Symlinking: /home/pp/Tawan-pe-/install/csm/share/ament_index/resource_index/parent_prefix_path/csm
+[19.790s] -- Symlinking: /home/pp/Tawan-pe-/install/csm/share/csm/environment/ament_prefix_path.sh
+[19.799s] -- Symlinking: /home/pp/Tawan-pe-/install/csm/share/csm/environment/ament_prefix_path.dsv
+[19.808s] -- Symlinking: /home/pp/Tawan-pe-/install/csm/share/csm/environment/path.sh
+[19.817s] -- Symlinking: /home/pp/Tawan-pe-/install/csm/share/csm/environment/path.dsv
+[19.827s] -- Symlinking: /home/pp/Tawan-pe-/install/csm/share/csm/local_setup.bash
+[19.836s] -- Symlinking: /home/pp/Tawan-pe-/install/csm/share/csm/local_setup.sh
+[19.845s] -- Symlinking: /home/pp/Tawan-pe-/install/csm/share/csm/local_setup.zsh
+[19.854s] -- Symlinking: /home/pp/Tawan-pe-/install/csm/share/csm/local_setup.dsv
+[19.863s] -- Symlinking: /home/pp/Tawan-pe-/install/csm/share/csm/package.dsv
+[19.872s] -- Symlinking: /home/pp/Tawan-pe-/install/csm/share/ament_index/resource_index/packages/csm
+[19.882s] -- Symlinking: /home/pp/Tawan-pe-/install/csm/share/csm/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.891s] -- Symlinking: /home/pp/Tawan-pe-/install/csm/share/csm/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.900s] -- Symlinking: /home/pp/Tawan-pe-/install/csm/share/csm/cmake/ament_cmake_export_libraries-extras.cmake
+[19.910s] -- Symlinking: /home/pp/Tawan-pe-/install/csm/share/csm/cmake/csmConfig.cmake
+[19.919s] -- Symlinking: /home/pp/Tawan-pe-/install/csm/share/csm/cmake/csmConfig-version.cmake
+[19.929s] -- Symlinking: /home/pp/Tawan-pe-/install/csm/share/csm/package.xml
+[19.940s] Invoked command in '/home/pp/Tawan-pe-/build/csm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pp/Tawan-pe-/build/csm

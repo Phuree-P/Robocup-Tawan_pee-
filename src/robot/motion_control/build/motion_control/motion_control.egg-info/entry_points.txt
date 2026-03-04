@@ -1,0 +1,2 @@
+[console_scripts]
+omni_docking_controller = motion_control.omni_docking_controller:main

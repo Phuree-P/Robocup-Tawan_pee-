@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating ired_teleop.egg-info
+writing ired_teleop.egg-info/PKG-INFO
+writing dependency_links to ired_teleop.egg-info/dependency_links.txt
+writing entry points to ired_teleop.egg-info/entry_points.txt
+writing requirements to ired_teleop.egg-info/requires.txt
+writing top-level names to ired_teleop.egg-info/top_level.txt
+writing manifest file 'ired_teleop.egg-info/SOURCES.txt'
+reading manifest file 'ired_teleop.egg-info/SOURCES.txt'
+writing manifest file 'ired_teleop.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pp/Tawan-pe-/src/install/ired_teleop/lib/python3.12/site-packages/ired-teleop.egg-link (link to .)
+Installing teleop_keyboard script to /home/pp/Tawan-pe-/src/install/ired_teleop/lib/ired_teleop
+
+Installed /home/pp/Tawan-pe-/src/build/ired_teleop
+running symlink_data
+creating /home/pp/Tawan-pe-/src/install/ired_teleop/share/ament_index
+creating /home/pp/Tawan-pe-/src/install/ired_teleop/share/ament_index/resource_index
+creating /home/pp/Tawan-pe-/src/install/ired_teleop/share/ament_index/resource_index/packages
+symbolically linking /home/pp/Tawan-pe-/src/build/ired_teleop/resource/ired_teleop -> /home/pp/Tawan-pe-/src/install/ired_teleop/share/ament_index/resource_index/packages
+symbolically linking /home/pp/Tawan-pe-/src/build/ired_teleop/package.xml -> /home/pp/Tawan-pe-/src/install/ired_teleop/share/ired_teleop

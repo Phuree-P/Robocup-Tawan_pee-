@@ -1,0 +1,2 @@
+[console_scripts]
+teleop_keyboard = ired_teleop.script.teleop_keyboard:main

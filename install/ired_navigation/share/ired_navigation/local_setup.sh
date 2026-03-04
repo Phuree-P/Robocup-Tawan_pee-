@@ -1,1 +1,1 @@
-/home/pi/robot_ws/build/ired_navigation/ament_cmake_environment_hooks/local_setup.sh
+/home/pp/Tawan-pe-/build/ired_navigation/ament_cmake_environment_hooks/local_setup.sh

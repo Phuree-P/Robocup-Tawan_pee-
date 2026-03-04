@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/robot_ws/src/aruco_marker/ros2_aruco/ros2_aruco_interfaces
+CMAKE_SOURCE_DIR = /home/pp/Tawan-pe-/src/aruco_marker/ros2_aruco/ros2_aruco_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/robot_ws/build/ros2_aruco_interfaces
+CMAKE_BINARY_DIR = /home/pp/Tawan-pe-/build/ros2_aruco_interfaces
 
 # Utility rule file for ros2_aruco_interfaces__cpp.
 
@@ -157,8 +157,8 @@ rosidl_generator_cpp/ros2_aruco_interfaces/msg/aruco_markers.hpp: /opt/ros/jazzy
 rosidl_generator_cpp/ros2_aruco_interfaces/msg/aruco_markers.hpp: /opt/ros/jazzy/share/std_msgs/msg/UInt8MultiArray.idl
 rosidl_generator_cpp/ros2_aruco_interfaces/msg/aruco_markers.hpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_cpp/ros2_aruco_interfaces/msg/aruco_markers.hpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/pi/robot_ws/build/ros2_aruco_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/pi/robot_ws/build/ros2_aruco_interfaces/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/pp/Tawan-pe-/build/ros2_aruco_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/pp/Tawan-pe-/build/ros2_aruco_interfaces/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/ros2_aruco_interfaces/msg/detail/aruco_markers__builder.hpp: rosidl_generator_cpp/ros2_aruco_interfaces/msg/aruco_markers.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ros2_aruco_interfaces/msg/detail/aruco_markers__builder.hpp
@@ -194,6 +194,6 @@ CMakeFiles/ros2_aruco_interfaces__cpp.dir/clean:
 .PHONY : CMakeFiles/ros2_aruco_interfaces__cpp.dir/clean
 
 CMakeFiles/ros2_aruco_interfaces__cpp.dir/depend:
-	cd /home/pi/robot_ws/build/ros2_aruco_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/robot_ws/src/aruco_marker/ros2_aruco/ros2_aruco_interfaces /home/pi/robot_ws/src/aruco_marker/ros2_aruco/ros2_aruco_interfaces /home/pi/robot_ws/build/ros2_aruco_interfaces /home/pi/robot_ws/build/ros2_aruco_interfaces /home/pi/robot_ws/build/ros2_aruco_interfaces/CMakeFiles/ros2_aruco_interfaces__cpp.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/pp/Tawan-pe-/build/ros2_aruco_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pp/Tawan-pe-/src/aruco_marker/ros2_aruco/ros2_aruco_interfaces /home/pp/Tawan-pe-/src/aruco_marker/ros2_aruco/ros2_aruco_interfaces /home/pp/Tawan-pe-/build/ros2_aruco_interfaces /home/pp/Tawan-pe-/build/ros2_aruco_interfaces /home/pp/Tawan-pe-/build/ros2_aruco_interfaces/CMakeFiles/ros2_aruco_interfaces__cpp.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ros2_aruco_interfaces__cpp.dir/depend
 

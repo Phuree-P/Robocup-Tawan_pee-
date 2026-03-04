@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/robot_ws/src/aruco_marker/ired_aruco
+CMAKE_SOURCE_DIR = /home/pp/Tawan-pe-/src/aruco_marker/ired_aruco
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/robot_ws/build/ired_aruco
+CMAKE_BINARY_DIR = /home/pp/Tawan-pe-/build/ired_aruco
 
 # Utility rule file for ired_aruco_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ired_aruco_uninstall.dir/compiler_depend.make
 include CMakeFiles/ired_aruco_uninstall.dir/progress.make
 
 CMakeFiles/ired_aruco_uninstall:
-	/usr/bin/cmake -P /home/pi/robot_ws/build/ired_aruco/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/pp/Tawan-pe-/build/ired_aruco/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 ired_aruco_uninstall: CMakeFiles/ired_aruco_uninstall
 ired_aruco_uninstall: CMakeFiles/ired_aruco_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ired_aruco_uninstall.dir/clean:
 .PHONY : CMakeFiles/ired_aruco_uninstall.dir/clean
 
 CMakeFiles/ired_aruco_uninstall.dir/depend:
-	cd /home/pi/robot_ws/build/ired_aruco && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/robot_ws/src/aruco_marker/ired_aruco /home/pi/robot_ws/src/aruco_marker/ired_aruco /home/pi/robot_ws/build/ired_aruco /home/pi/robot_ws/build/ired_aruco /home/pi/robot_ws/build/ired_aruco/CMakeFiles/ired_aruco_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/pp/Tawan-pe-/build/ired_aruco && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pp/Tawan-pe-/src/aruco_marker/ired_aruco /home/pp/Tawan-pe-/src/aruco_marker/ired_aruco /home/pp/Tawan-pe-/build/ired_aruco /home/pp/Tawan-pe-/build/ired_aruco /home/pp/Tawan-pe-/build/ired_aruco/CMakeFiles/ired_aruco_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ired_aruco_uninstall.dir/depend
 

@@ -1,0 +1,46 @@
+[0.011s] Invoking command in '/home/pp/Tawan-pe-/src/build/ros2_laser_scan_matcher': AMENT_PREFIX_PATH=/home/pp/Tawan-pe-/src/install/csm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pp/Tawan-pe-/src/install/csm:/home/pp/Tawan-pe-/install/rplidar_ros:/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher:/home/pp/Tawan-pe-/install/ros2_aruco_interfaces:/home/pp/Tawan-pe-/install/lidar_bringup:/home/pp/Tawan-pe-/install/ired_rviz:/home/pp/Tawan-pe-/install/ired_navigation:/home/pp/Tawan-pe-/install/ired_bringup:/home/pp/Tawan-pe-/install/ired_msgs:/home/pp/Tawan-pe-/install/ired_aruco:/home/pp/Tawan-pe-/install/csm:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pp/Tawan-pe-/src/install/csm/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/pp/Tawan-pe-/src/robot/ros2_laser_scan_matcher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pp/Tawan-pe-/src/install/ros2_laser_scan_matcher
+[0.068s] -- The C compiler identification is GNU 13.3.0
+[0.124s] -- The CXX compiler identification is GNU 13.3.0
+[0.139s] -- Detecting C compiler ABI info
+[0.237s] -- Detecting C compiler ABI info - done
+[0.250s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.250s] -- Detecting C compile features
+[0.251s] -- Detecting C compile features - done
+[0.263s] -- Detecting CXX compiler ABI info
+[0.387s] -- Detecting CXX compiler ABI info - done
+[0.401s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.401s] -- Detecting CXX compile features
+[0.401s] -- Detecting CXX compile features - done
+[0.407s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.637s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.745s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.797s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.849s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.866s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.885s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.906s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.018s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.098s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.104s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.240s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.269s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.297s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.386s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.421s] -- Found tf2_ros: 0.36.16 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.585s] -- Found tf2_geometry_msgs: 0.36.16 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[1.608s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.610s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.611s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.618s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[1.619s] -- Found csm: 0.0.0 (/home/pp/Tawan-pe-/src/install/csm/share/csm/cmake)
+[1.771s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread 
+[1.894s] -- Configuring done (1.9s)
+[1.918s] -- Generating done (0.0s)
+[1.924s] -- Build files have been written to: /home/pp/Tawan-pe-/src/build/ros2_laser_scan_matcher
+[1.940s] Invoked command in '/home/pp/Tawan-pe-/src/build/ros2_laser_scan_matcher' returned '0': AMENT_PREFIX_PATH=/home/pp/Tawan-pe-/src/install/csm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pp/Tawan-pe-/src/install/csm:/home/pp/Tawan-pe-/install/rplidar_ros:/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher:/home/pp/Tawan-pe-/install/ros2_aruco_interfaces:/home/pp/Tawan-pe-/install/lidar_bringup:/home/pp/Tawan-pe-/install/ired_rviz:/home/pp/Tawan-pe-/install/ired_navigation:/home/pp/Tawan-pe-/install/ired_bringup:/home/pp/Tawan-pe-/install/ired_msgs:/home/pp/Tawan-pe-/install/ired_aruco:/home/pp/Tawan-pe-/install/csm:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pp/Tawan-pe-/src/install/csm/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/pp/Tawan-pe-/src/robot/ros2_laser_scan_matcher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pp/Tawan-pe-/src/install/ros2_laser_scan_matcher
+[1.941s] Invoking command in '/home/pp/Tawan-pe-/src/build/ros2_laser_scan_matcher': AMENT_PREFIX_PATH=/home/pp/Tawan-pe-/src/install/csm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pp/Tawan-pe-/src/install/csm:/home/pp/Tawan-pe-/install/rplidar_ros:/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher:/home/pp/Tawan-pe-/install/ros2_aruco_interfaces:/home/pp/Tawan-pe-/install/lidar_bringup:/home/pp/Tawan-pe-/install/ired_rviz:/home/pp/Tawan-pe-/install/ired_navigation:/home/pp/Tawan-pe-/install/ired_bringup:/home/pp/Tawan-pe-/install/ired_msgs:/home/pp/Tawan-pe-/install/ired_aruco:/home/pp/Tawan-pe-/install/csm:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pp/Tawan-pe-/src/install/csm/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/pp/Tawan-pe-/src/build/ros2_laser_scan_matcher -- -j12 -l12
+[2.007s] [ 50%] [32mBuilding CXX object CMakeFiles/laser_scan_matcher.dir/src/laser_scan_matcher.cpp.o[0m
+[4.957s] gmake[2]: *** [CMakeFiles/laser_scan_matcher.dir/build.make:76: CMakeFiles/laser_scan_matcher.dir/src/laser_scan_matcher.cpp.o] Interrupt
+[4.957s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/laser_scan_matcher.dir/all] Interrupt
+[4.958s] gmake: *** [Makefile:146: all] Interrupt
+[4.991s] Invoked command in '/home/pp/Tawan-pe-/src/build/ros2_laser_scan_matcher' returned '-2': AMENT_PREFIX_PATH=/home/pp/Tawan-pe-/src/install/csm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pp/Tawan-pe-/src/install/csm:/home/pp/Tawan-pe-/install/rplidar_ros:/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher:/home/pp/Tawan-pe-/install/ros2_aruco_interfaces:/home/pp/Tawan-pe-/install/lidar_bringup:/home/pp/Tawan-pe-/install/ired_rviz:/home/pp/Tawan-pe-/install/ired_navigation:/home/pp/Tawan-pe-/install/ired_bringup:/home/pp/Tawan-pe-/install/ired_msgs:/home/pp/Tawan-pe-/install/ired_aruco:/home/pp/Tawan-pe-/install/csm:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pp/Tawan-pe-/src/install/csm/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/pp/Tawan-pe-/src/build/ros2_laser_scan_matcher -- -j12 -l12

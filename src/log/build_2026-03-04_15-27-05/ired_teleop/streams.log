@@ -1,0 +1,24 @@
+[3.405s] Invoking command in '/home/pp/Tawan-pe-/src/build/ired_teleop': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pp/Tawan-pe-/src/build/ired_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pp/Tawan-pe-/src/install/ired_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pp/Tawan-pe-/src/build/ired_teleop/build --no-deps symlink_data
+[4.913s] running develop
+[6.385s] running egg_info
+[6.385s] creating ired_teleop.egg-info
+[6.492s] writing ired_teleop.egg-info/PKG-INFO
+[6.492s] writing dependency_links to ired_teleop.egg-info/dependency_links.txt
+[6.492s] writing entry points to ired_teleop.egg-info/entry_points.txt
+[6.493s] writing requirements to ired_teleop.egg-info/requires.txt
+[6.493s] writing top-level names to ired_teleop.egg-info/top_level.txt
+[6.493s] writing manifest file 'ired_teleop.egg-info/SOURCES.txt'
+[6.637s] reading manifest file 'ired_teleop.egg-info/SOURCES.txt'
+[6.640s] writing manifest file 'ired_teleop.egg-info/SOURCES.txt'
+[6.716s] running build_ext
+[6.716s] Creating /home/pp/Tawan-pe-/src/install/ired_teleop/lib/python3.12/site-packages/ired-teleop.egg-link (link to .)
+[6.718s] Installing teleop_keyboard script to /home/pp/Tawan-pe-/src/install/ired_teleop/lib/ired_teleop
+[6.720s] 
+[6.720s] Installed /home/pp/Tawan-pe-/src/build/ired_teleop
+[6.720s] running symlink_data
+[6.721s] creating /home/pp/Tawan-pe-/src/install/ired_teleop/share/ament_index
+[6.726s] creating /home/pp/Tawan-pe-/src/install/ired_teleop/share/ament_index/resource_index
+[6.726s] creating /home/pp/Tawan-pe-/src/install/ired_teleop/share/ament_index/resource_index/packages
+[6.726s] symbolically linking /home/pp/Tawan-pe-/src/build/ired_teleop/resource/ired_teleop -> /home/pp/Tawan-pe-/src/install/ired_teleop/share/ament_index/resource_index/packages
+[6.726s] symbolically linking /home/pp/Tawan-pe-/src/build/ired_teleop/package.xml -> /home/pp/Tawan-pe-/src/install/ired_teleop/share/ired_teleop
+[6.862s] Invoked command in '/home/pp/Tawan-pe-/src/build/ired_teleop' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pp/Tawan-pe-/src/build/ired_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pp/Tawan-pe-/src/install/ired_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pp/Tawan-pe-/src/build/ired_teleop/build --no-deps symlink_data

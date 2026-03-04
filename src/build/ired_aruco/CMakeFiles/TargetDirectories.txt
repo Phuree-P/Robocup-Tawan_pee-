@@ -1,0 +1,9 @@
+/home/pp/Tawan-pe-/src/build/ired_aruco/CMakeFiles/uninstall.dir
+/home/pp/Tawan-pe-/src/build/ired_aruco/CMakeFiles/ired_aruco_uninstall.dir
+/home/pp/Tawan-pe-/src/build/ired_aruco/CMakeFiles/test.dir
+/home/pp/Tawan-pe-/src/build/ired_aruco/CMakeFiles/edit_cache.dir
+/home/pp/Tawan-pe-/src/build/ired_aruco/CMakeFiles/rebuild_cache.dir
+/home/pp/Tawan-pe-/src/build/ired_aruco/CMakeFiles/list_install_components.dir
+/home/pp/Tawan-pe-/src/build/ired_aruco/CMakeFiles/install.dir
+/home/pp/Tawan-pe-/src/build/ired_aruco/CMakeFiles/install/local.dir
+/home/pp/Tawan-pe-/src/build/ired_aruco/CMakeFiles/install/strip.dir

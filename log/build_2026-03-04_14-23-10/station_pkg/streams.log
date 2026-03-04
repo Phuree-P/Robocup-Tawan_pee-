@@ -1,0 +1,24 @@
+[2.089s] Invoking command in '/home/pp/Tawan-pe-/build/station_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pp/Tawan-pe-/build/station_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pp/Tawan-pe-/install/station_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pp/Tawan-pe-/build/station_pkg/build --no-deps symlink_data
+[3.455s] running develop
+[4.527s] running egg_info
+[4.527s] creating station_pkg.egg-info
+[4.631s] writing station_pkg.egg-info/PKG-INFO
+[4.635s] writing dependency_links to station_pkg.egg-info/dependency_links.txt
+[4.635s] writing entry points to station_pkg.egg-info/entry_points.txt
+[4.636s] writing requirements to station_pkg.egg-info/requires.txt
+[4.636s] writing top-level names to station_pkg.egg-info/top_level.txt
+[4.639s] writing manifest file 'station_pkg.egg-info/SOURCES.txt'
+[4.847s] reading manifest file 'station_pkg.egg-info/SOURCES.txt'
+[4.848s] writing manifest file 'station_pkg.egg-info/SOURCES.txt'
+[4.957s] running build_ext
+[4.957s] Creating /home/pp/Tawan-pe-/install/station_pkg/lib/python3.12/site-packages/station-pkg.egg-link (link to .)
+[4.964s] Installing station_detector script to /home/pp/Tawan-pe-/install/station_pkg/lib/station_pkg
+[4.965s] 
+[4.965s] Installed /home/pp/Tawan-pe-/build/station_pkg
+[4.965s] running symlink_data
+[4.965s] creating /home/pp/Tawan-pe-/install/station_pkg/share/ament_index
+[4.965s] creating /home/pp/Tawan-pe-/install/station_pkg/share/ament_index/resource_index
+[4.965s] creating /home/pp/Tawan-pe-/install/station_pkg/share/ament_index/resource_index/packages
+[4.965s] symbolically linking /home/pp/Tawan-pe-/build/station_pkg/resource/station_pkg -> /home/pp/Tawan-pe-/install/station_pkg/share/ament_index/resource_index/packages
+[4.965s] symbolically linking /home/pp/Tawan-pe-/build/station_pkg/package.xml -> /home/pp/Tawan-pe-/install/station_pkg/share/station_pkg
+[5.257s] Invoked command in '/home/pp/Tawan-pe-/build/station_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pp/Tawan-pe-/build/station_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pp/Tawan-pe-/install/station_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pp/Tawan-pe-/build/station_pkg/build --no-deps symlink_data

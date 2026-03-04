@@ -1,4 +1,4 @@
 import sys
 if sys.prefix == '/usr':
     sys.real_prefix = sys.prefix
-    sys.prefix = sys.exec_prefix = '/home/pi/robot_ws/install/ros2_aruco'
+    sys.prefix = sys.exec_prefix = '/home/pp/Tawan-pe-/install/ros2_aruco'

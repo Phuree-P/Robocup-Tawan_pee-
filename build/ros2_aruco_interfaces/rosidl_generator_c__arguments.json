@@ -1,12 +1,12 @@
 {
   "package_name": "ros2_aruco_interfaces",
-  "output_dir": "/home/pi/robot_ws/build/ros2_aruco_interfaces/rosidl_generator_c/ros2_aruco_interfaces",
+  "output_dir": "/home/pp/Tawan-pe-/build/ros2_aruco_interfaces/rosidl_generator_c/ros2_aruco_interfaces",
   "template_dir": "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
-    "/home/pi/robot_ws/build/ros2_aruco_interfaces/rosidl_adapter/ros2_aruco_interfaces:msg/ArucoMarkers.idl"
+    "/home/pp/Tawan-pe-/build/ros2_aruco_interfaces/rosidl_adapter/ros2_aruco_interfaces:msg/ArucoMarkers.idl"
   ],
   "ros_interface_files": [
-    "/home/pi/robot_ws/src/aruco_marker/ros2_aruco/ros2_aruco_interfaces/msg/ArucoMarkers.msg"
+    "/home/pp/Tawan-pe-/src/aruco_marker/ros2_aruco/ros2_aruco_interfaces/msg/ArucoMarkers.msg"
   ],
   "ros_interface_dependencies": [
     "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl",
@@ -94,7 +94,7 @@
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
-    "/home/pi/robot_ws/build/ros2_aruco_interfaces/rosidl_adapter/ros2_aruco_interfaces/msg/ArucoMarkers.idl",
+    "/home/pp/Tawan-pe-/build/ros2_aruco_interfaces/rosidl_adapter/ros2_aruco_interfaces/msg/ArucoMarkers.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/AccelStamped.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/AccelWithCovariance.idl",
@@ -161,6 +161,6 @@
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
   ],
   "type_description_tuples": [
-    "msg/ArucoMarkers.idl:/home/pi/robot_ws/build/ros2_aruco_interfaces/rosidl_generator_type_description/ros2_aruco_interfaces/msg/ArucoMarkers.json"
+    "msg/ArucoMarkers.idl:/home/pp/Tawan-pe-/build/ros2_aruco_interfaces/rosidl_generator_type_description/ros2_aruco_interfaces/msg/ArucoMarkers.json"
   ]
 }

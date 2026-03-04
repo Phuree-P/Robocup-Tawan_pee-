@@ -1,0 +1,24 @@
+[3.950s] Invoking command in '/home/pp/Tawan-pe-/src/build/motion_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pp/Tawan-pe-/src/build/motion_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pp/Tawan-pe-/src/install/motion_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pp/Tawan-pe-/src/build/motion_control/build --no-deps symlink_data
+[6.290s] running develop
+[8.014s] running egg_info
+[8.014s] creating motion_control.egg-info
+[8.223s] writing motion_control.egg-info/PKG-INFO
+[8.223s] writing dependency_links to motion_control.egg-info/dependency_links.txt
+[8.223s] writing entry points to motion_control.egg-info/entry_points.txt
+[8.224s] writing requirements to motion_control.egg-info/requires.txt
+[8.224s] writing top-level names to motion_control.egg-info/top_level.txt
+[8.224s] writing manifest file 'motion_control.egg-info/SOURCES.txt'
+[8.625s] reading manifest file 'motion_control.egg-info/SOURCES.txt'
+[8.626s] writing manifest file 'motion_control.egg-info/SOURCES.txt'
+[8.813s] running build_ext
+[8.816s] Creating /home/pp/Tawan-pe-/src/install/motion_control/lib/python3.12/site-packages/motion-control.egg-link (link to .)
+[8.838s] Installing omni_docking_controller script to /home/pp/Tawan-pe-/src/install/motion_control/lib/motion_control
+[8.838s] 
+[8.838s] Installed /home/pp/Tawan-pe-/src/build/motion_control
+[8.839s] running symlink_data
+[8.839s] creating /home/pp/Tawan-pe-/src/install/motion_control/share/ament_index
+[8.839s] creating /home/pp/Tawan-pe-/src/install/motion_control/share/ament_index/resource_index
+[8.839s] creating /home/pp/Tawan-pe-/src/install/motion_control/share/ament_index/resource_index/packages
+[8.839s] symbolically linking /home/pp/Tawan-pe-/src/build/motion_control/resource/motion_control -> /home/pp/Tawan-pe-/src/install/motion_control/share/ament_index/resource_index/packages
+[8.839s] symbolically linking /home/pp/Tawan-pe-/src/build/motion_control/package.xml -> /home/pp/Tawan-pe-/src/install/motion_control/share/motion_control
+[9.278s] Invoked command in '/home/pp/Tawan-pe-/src/build/motion_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pp/Tawan-pe-/src/build/motion_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pp/Tawan-pe-/src/install/motion_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pp/Tawan-pe-/src/build/motion_control/build --no-deps symlink_data

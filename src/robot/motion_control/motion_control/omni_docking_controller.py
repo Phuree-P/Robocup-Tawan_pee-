@@ -10,10 +10,12 @@ class OmniDockingController(Node):
 
         # ── Publishers & Subscribers ──────────────────────────────────────────
         # 🎯 เปลี่ยนชนิดข้อความเป็น TwistStamped
-        self.cmd_pub = self.create_publisher(TwistStamped, '/cmd_vel', 10)
+        self.cmd_pub = self.create_publisher(
+                TwistStamped, 
+                '/cmd_vel', 10)
         self.error_sub = self.create_subscription(
             Vector3, 
-            '/docking_error', 
+            '/station_vector', 
             self.error_callback,  
             10
         )
@@ -46,7 +48,7 @@ class OmniDockingController(Node):
         # ── PID State ─────────────────────────────────────────────────────────
         self.integral  = [0.0, 0.0, 0.0]   
         self.prev_error = [0.0, 0.0, 0.0]
-        self.integral_limit = 0.3           
+        self.integral_limit  = 0.3           
 
         # ── Watchdog: stop robot if perception node dies ──────────────────────
         self.watchdog_timeout = 0.5         

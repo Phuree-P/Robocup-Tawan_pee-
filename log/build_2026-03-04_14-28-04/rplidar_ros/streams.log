@@ -1,0 +1,32 @@
+[0.740s] Invoking command in '/home/pp/Tawan-pe-/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pp/Tawan-pe-/build/rplidar_ros -- -j12 -l12
+[0.828s] [  5%] Built target rplidar_client
+[0.852s] [ 52%] Built target rplidar_node
+[0.854s] [100%] Built target rplidar_composition
+[0.905s] Invoked command in '/home/pp/Tawan-pe-/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pp/Tawan-pe-/build/rplidar_ros -- -j12 -l12
+[0.906s] Invoking command in '/home/pp/Tawan-pe-/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pp/Tawan-pe-/build/rplidar_ros
+[1.111s] -- Install configuration: ""
+[1.111s] -- Execute custom install script
+[1.111s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py
+[1.111s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py
+[1.111s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz
+[1.111s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/rplidar_ros/lib/rplidar_ros/rplidar_node
+[1.111s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[1.112s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/rplidar_ros/lib/rplidar_ros/rplidar_client
+[1.112s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[1.112s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[1.112s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[1.112s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[1.112s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[1.112s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[1.112s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[1.112s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[1.112s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[1.113s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[1.113s] -- Symlinking: /home/pp/Tawan-pe-/install/rplidar_ros/share/rplidar_ros/package.dsv
+[1.113s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[1.113s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.113s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.113s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[1.113s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[1.113s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/rplidar_ros/share/rplidar_ros/package.xml
+[1.117s] Invoked command in '/home/pp/Tawan-pe-/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pp/Tawan-pe-/build/rplidar_ros

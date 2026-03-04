@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/robot_ws/src/robot/ired_navigation
+CMAKE_SOURCE_DIR = /home/pp/Tawan-pe-/src/robot/ired_navigation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/robot_ws/build/ired_navigation
+CMAKE_BINARY_DIR = /home/pp/Tawan-pe-/build/ired_navigation
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/pi/robot_ws/build/ired_navigation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/robot_ws/src/robot/ired_navigation /home/pi/robot_ws/src/robot/ired_navigation /home/pi/robot_ws/build/ired_navigation /home/pi/robot_ws/build/ired_navigation /home/pi/robot_ws/build/ired_navigation/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/pp/Tawan-pe-/build/ired_navigation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pp/Tawan-pe-/src/robot/ired_navigation /home/pp/Tawan-pe-/src/robot/ired_navigation /home/pp/Tawan-pe-/build/ired_navigation /home/pp/Tawan-pe-/build/ired_navigation /home/pp/Tawan-pe-/build/ired_navigation/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uninstall.dir/depend
 

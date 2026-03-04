@@ -1,0 +1,323 @@
+[0.036s] Invoking command in '/home/pp/Tawan-pe-/build/ired_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pp/Tawan-pe-/src/robot/ired_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pp/Tawan-pe-/install/ired_msgs
+[0.936s] -- The C compiler identification is GNU 13.3.0
+[0.937s] -- The CXX compiler identification is GNU 13.3.0
+[0.937s] -- Detecting C compiler ABI info
+[0.937s] -- Detecting C compiler ABI info - done
+[0.937s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.937s] -- Detecting C compile features
+[0.937s] -- Detecting C compile features - done
+[0.937s] -- Detecting CXX compiler ABI info
+[0.937s] -- Detecting CXX compiler ABI info - done
+[0.937s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.937s] -- Detecting CXX compile features
+[0.937s] -- Detecting CXX compile features - done
+[0.937s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.938s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.938s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.938s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.938s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.938s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.938s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.938s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.938s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.938s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.199s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[4.298s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.281s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.287s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[5.668s] -- Found PythonExtra: /usr/bin/python3  
+[6.893s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[7.022s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[7.116s] -- Added test 'lint_cmake' to check CMake code style
+[7.125s] -- Added test 'xmllint' to check XML markup files
+[7.151s] -- Configuring done (7.1s)
+[7.388s] -- Generating done (0.2s)
+[7.442s] -- Build files have been written to: /home/pp/Tawan-pe-/build/ired_msgs
+[7.517s] Invoked command in '/home/pp/Tawan-pe-/build/ired_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pp/Tawan-pe-/src/robot/ired_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pp/Tawan-pe-/install/ired_msgs
+[7.517s] Invoking command in '/home/pp/Tawan-pe-/build/ired_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pp/Tawan-pe-/build/ired_msgs -- -j12 -l12
+[7.652s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[7.686s] [  1%] Built target ament_cmake_python_symlink_ired_msgs
+[8.204s] running egg_info
+[8.207s] creating ired_msgs.egg-info
+[8.248s] writing ired_msgs.egg-info/PKG-INFO
+[8.248s] writing dependency_links to ired_msgs.egg-info/dependency_links.txt
+[8.249s] writing top-level names to ired_msgs.egg-info/top_level.txt
+[8.250s] writing manifest file 'ired_msgs.egg-info/SOURCES.txt'
+[8.280s] [  1%] Built target ired_msgs__rosidl_generator_type_description
+[8.310s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.343s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.358s] reading manifest file 'ired_msgs.egg-info/SOURCES.txt'
+[8.361s] writing manifest file 'ired_msgs.egg-info/SOURCES.txt'
+[8.430s] [  4%] Built target ament_cmake_python_build_ired_msgs_egg
+[9.157s] [  5%] [32mBuilding C object CMakeFiles/ired_msgs__rosidl_generator_c.dir/rosidl_generator_c/ired_msgs/msg/detail/imu_data__type_support.c.o[0m
+[9.157s] [  6%] [32mBuilding C object CMakeFiles/ired_msgs__rosidl_generator_c.dir/rosidl_generator_c/ired_msgs/msg/detail/imu_data__description.c.o[0m
+[9.157s] [  8%] [32mBuilding C object CMakeFiles/ired_msgs__rosidl_generator_c.dir/rosidl_generator_c/ired_msgs/msg/detail/imu_data__functions.c.o[0m
+[9.161s] [  9%] [32mBuilding C object CMakeFiles/ired_msgs__rosidl_generator_c.dir/rosidl_generator_c/ired_msgs/msg/detail/motor_control__functions.c.o[0m
+[9.163s] [ 10%] [32mBuilding C object CMakeFiles/ired_msgs__rosidl_generator_c.dir/rosidl_generator_c/ired_msgs/msg/detail/motor_control__description.c.o[0m
+[9.166s] [ 12%] [32mBuilding C object CMakeFiles/ired_msgs__rosidl_generator_c.dir/rosidl_generator_c/ired_msgs/msg/detail/motor_control__type_support.c.o[0m
+[9.174s] [ 13%] [32mBuilding C object CMakeFiles/ired_msgs__rosidl_generator_c.dir/rosidl_generator_c/ired_msgs/msg/detail/motor_data__description.c.o[0m
+[9.174s] [ 16%] [32mBuilding C object CMakeFiles/ired_msgs__rosidl_generator_c.dir/rosidl_generator_c/ired_msgs/msg/detail/motor_speed__functions.c.o[0m
+[9.174s] [ 16%] [32mBuilding C object CMakeFiles/ired_msgs__rosidl_generator_c.dir/rosidl_generator_c/ired_msgs/msg/detail/motor_data__type_support.c.o[0m
+[9.174s] [ 17%] [32mBuilding C object CMakeFiles/ired_msgs__rosidl_generator_c.dir/rosidl_generator_c/ired_msgs/msg/detail/motor_data__functions.c.o[0m
+[9.181s] [ 18%] [32mBuilding C object CMakeFiles/ired_msgs__rosidl_generator_c.dir/rosidl_generator_c/ired_msgs/msg/detail/motor_speed__description.c.o[0m
+[9.251s] [ 20%] [32mBuilding C object CMakeFiles/ired_msgs__rosidl_generator_c.dir/rosidl_generator_c/ired_msgs/msg/detail/motor_speed__type_support.c.o[0m
+[9.252s] [ 21%] [32mBuilding C object CMakeFiles/ired_msgs__rosidl_generator_c.dir/rosidl_generator_c/ired_msgs/srv/detail/pid_tuning__description.c.o[0m
+[9.265s] [ 22%] [32mBuilding C object CMakeFiles/ired_msgs__rosidl_generator_c.dir/rosidl_generator_c/ired_msgs/srv/detail/pid_tuning__functions.c.o[0m
+[9.265s] [ 24%] [32mBuilding C object CMakeFiles/ired_msgs__rosidl_generator_c.dir/rosidl_generator_c/ired_msgs/srv/detail/pid_tuning__type_support.c.o[0m
+[9.359s] [ 24%] Built target ired_msgs__cpp
+[9.388s] [ 25%] [32m[1mLinking C shared library libired_msgs__rosidl_generator_c.so[0m
+[9.440s] [ 25%] Built target ired_msgs__rosidl_generator_c
+[9.456s] [ 27%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[9.468s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[9.470s] [ 29%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[9.477s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[9.484s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[9.485s] [ 33%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[9.965s] [ 35%] [32mBuilding CXX object CMakeFiles/ired_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ired_msgs/msg/imu_data__type_support.cpp.o[0m
+[9.972s] [ 36%] [32mBuilding CXX object CMakeFiles/ired_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ired_msgs/msg/motor_control__type_support.cpp.o[0m
+[9.974s] [ 37%] [32mBuilding CXX object CMakeFiles/ired_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ired_msgs/msg/motor_speed__type_support.cpp.o[0m
+[9.975s] [ 39%] [32mBuilding CXX object CMakeFiles/ired_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ired_msgs/srv/pid_tuning__type_support.cpp.o[0m
+[9.986s] [ 40%] [32mBuilding CXX object CMakeFiles/ired_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ired_msgs/msg/motor_data__type_support.cpp.o[0m
+[10.160s] [ 41%] [32mBuilding C object CMakeFiles/ired_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ired_msgs/msg/detail/motor_control__type_support.c.o[0m
+[10.161s] [ 43%] [32mBuilding C object CMakeFiles/ired_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ired_msgs/msg/detail/imu_data__type_support.c.o[0m
+[10.166s] [ 44%] [32mBuilding C object CMakeFiles/ired_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ired_msgs/msg/detail/motor_data__type_support.c.o[0m
+[10.205s] [ 45%] [32mBuilding CXX object CMakeFiles/ired_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ired_msgs/msg/imu_data__type_support.cpp.o[0m
+[10.251s] [ 47%] [32mBuilding CXX object CMakeFiles/ired_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ired_msgs/msg/motor_control__type_support.cpp.o[0m
+[10.294s] [ 48%] [32mBuilding CXX object CMakeFiles/ired_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ired_msgs/msg/motor_data__type_support.cpp.o[0m
+[10.301s] [ 50%] [32mBuilding C object CMakeFiles/ired_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ired_msgs/msg/detail/motor_speed__type_support.c.o[0m
+[10.308s] [ 51%] [32mBuilding C object CMakeFiles/ired_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ired_msgs/srv/detail/pid_tuning__type_support.c.o[0m
+[10.376s] [ 52%] [32mBuilding CXX object CMakeFiles/ired_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ired_msgs/msg/motor_speed__type_support.cpp.o[0m
+[10.417s] [ 54%] [32mBuilding CXX object CMakeFiles/ired_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ired_msgs/srv/pid_tuning__type_support.cpp.o[0m
+[10.452s] [ 55%] [32m[1mLinking C shared library libired_msgs__rosidl_typesupport_introspection_c.so[0m
+[10.452s] [ 56%] [32mBuilding CXX object CMakeFiles/ired_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ired_msgs/msg/detail/dds_fastrtps/motor_control__type_support.cpp.o[0m
+[10.457s] [ 58%] [32mBuilding CXX object CMakeFiles/ired_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ired_msgs/msg/detail/dds_fastrtps/imu_data__type_support.cpp.o[0m
+[10.474s] [ 59%] [32mBuilding CXX object CMakeFiles/ired_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ired_msgs/msg/detail/imu_data__type_support.cpp.o[0m
+[10.481s] [ 60%] [32mBuilding CXX object CMakeFiles/ired_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ired_msgs/msg/detail/motor_control__type_support.cpp.o[0m
+[10.548s] [ 60%] Built target ired_msgs__rosidl_typesupport_introspection_c
+[10.548s] [ 62%] [32m[1mLinking CXX shared library libired_msgs__rosidl_typesupport_c.so[0m
+[10.573s] [ 63%] [32mBuilding CXX object CMakeFiles/ired_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ired_msgs/msg/detail/motor_data__type_support.cpp.o[0m
+[10.650s] [ 64%] [32mBuilding CXX object CMakeFiles/ired_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ired_msgs/msg/detail/motor_speed__type_support.cpp.o[0m
+[10.652s] [ 66%] [32mBuilding CXX object CMakeFiles/ired_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ired_msgs/msg/detail/dds_fastrtps/motor_data__type_support.cpp.o[0m
+[10.698s] [ 66%] Built target ired_msgs__rosidl_typesupport_c
+[10.742s] [ 67%] [32mBuilding CXX object CMakeFiles/ired_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ired_msgs/msg/detail/dds_fastrtps/motor_speed__type_support.cpp.o[0m
+[10.772s] [ 68%] [32mBuilding CXX object CMakeFiles/ired_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ired_msgs/srv/detail/pid_tuning__type_support.cpp.o[0m
+[10.775s] [ 70%] [32mBuilding CXX object CMakeFiles/ired_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ired_msgs/msg/detail/imu_data__type_support_c.cpp.o[0m
+[10.805s] [ 71%] [32mBuilding CXX object CMakeFiles/ired_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ired_msgs/msg/detail/motor_control__type_support_c.cpp.o[0m
+[10.817s] [ 72%] [32m[1mLinking CXX shared library libired_msgs__rosidl_typesupport_cpp.so[0m
+[11.150s] [ 74%] [32mBuilding CXX object CMakeFiles/ired_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ired_msgs/srv/detail/dds_fastrtps/pid_tuning__type_support.cpp.o[0m
+[11.199s] [ 74%] Built target ired_msgs__rosidl_typesupport_cpp
+[11.227s] [ 75%] [32mBuilding CXX object CMakeFiles/ired_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ired_msgs/msg/detail/motor_data__type_support_c.cpp.o[0m
+[11.325s] [ 77%] [32mBuilding CXX object CMakeFiles/ired_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ired_msgs/msg/detail/motor_speed__type_support_c.cpp.o[0m
+[11.443s] [ 78%] [32mBuilding CXX object CMakeFiles/ired_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ired_msgs/srv/detail/pid_tuning__type_support_c.cpp.o[0m
+[11.856s] [ 79%] [32m[1mLinking CXX shared library libired_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[12.000s] [ 79%] Built target ired_msgs__rosidl_typesupport_introspection_cpp
+[12.220s] [ 81%] [32m[1mLinking CXX shared library libired_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[12.324s] [ 81%] Built target ired_msgs__rosidl_typesupport_fastrtps_c
+[12.332s] [ 82%] [32m[1mLinking CXX shared library libired_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[12.419s] [ 82%] Built target ired_msgs__rosidl_typesupport_fastrtps_cpp
+[12.439s] [ 82%] Built target ired_msgs
+[12.462s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[13.059s] [ 83%] Built target ired_msgs__py
+[13.084s] [ 86%] [32mBuilding C object CMakeFiles/ired_msgs__rosidl_generator_py.dir/rosidl_generator_py/ired_msgs/msg/_motor_control_s.c.o[0m
+[13.084s] [ 86%] [32mBuilding C object CMakeFiles/ired_msgs__rosidl_generator_py.dir/rosidl_generator_py/ired_msgs/msg/_motor_data_s.c.o[0m
+[13.084s] [ 87%] [32mBuilding C object CMakeFiles/ired_msgs__rosidl_generator_py.dir/rosidl_generator_py/ired_msgs/msg/_imu_data_s.c.o[0m
+[13.088s] [ 90%] [32mBuilding C object CMakeFiles/ired_msgs__rosidl_generator_py.dir/rosidl_generator_py/ired_msgs/srv/_pid_tuning_s.c.o[0m
+[13.089s] [ 90%] [32mBuilding C object CMakeFiles/ired_msgs__rosidl_generator_py.dir/rosidl_generator_py/ired_msgs/msg/_motor_speed_s.c.o[0m
+[13.272s] [ 91%] [32m[1mLinking C shared library libired_msgs__rosidl_generator_py.so[0m
+[13.329s] [ 91%] Built target ired_msgs__rosidl_generator_py
+[13.353s] [ 95%] [32mBuilding C object CMakeFiles/ired_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/ired_msgs/_ired_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[13.353s] [ 95%] [32mBuilding C object CMakeFiles/ired_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/ired_msgs/_ired_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[13.353s] [ 95%] [32mBuilding C object CMakeFiles/ired_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/ired_msgs/_ired_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[13.480s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/ired_msgs/ired_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[13.504s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/ired_msgs/ired_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[13.507s] [100%] [32m[1mLinking C shared module rosidl_generator_py/ired_msgs/ired_msgs_s__rosidl_typesupport_c.so[0m
+[13.516s] [100%] Built target ired_msgs_s__rosidl_typesupport_fastrtps_c
+[13.537s] [100%] Built target ired_msgs_s__rosidl_typesupport_introspection_c
+[13.546s] [100%] Built target ired_msgs_s__rosidl_typesupport_c
+[13.562s] Invoked command in '/home/pp/Tawan-pe-/build/ired_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pp/Tawan-pe-/build/ired_msgs -- -j12 -l12
+[13.563s] Invoking command in '/home/pp/Tawan-pe-/build/ired_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pp/Tawan-pe-/build/ired_msgs
+[13.574s] -- Install configuration: ""
+[13.574s] -- Execute custom install script
+[13.575s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ament_index/resource_index/rosidl_interfaces/ired_msgs
+[13.587s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/msg/IMUData.json
+[13.598s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/msg/MotorControl.json
+[13.608s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/msg/MotorData.json
+[13.617s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/msg/MotorSpeed.json
+[13.628s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/srv/PIDTuning.json
+[13.639s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/imu_data__functions.h
+[13.650s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/imu_data__struct.h
+[13.659s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/imu_data__type_support.h
+[13.668s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_control__functions.h
+[13.678s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_control__struct.h
+[13.687s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_control__type_support.h
+[13.697s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_data__functions.h
+[13.708s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_data__struct.h
+[13.719s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_data__type_support.h
+[13.730s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_speed__functions.h
+[13.742s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_speed__struct.h
+[13.752s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_speed__type_support.h
+[13.763s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/imu_data.h
+[13.772s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/motor_control.h
+[13.781s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/motor_data.h
+[13.792s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/motor_speed.h
+[13.803s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/rosidl_generator_c__visibility_control.h
+[13.816s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/srv/detail/pid_tuning__functions.h
+[13.828s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/srv/detail/pid_tuning__struct.h
+[13.837s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/srv/detail/pid_tuning__type_support.h
+[13.846s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/srv/pid_tuning.h
+[13.856s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/environment/library_path.sh
+[13.865s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/environment/library_path.dsv
+[13.875s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/imu_data__rosidl_typesupport_fastrtps_c.h
+[13.885s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_control__rosidl_typesupport_fastrtps_c.h
+[13.895s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_data__rosidl_typesupport_fastrtps_c.h
+[13.904s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_speed__rosidl_typesupport_fastrtps_c.h
+[13.914s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[13.923s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/srv/detail/pid_tuning__rosidl_typesupport_fastrtps_c.h
+[13.933s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/imu_data__builder.hpp
+[13.942s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/imu_data__struct.hpp
+[13.951s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/imu_data__traits.hpp
+[13.961s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/imu_data__type_support.hpp
+[13.970s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_control__builder.hpp
+[13.979s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_control__struct.hpp
+[13.990s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_control__traits.hpp
+[13.999s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_control__type_support.hpp
+[14.008s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_data__builder.hpp
+[14.017s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_data__struct.hpp
+[14.026s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_data__traits.hpp
+[14.035s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_data__type_support.hpp
+[14.045s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_speed__builder.hpp
+[14.054s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_speed__struct.hpp
+[14.063s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_speed__traits.hpp
+[14.072s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_speed__type_support.hpp
+[14.081s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/imu_data.hpp
+[14.090s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/motor_control.hpp
+[14.100s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/motor_data.hpp
+[14.109s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/motor_speed.hpp
+[14.117s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[14.125s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/srv/detail/pid_tuning__builder.hpp
+[14.134s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/srv/detail/pid_tuning__struct.hpp
+[14.143s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/srv/detail/pid_tuning__traits.hpp
+[14.152s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/srv/detail/pid_tuning__type_support.hpp
+[14.162s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/srv/pid_tuning.hpp
+[14.172s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/imu_data__rosidl_typesupport_fastrtps_cpp.hpp
+[14.181s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_control__rosidl_typesupport_fastrtps_cpp.hpp
+[14.190s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_data__rosidl_typesupport_fastrtps_cpp.hpp
+[14.199s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_speed__rosidl_typesupport_fastrtps_cpp.hpp
+[14.208s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[14.218s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/srv/detail/pid_tuning__rosidl_typesupport_fastrtps_cpp.hpp
+[14.229s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/imu_data__rosidl_typesupport_introspection_c.h
+[14.239s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_control__rosidl_typesupport_introspection_c.h
+[14.250s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_data__rosidl_typesupport_introspection_c.h
+[14.260s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_speed__rosidl_typesupport_introspection_c.h
+[14.269s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[14.279s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/srv/detail/pid_tuning__rosidl_typesupport_introspection_c.h
+[14.288s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/imu_data__rosidl_typesupport_introspection_cpp.hpp
+[14.297s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_control__rosidl_typesupport_introspection_cpp.hpp
+[14.306s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_data__rosidl_typesupport_introspection_cpp.hpp
+[14.316s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/msg/detail/motor_speed__rosidl_typesupport_introspection_cpp.hpp
+[14.324s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/include/ired_msgs/ired_msgs/srv/detail/pid_tuning__rosidl_typesupport_introspection_cpp.hpp
+[14.333s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/environment/pythonpath.sh
+[14.342s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/environment/pythonpath.dsv
+[14.353s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages/ired_msgs-2.0.1-py3.12.egg-info/PKG-INFO
+[14.362s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages/ired_msgs-2.0.1-py3.12.egg-info/SOURCES.txt
+[14.371s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages/ired_msgs-2.0.1-py3.12.egg-info/dependency_links.txt
+[14.380s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages/ired_msgs-2.0.1-py3.12.egg-info/top_level.txt
+[14.392s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/__init__.py
+[14.401s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/_ired_msgs_s.ep.rosidl_typesupport_c.c
+[14.410s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/_ired_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[14.418s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/_ired_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[14.428s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/ired_msgs_s__rosidl_typesupport_c.so
+[14.438s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/ired_msgs_s__rosidl_typesupport_fastrtps_c.so
+[14.447s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/ired_msgs_s__rosidl_typesupport_introspection_c.so
+[14.457s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/msg/__init__.py
+[14.467s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/msg/_imu_data.py
+[14.476s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/msg/_imu_data_s.c
+[14.485s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/msg/_motor_control.py
+[14.494s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/msg/_motor_control_s.c
+[14.503s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/msg/_motor_data.py
+[14.512s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/msg/_motor_data_s.c
+[14.521s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/msg/_motor_speed.py
+[14.530s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/msg/_motor_speed_s.c
+[14.540s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/srv/__init__.py
+[14.549s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/srv/_pid_tuning.py
+[14.559s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/srv/_pid_tuning_s.c
+[14.569s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/ired_msgs_s__rosidl_typesupport_fastrtps_c.so
+[14.569s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/ired_msgs_s__rosidl_typesupport_introspection_c.so
+[14.569s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/ired_msgs_s__rosidl_typesupport_c.so
+[14.569s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/msg/IMUData.idl
+[14.580s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/msg/MotorControl.idl
+[14.589s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/msg/MotorData.idl
+[14.598s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/msg/MotorSpeed.idl
+[14.608s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/srv/PIDTuning.idl
+[14.617s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/msg/IMUData.msg
+[14.624s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/msg/MotorControl.msg
+[14.633s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/msg/MotorData.msg
+[14.642s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/msg/MotorSpeed.msg
+[14.650s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/srv/PIDTuning.srv
+[14.659s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ament_index/resource_index/package_run_dependencies/ired_msgs
+[14.668s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ament_index/resource_index/parent_prefix_path/ired_msgs
+[14.677s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/environment/ament_prefix_path.sh
+[14.686s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/environment/ament_prefix_path.dsv
+[14.695s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/environment/path.sh
+[14.705s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/environment/path.dsv
+[14.714s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/local_setup.bash
+[14.724s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/local_setup.sh
+[14.733s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/local_setup.zsh
+[14.745s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/local_setup.dsv
+[14.756s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/package.dsv
+[14.765s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ament_index/resource_index/packages/ired_msgs
+[14.774s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/cmake/rosidl_cmake-extras.cmake
+[14.783s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.792s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.802s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[14.810s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[14.819s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[14.828s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[14.837s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/cmake/ired_msgsConfig.cmake
+[14.845s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/cmake/ired_msgsConfig-version.cmake
+[14.854s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/package.xml
+[14.862s] -- Installing: /home/pp/Tawan-pe-/install/ired_msgs/lib/libired_msgs__rosidl_generator_c.so
+[14.863s] -- Set non-toolchain portion of runtime path of "/home/pp/Tawan-pe-/install/ired_msgs/lib/libired_msgs__rosidl_generator_c.so" to ""
+[14.863s] -- Installing: /home/pp/Tawan-pe-/install/ired_msgs/lib/libired_msgs__rosidl_typesupport_fastrtps_c.so
+[14.863s] -- Set non-toolchain portion of runtime path of "/home/pp/Tawan-pe-/install/ired_msgs/lib/libired_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[14.863s] -- Installing: /home/pp/Tawan-pe-/install/ired_msgs/lib/libired_msgs__rosidl_typesupport_fastrtps_cpp.so
+[14.863s] -- Set non-toolchain portion of runtime path of "/home/pp/Tawan-pe-/install/ired_msgs/lib/libired_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[14.863s] -- Installing: /home/pp/Tawan-pe-/install/ired_msgs/lib/libired_msgs__rosidl_typesupport_introspection_c.so
+[14.864s] -- Set non-toolchain portion of runtime path of "/home/pp/Tawan-pe-/install/ired_msgs/lib/libired_msgs__rosidl_typesupport_introspection_c.so" to ""
+[14.864s] -- Installing: /home/pp/Tawan-pe-/install/ired_msgs/lib/libired_msgs__rosidl_typesupport_c.so
+[14.864s] -- Set non-toolchain portion of runtime path of "/home/pp/Tawan-pe-/install/ired_msgs/lib/libired_msgs__rosidl_typesupport_c.so" to ""
+[14.864s] -- Installing: /home/pp/Tawan-pe-/install/ired_msgs/lib/libired_msgs__rosidl_typesupport_introspection_cpp.so
+[14.864s] -- Set non-toolchain portion of runtime path of "/home/pp/Tawan-pe-/install/ired_msgs/lib/libired_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[14.864s] -- Installing: /home/pp/Tawan-pe-/install/ired_msgs/lib/libired_msgs__rosidl_typesupport_cpp.so
+[14.865s] -- Set non-toolchain portion of runtime path of "/home/pp/Tawan-pe-/install/ired_msgs/lib/libired_msgs__rosidl_typesupport_cpp.so" to ""
+[14.903s] Listing '/home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages/ired_msgs'...
+[14.904s] Compiling '/home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/__init__.py'...
+[14.904s] Listing '/home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/msg'...
+[14.904s] Compiling '/home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/msg/__init__.py'...
+[14.904s] Compiling '/home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/msg/_imu_data.py'...
+[14.904s] Compiling '/home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/msg/_motor_control.py'...
+[14.904s] Compiling '/home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/msg/_motor_data.py'...
+[14.904s] Compiling '/home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/msg/_motor_speed.py'...
+[14.904s] Listing '/home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/srv'...
+[14.904s] Compiling '/home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/srv/__init__.py'...
+[14.904s] Compiling '/home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages/ired_msgs/srv/_pid_tuning.py'...
+[14.908s] -- Installing: /home/pp/Tawan-pe-/install/ired_msgs/lib/libired_msgs__rosidl_generator_py.so
+[14.909s] -- Set non-toolchain portion of runtime path of "/home/pp/Tawan-pe-/install/ired_msgs/lib/libired_msgs__rosidl_generator_py.so" to ""
+[14.909s] -- Installing: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/cmake/export_ired_msgs__rosidl_generator_cExport.cmake
+[14.909s] -- Installing: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/cmake/export_ired_msgs__rosidl_generator_cExport-noconfig.cmake
+[14.909s] -- Installing: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/cmake/export_ired_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[14.909s] -- Installing: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/cmake/export_ired_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[14.910s] -- Installing: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/cmake/export_ired_msgs__rosidl_generator_cppExport.cmake
+[14.910s] -- Installing: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/cmake/export_ired_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[14.910s] -- Installing: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/cmake/export_ired_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[14.910s] -- Installing: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/cmake/ired_msgs__rosidl_typesupport_introspection_cExport.cmake
+[14.910s] -- Installing: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/cmake/ired_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[14.910s] -- Installing: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/cmake/ired_msgs__rosidl_typesupport_cExport.cmake
+[14.910s] -- Installing: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/cmake/ired_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[14.910s] -- Installing: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/cmake/ired_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[14.911s] -- Installing: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/cmake/ired_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[14.911s] -- Installing: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/cmake/ired_msgs__rosidl_typesupport_cppExport.cmake
+[14.911s] -- Installing: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/cmake/ired_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[14.911s] -- Installing: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/cmake/export_ired_msgs__rosidl_generator_pyExport.cmake
+[14.911s] -- Installing: /home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/cmake/export_ired_msgs__rosidl_generator_pyExport-noconfig.cmake
+[14.913s] Invoked command in '/home/pp/Tawan-pe-/build/ired_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pp/Tawan-pe-/build/ired_msgs

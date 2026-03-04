@@ -4,6 +4,3 @@ source;share/ired_movetogoal/hook/pythonpath.sh
 source;share/ired_movetogoal/hook/ament_prefix_path.ps1
 source;share/ired_movetogoal/hook/ament_prefix_path.dsv
 source;share/ired_movetogoal/hook/ament_prefix_path.sh
-source;../../build/ired_movetogoal/share/ired_movetogoal/hook/pythonpath_develop.ps1
-source;../../build/ired_movetogoal/share/ired_movetogoal/hook/pythonpath_develop.dsv
-source;../../build/ired_movetogoal/share/ired_movetogoal/hook/pythonpath_develop.sh

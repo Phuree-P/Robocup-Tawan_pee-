@@ -3,10 +3,9 @@
 <package format="3">
   <name>motion_control</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
   <maintainer email="plainakalin@gmail.com">pi</maintainer>
-  <license>TODO: License declaration</license>
-  <description>Hello wolrd</description>		
+  <license>TODO: License declaration</license>		
+  <description>My robot motion control package</description>
 
   <depend>rclpy</depend>
   <depend>geometry_msgs</depend>

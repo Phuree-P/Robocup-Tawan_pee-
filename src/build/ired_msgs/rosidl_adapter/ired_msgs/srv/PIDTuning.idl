@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ired_msgs/srv/PIDTuning.srv
+// generated code does not contain a copyright notice
+
+
+module ired_msgs {
+  module srv {
+    struct PIDTuning_Request {
+      string motor;
+
+      double kp;
+
+      double ki;
+
+      double kd;
+    };
+    struct PIDTuning_Response {
+      boolean status;
+    };
+  };
+};

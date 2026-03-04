@@ -1,0 +1,29 @@
+[3.244s] Invoking command in '/home/pp/Tawan-pe-/src/build/ros2_aruco': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pp/Tawan-pe-/src/build/ros2_aruco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pp/Tawan-pe-/src/install/ros2_aruco/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pp/Tawan-pe-/src/build/ros2_aruco/build --no-deps symlink_data
+[4.938s] running develop
+[6.530s] running egg_info
+[6.531s] creating ros2_aruco.egg-info
+[6.716s] writing ros2_aruco.egg-info/PKG-INFO
+[6.717s] writing dependency_links to ros2_aruco.egg-info/dependency_links.txt
+[6.718s] writing entry points to ros2_aruco.egg-info/entry_points.txt
+[6.718s] writing requirements to ros2_aruco.egg-info/requires.txt
+[6.718s] writing top-level names to ros2_aruco.egg-info/top_level.txt
+[6.718s] writing manifest file 'ros2_aruco.egg-info/SOURCES.txt'
+[7.104s] reading manifest file 'ros2_aruco.egg-info/SOURCES.txt'
+[7.116s] writing manifest file 'ros2_aruco.egg-info/SOURCES.txt'
+[7.315s] running build_ext
+[7.327s] Creating /home/pp/Tawan-pe-/src/install/ros2_aruco/lib/python3.12/site-packages/ros2-aruco.egg-link (link to .)
+[7.327s] Installing aruco_generate_marker script to /home/pp/Tawan-pe-/src/install/ros2_aruco/lib/ros2_aruco
+[7.336s] Installing aruco_node script to /home/pp/Tawan-pe-/src/install/ros2_aruco/lib/ros2_aruco
+[7.337s] 
+[7.337s] Installed /home/pp/Tawan-pe-/src/build/ros2_aruco
+[7.337s] running symlink_data
+[7.337s] creating /home/pp/Tawan-pe-/src/install/ros2_aruco/share/ament_index
+[7.339s] creating /home/pp/Tawan-pe-/src/install/ros2_aruco/share/ament_index/resource_index
+[7.339s] creating /home/pp/Tawan-pe-/src/install/ros2_aruco/share/ament_index/resource_index/packages
+[7.339s] symbolically linking /home/pp/Tawan-pe-/src/build/ros2_aruco/resource/ros2_aruco -> /home/pp/Tawan-pe-/src/install/ros2_aruco/share/ament_index/resource_index/packages
+[7.339s] symbolically linking /home/pp/Tawan-pe-/src/build/ros2_aruco/package.xml -> /home/pp/Tawan-pe-/src/install/ros2_aruco/share/ros2_aruco
+[7.339s] creating /home/pp/Tawan-pe-/src/install/ros2_aruco/share/ros2_aruco/launch
+[7.339s] symbolically linking /home/pp/Tawan-pe-/src/build/ros2_aruco/launch/aruco_recognition.launch.py -> /home/pp/Tawan-pe-/src/install/ros2_aruco/share/ros2_aruco/launch
+[7.339s] creating /home/pp/Tawan-pe-/src/install/ros2_aruco/share/ros2_aruco/config
+[7.339s] symbolically linking /home/pp/Tawan-pe-/src/build/ros2_aruco/config/aruco_parameters.yaml -> /home/pp/Tawan-pe-/src/install/ros2_aruco/share/ros2_aruco/config
+[7.617s] Invoked command in '/home/pp/Tawan-pe-/src/build/ros2_aruco' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pp/Tawan-pe-/src/build/ros2_aruco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pp/Tawan-pe-/src/install/ros2_aruco/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pp/Tawan-pe-/src/build/ros2_aruco/build --no-deps symlink_data

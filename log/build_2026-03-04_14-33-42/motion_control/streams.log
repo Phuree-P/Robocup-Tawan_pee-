@@ -1,0 +1,36 @@
+[0.658s] Invoking command in '/home/pp/Tawan-pe-/build/motion_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pp/Tawan-pe-/build/motion_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pp/Tawan-pe-/install/motion_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/pp/Tawan-pe-/build/motion_control/build
+[0.903s] running develop
+[1.070s] Removing /home/pp/Tawan-pe-/install/motion_control/lib/python3.12/site-packages/motion-control.egg-link (link to .)
+[1.098s] Invoked command in '/home/pp/Tawan-pe-/build/motion_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pp/Tawan-pe-/build/motion_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pp/Tawan-pe-/install/motion_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/pp/Tawan-pe-/build/motion_control/build
+[1.099s] Invoking command in '/home/pp/Tawan-pe-/src/robot/motion_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pp/Tawan-pe-/build/motion_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pp/Tawan-pe-/install/motion_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/motion_control build --build-base /home/pp/Tawan-pe-/build/motion_control/build install --record /home/pp/Tawan-pe-/build/motion_control/install.log --single-version-externally-managed install_data --force
+[1.322s] running egg_info
+[1.338s] writing ../../../build/motion_control/motion_control.egg-info/PKG-INFO
+[1.338s] writing dependency_links to ../../../build/motion_control/motion_control.egg-info/dependency_links.txt
+[1.338s] writing entry points to ../../../build/motion_control/motion_control.egg-info/entry_points.txt
+[1.338s] writing requirements to ../../../build/motion_control/motion_control.egg-info/requires.txt
+[1.338s] writing top-level names to ../../../build/motion_control/motion_control.egg-info/top_level.txt
+[1.370s] reading manifest file '../../../build/motion_control/motion_control.egg-info/SOURCES.txt'
+[1.371s] writing manifest file '../../../build/motion_control/motion_control.egg-info/SOURCES.txt'
+[1.371s] running build
+[1.371s] running build_py
+[1.371s] creating /home/pp/Tawan-pe-/build/motion_control/build
+[1.372s] creating /home/pp/Tawan-pe-/build/motion_control/build/lib
+[1.372s] creating /home/pp/Tawan-pe-/build/motion_control/build/lib/motion_control
+[1.372s] copying motion_control/omni_docking_controller.py -> /home/pp/Tawan-pe-/build/motion_control/build/lib/motion_control
+[1.372s] copying motion_control/__init__.py -> /home/pp/Tawan-pe-/build/motion_control/build/lib/motion_control
+[1.372s] running install
+[1.376s] running install_lib
+[1.392s] creating /home/pp/Tawan-pe-/install/motion_control/lib/python3.12/site-packages/motion_control
+[1.392s] copying /home/pp/Tawan-pe-/build/motion_control/build/lib/motion_control/omni_docking_controller.py -> /home/pp/Tawan-pe-/install/motion_control/lib/python3.12/site-packages/motion_control
+[1.392s] copying /home/pp/Tawan-pe-/build/motion_control/build/lib/motion_control/__init__.py -> /home/pp/Tawan-pe-/install/motion_control/lib/python3.12/site-packages/motion_control
+[1.393s] byte-compiling /home/pp/Tawan-pe-/install/motion_control/lib/python3.12/site-packages/motion_control/omni_docking_controller.py to omni_docking_controller.cpython-312.pyc
+[1.394s] byte-compiling /home/pp/Tawan-pe-/install/motion_control/lib/python3.12/site-packages/motion_control/__init__.py to __init__.cpython-312.pyc
+[1.394s] running install_data
+[1.394s] copying resource/motion_control -> /home/pp/Tawan-pe-/install/motion_control/share/ament_index/resource_index/packages
+[1.394s] copying package.xml -> /home/pp/Tawan-pe-/install/motion_control/share/motion_control
+[1.394s] running install_egg_info
+[1.411s] Copying ../../../build/motion_control/motion_control.egg-info to /home/pp/Tawan-pe-/install/motion_control/lib/python3.12/site-packages/motion_control-0.0.0-py3.12.egg-info
+[1.412s] running install_scripts
+[1.523s] Installing omni_docking_controller script to /home/pp/Tawan-pe-/install/motion_control/lib/motion_control
+[1.523s] writing list of installed files to '/home/pp/Tawan-pe-/build/motion_control/install.log'
+[1.549s] Invoked command in '/home/pp/Tawan-pe-/src/robot/motion_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pp/Tawan-pe-/build/motion_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pp/Tawan-pe-/install/motion_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/motion_control build --build-base /home/pp/Tawan-pe-/build/motion_control/build install --record /home/pp/Tawan-pe-/build/motion_control/install.log --single-version-externally-managed install_data --force

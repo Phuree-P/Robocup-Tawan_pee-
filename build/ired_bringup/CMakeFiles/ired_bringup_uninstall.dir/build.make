@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/robot_ws/src/robot/ired_bringup
+CMAKE_SOURCE_DIR = /home/pp/Tawan-pe-/src/robot/ired_bringup
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/robot_ws/build/ired_bringup
+CMAKE_BINARY_DIR = /home/pp/Tawan-pe-/build/ired_bringup
 
 # Utility rule file for ired_bringup_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ired_bringup_uninstall.dir/compiler_depend.make
 include CMakeFiles/ired_bringup_uninstall.dir/progress.make
 
 CMakeFiles/ired_bringup_uninstall:
-	/usr/bin/cmake -P /home/pi/robot_ws/build/ired_bringup/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/pp/Tawan-pe-/build/ired_bringup/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 ired_bringup_uninstall: CMakeFiles/ired_bringup_uninstall
 ired_bringup_uninstall: CMakeFiles/ired_bringup_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ired_bringup_uninstall.dir/clean:
 .PHONY : CMakeFiles/ired_bringup_uninstall.dir/clean
 
 CMakeFiles/ired_bringup_uninstall.dir/depend:
-	cd /home/pi/robot_ws/build/ired_bringup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/robot_ws/src/robot/ired_bringup /home/pi/robot_ws/src/robot/ired_bringup /home/pi/robot_ws/build/ired_bringup /home/pi/robot_ws/build/ired_bringup /home/pi/robot_ws/build/ired_bringup/CMakeFiles/ired_bringup_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/pp/Tawan-pe-/build/ired_bringup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pp/Tawan-pe-/src/robot/ired_bringup /home/pp/Tawan-pe-/src/robot/ired_bringup /home/pp/Tawan-pe-/build/ired_bringup /home/pp/Tawan-pe-/build/ired_bringup /home/pp/Tawan-pe-/build/ired_bringup/CMakeFiles/ired_bringup_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ired_bringup_uninstall.dir/depend
 

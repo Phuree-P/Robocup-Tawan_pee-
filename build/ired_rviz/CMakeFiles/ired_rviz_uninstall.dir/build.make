@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/robot_ws/src/robot/ired_rviz
+CMAKE_SOURCE_DIR = /home/pp/Tawan-pe-/src/robot/ired_rviz
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/robot_ws/build/ired_rviz
+CMAKE_BINARY_DIR = /home/pp/Tawan-pe-/build/ired_rviz
 
 # Utility rule file for ired_rviz_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ired_rviz_uninstall.dir/compiler_depend.make
 include CMakeFiles/ired_rviz_uninstall.dir/progress.make
 
 CMakeFiles/ired_rviz_uninstall:
-	/usr/bin/cmake -P /home/pi/robot_ws/build/ired_rviz/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/pp/Tawan-pe-/build/ired_rviz/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 ired_rviz_uninstall: CMakeFiles/ired_rviz_uninstall
 ired_rviz_uninstall: CMakeFiles/ired_rviz_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ired_rviz_uninstall.dir/clean:
 .PHONY : CMakeFiles/ired_rviz_uninstall.dir/clean
 
 CMakeFiles/ired_rviz_uninstall.dir/depend:
-	cd /home/pi/robot_ws/build/ired_rviz && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/robot_ws/src/robot/ired_rviz /home/pi/robot_ws/src/robot/ired_rviz /home/pi/robot_ws/build/ired_rviz /home/pi/robot_ws/build/ired_rviz /home/pi/robot_ws/build/ired_rviz/CMakeFiles/ired_rviz_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/pp/Tawan-pe-/build/ired_rviz && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pp/Tawan-pe-/src/robot/ired_rviz /home/pp/Tawan-pe-/src/robot/ired_rviz /home/pp/Tawan-pe-/build/ired_rviz /home/pp/Tawan-pe-/build/ired_rviz /home/pp/Tawan-pe-/build/ired_rviz/CMakeFiles/ired_rviz_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ired_rviz_uninstall.dir/depend
 

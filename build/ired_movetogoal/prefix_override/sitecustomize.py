@@ -1,4 +1,4 @@
 import sys
 if sys.prefix == '/usr':
     sys.real_prefix = sys.prefix
-    sys.prefix = sys.exec_prefix = '/home/pi/robot_ws/install/ired_movetogoal'
+    sys.prefix = sys.exec_prefix = '/home/pp/Tawan-pe-/install/ired_movetogoal'

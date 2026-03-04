@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating ired_movetogoal.egg-info
+writing ired_movetogoal.egg-info/PKG-INFO
+writing dependency_links to ired_movetogoal.egg-info/dependency_links.txt
+writing entry points to ired_movetogoal.egg-info/entry_points.txt
+writing requirements to ired_movetogoal.egg-info/requires.txt
+writing top-level names to ired_movetogoal.egg-info/top_level.txt
+writing manifest file 'ired_movetogoal.egg-info/SOURCES.txt'
+reading manifest file 'ired_movetogoal.egg-info/SOURCES.txt'
+writing manifest file 'ired_movetogoal.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pp/Tawan-pe-/src/install/ired_movetogoal/lib/python3.12/site-packages/ired-movetogoal.egg-link (link to .)
+Installing movetogoal script to /home/pp/Tawan-pe-/src/install/ired_movetogoal/lib/ired_movetogoal
+
+Installed /home/pp/Tawan-pe-/src/build/ired_movetogoal
+running symlink_data
+creating /home/pp/Tawan-pe-/src/install/ired_movetogoal/share/ament_index
+creating /home/pp/Tawan-pe-/src/install/ired_movetogoal/share/ament_index/resource_index
+creating /home/pp/Tawan-pe-/src/install/ired_movetogoal/share/ament_index/resource_index/packages
+symbolically linking /home/pp/Tawan-pe-/src/build/ired_movetogoal/resource/ired_movetogoal -> /home/pp/Tawan-pe-/src/install/ired_movetogoal/share/ament_index/resource_index/packages
+symbolically linking /home/pp/Tawan-pe-/src/build/ired_movetogoal/package.xml -> /home/pp/Tawan-pe-/src/install/ired_movetogoal/share/ired_movetogoal

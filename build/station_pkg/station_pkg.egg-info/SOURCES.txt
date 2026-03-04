@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/station_pkg/station_pkg.egg-info/PKG-INFO
+../../build/station_pkg/station_pkg.egg-info/SOURCES.txt
+../../build/station_pkg/station_pkg.egg-info/dependency_links.txt
+../../build/station_pkg/station_pkg.egg-info/entry_points.txt
+../../build/station_pkg/station_pkg.egg-info/requires.txt
+../../build/station_pkg/station_pkg.egg-info/top_level.txt
+../../build/station_pkg/station_pkg.egg-info/zip-safe
+resource/station_pkg
+station_pkg/__init__.py
+station_pkg/station_detector.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

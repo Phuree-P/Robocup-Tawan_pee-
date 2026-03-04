@@ -1,1 +1,1 @@
-/home/pi/robot_ws/build/rplidar_ros/ament_cmake_core/rplidar_rosConfig-version.cmake
+/home/pp/Tawan-pe-/build/rplidar_ros/ament_cmake_core/rplidar_rosConfig-version.cmake

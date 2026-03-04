@@ -1,1 +1,1 @@
-/home/pi/robot_ws/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/local_setup.sh
+/home/pp/Tawan-pe-/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/local_setup.sh

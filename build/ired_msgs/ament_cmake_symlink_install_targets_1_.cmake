@@ -1,1 +1,1 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/pi/robot_ws/build/ired_msgs/rosidl_generator_py/ired_msgs/ired_msgs_s__rosidl_typesupport_introspection_c.so" "TARGETS" "ired_msgs_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.12/site-packages/ired_msgs")
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/pp/Tawan-pe-/build/ired_msgs/rosidl_generator_py/ired_msgs/ired_msgs_s__rosidl_typesupport_introspection_c.so" "TARGETS" "ired_msgs_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.12/site-packages/ired_msgs")

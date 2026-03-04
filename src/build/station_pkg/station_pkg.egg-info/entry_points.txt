@@ -1,0 +1,2 @@
+[console_scripts]
+station_detector = station_pkg.station_detector:main

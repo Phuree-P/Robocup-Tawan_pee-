@@ -1,1 +1,1 @@
-/home/pi/robot_ws/build/ired_aruco/ament_cmake_core/ired_arucoConfig-version.cmake
+/home/pp/Tawan-pe-/build/ired_aruco/ament_cmake_core/ired_arucoConfig-version.cmake

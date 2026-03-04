@@ -1,0 +1,1 @@
+/home/pp/Tawan-pe-/src/build/ired_aruco/ament_cmake_core/ired_arucoConfig-version.cmake

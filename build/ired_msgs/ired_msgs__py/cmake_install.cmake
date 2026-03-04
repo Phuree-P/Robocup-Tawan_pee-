@@ -1,8 +1,8 @@
-# Install script for directory: /home/pi/robot_ws/build/ired_msgs/ired_msgs__py
+# Install script for directory: /home/pp/Tawan-pe-/build/ired_msgs/ired_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/pi/robot_ws/install/ired_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/pp/Tawan-pe-/install/ired_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
