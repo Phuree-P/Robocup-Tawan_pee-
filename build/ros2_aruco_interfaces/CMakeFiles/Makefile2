@@ -500,8 +500,8 @@ CMakeFiles/ament_cmake_python_build_ros2_aruco_interfaces_egg.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/ros2_aruco_interfaces__rosidl_generator_py.dir/all: CMakeFiles/ros2_aruco_interfaces__rosidl_generator_c.dir/all
-CMakeFiles/ros2_aruco_interfaces__rosidl_generator_py.dir/all: ros2_aruco_interfaces__py/CMakeFiles/ros2_aruco_interfaces__py.dir/all
 CMakeFiles/ros2_aruco_interfaces__rosidl_generator_py.dir/all: CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_c.dir/all
+CMakeFiles/ros2_aruco_interfaces__rosidl_generator_py.dir/all: ros2_aruco_interfaces__py/CMakeFiles/ros2_aruco_interfaces__py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros2_aruco_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/ros2_aruco_interfaces__rosidl_generator_py.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros2_aruco_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/ros2_aruco_interfaces__rosidl_generator_py.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/pi/robot_ws/build/ros2_aruco_interfaces/CMakeFiles --progress-num=8,9 "Built target ros2_aruco_interfaces__rosidl_generator_py"
@@ -529,9 +529,9 @@ CMakeFiles/ros2_aruco_interfaces__rosidl_generator_py.dir/clean:
 # All Build rule for target.
 CMakeFiles/ros2_aruco_interfaces_s__rosidl_typesupport_fastrtps_c.dir/all: CMakeFiles/ros2_aruco_interfaces__rosidl_generator_c.dir/all
 CMakeFiles/ros2_aruco_interfaces_s__rosidl_typesupport_fastrtps_c.dir/all: CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c.dir/all
-CMakeFiles/ros2_aruco_interfaces_s__rosidl_typesupport_fastrtps_c.dir/all: ros2_aruco_interfaces__py/CMakeFiles/ros2_aruco_interfaces__py.dir/all
 CMakeFiles/ros2_aruco_interfaces_s__rosidl_typesupport_fastrtps_c.dir/all: CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_c.dir/all
 CMakeFiles/ros2_aruco_interfaces_s__rosidl_typesupport_fastrtps_c.dir/all: CMakeFiles/ros2_aruco_interfaces__rosidl_generator_py.dir/all
+CMakeFiles/ros2_aruco_interfaces_s__rosidl_typesupport_fastrtps_c.dir/all: ros2_aruco_interfaces__py/CMakeFiles/ros2_aruco_interfaces__py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros2_aruco_interfaces_s__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/ros2_aruco_interfaces_s__rosidl_typesupport_fastrtps_c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros2_aruco_interfaces_s__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/ros2_aruco_interfaces_s__rosidl_typesupport_fastrtps_c.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/pi/robot_ws/build/ros2_aruco_interfaces/CMakeFiles --progress-num=31,32 "Built target ros2_aruco_interfaces_s__rosidl_typesupport_fastrtps_c"
@@ -558,10 +558,10 @@ CMakeFiles/ros2_aruco_interfaces_s__rosidl_typesupport_fastrtps_c.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/ros2_aruco_interfaces_s__rosidl_typesupport_introspection_c.dir/all: CMakeFiles/ros2_aruco_interfaces__rosidl_generator_c.dir/all
-CMakeFiles/ros2_aruco_interfaces_s__rosidl_typesupport_introspection_c.dir/all: ros2_aruco_interfaces__py/CMakeFiles/ros2_aruco_interfaces__py.dir/all
 CMakeFiles/ros2_aruco_interfaces_s__rosidl_typesupport_introspection_c.dir/all: CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_introspection_c.dir/all
 CMakeFiles/ros2_aruco_interfaces_s__rosidl_typesupport_introspection_c.dir/all: CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_c.dir/all
 CMakeFiles/ros2_aruco_interfaces_s__rosidl_typesupport_introspection_c.dir/all: CMakeFiles/ros2_aruco_interfaces__rosidl_generator_py.dir/all
+CMakeFiles/ros2_aruco_interfaces_s__rosidl_typesupport_introspection_c.dir/all: ros2_aruco_interfaces__py/CMakeFiles/ros2_aruco_interfaces__py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros2_aruco_interfaces_s__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/ros2_aruco_interfaces_s__rosidl_typesupport_introspection_c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros2_aruco_interfaces_s__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/ros2_aruco_interfaces_s__rosidl_typesupport_introspection_c.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/pi/robot_ws/build/ros2_aruco_interfaces/CMakeFiles --progress-num=33,34 "Built target ros2_aruco_interfaces_s__rosidl_typesupport_introspection_c"
@@ -588,9 +588,9 @@ CMakeFiles/ros2_aruco_interfaces_s__rosidl_typesupport_introspection_c.dir/clean
 
 # All Build rule for target.
 CMakeFiles/ros2_aruco_interfaces_s__rosidl_typesupport_c.dir/all: CMakeFiles/ros2_aruco_interfaces__rosidl_generator_c.dir/all
-CMakeFiles/ros2_aruco_interfaces_s__rosidl_typesupport_c.dir/all: ros2_aruco_interfaces__py/CMakeFiles/ros2_aruco_interfaces__py.dir/all
 CMakeFiles/ros2_aruco_interfaces_s__rosidl_typesupport_c.dir/all: CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_c.dir/all
 CMakeFiles/ros2_aruco_interfaces_s__rosidl_typesupport_c.dir/all: CMakeFiles/ros2_aruco_interfaces__rosidl_generator_py.dir/all
+CMakeFiles/ros2_aruco_interfaces_s__rosidl_typesupport_c.dir/all: ros2_aruco_interfaces__py/CMakeFiles/ros2_aruco_interfaces__py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros2_aruco_interfaces_s__rosidl_typesupport_c.dir/build.make CMakeFiles/ros2_aruco_interfaces_s__rosidl_typesupport_c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros2_aruco_interfaces_s__rosidl_typesupport_c.dir/build.make CMakeFiles/ros2_aruco_interfaces_s__rosidl_typesupport_c.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/pi/robot_ws/build/ros2_aruco_interfaces/CMakeFiles --progress-num=29,30 "Built target ros2_aruco_interfaces_s__rosidl_typesupport_c"

@@ -1,13 +1,6 @@
 package.xml
 setup.cfg
 setup.py
-../../../build/ired_teleop/ired_teleop.egg-info/PKG-INFO
-../../../build/ired_teleop/ired_teleop.egg-info/SOURCES.txt
-../../../build/ired_teleop/ired_teleop.egg-info/dependency_links.txt
-../../../build/ired_teleop/ired_teleop.egg-info/entry_points.txt
-../../../build/ired_teleop/ired_teleop.egg-info/requires.txt
-../../../build/ired_teleop/ired_teleop.egg-info/top_level.txt
-../../../build/ired_teleop/ired_teleop.egg-info/zip-safe
 ired_teleop/__init__.py
 ired_teleop.egg-info/PKG-INFO
 ired_teleop.egg-info/SOURCES.txt

@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "ired_msgs/msg/detail/motor_speed__struct.h"
-#include "ired_msgs/msg/detail/motor_speed__functions.h"
 #include "ired_msgs/msg/detail/motor_speed__type_support.h"
+#include "ired_msgs/msg/detail/motor_speed__functions.h"
+#include "ired_msgs/msg/detail/motor_speed__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus

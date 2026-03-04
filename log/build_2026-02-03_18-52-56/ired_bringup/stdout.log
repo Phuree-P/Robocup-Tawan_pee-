@@ -1,5 +1,0 @@
-[ 36%] Built target odom_node
-[ 36%] Built target forward_kinematics_node
-[ 54%] Built target imu_node
-[ 81%] Built target iredcr_modbus_node
-[ 90%] [32mBuilding CXX object CMakeFiles/inverse_kinematics_node.dir/src/inverse_kinematics.cpp.o[0m

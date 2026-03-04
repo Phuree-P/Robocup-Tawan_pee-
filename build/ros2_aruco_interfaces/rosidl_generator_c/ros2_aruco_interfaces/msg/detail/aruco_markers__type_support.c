@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "ros2_aruco_interfaces/msg/detail/aruco_markers__type_support.h"
 #include "ros2_aruco_interfaces/msg/detail/aruco_markers__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "ros2_aruco_interfaces/msg/detail/aruco_markers__functions.h"
+#include "ros2_aruco_interfaces/msg/detail/aruco_markers__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

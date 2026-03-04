@@ -5,6 +5,8 @@
 /home/pi/robot_ws/install/ired_bringup/lib/ired_bringup/odom_node
 /home/pi/robot_ws/install/ired_bringup/share/ired_bringup/launch/bringup.launch.py
 /home/pi/robot_ws/install/ired_bringup/share/ired_bringup/param/efk.yaml
+/home/pi/robot_ws/install/ired_bringup/share/ired_bringup/param/frames_2026-03-02_22.16.46.gv
+/home/pi/robot_ws/install/ired_bringup/share/ired_bringup/param/frames_2026-03-02_22.16.46.pdf
 /home/pi/robot_ws/install/ired_bringup/share/ired_bringup/param/ired.yaml
 /home/pi/robot_ws/install/ired_bringup/share/ired_bringup/param/laser_config.yaml
 /home/pi/robot_ws/install/ired_bringup/share/ired_bringup/param/laser_scan_matcher.yaml
