@@ -48,7 +48,7 @@ class OmniDockingController(Node):
         # ── PID State ─────────────────────────────────────────────────────────
         self.integral  = [0.0, 0.0, 0.0]   
         self.prev_error = [0.0, 0.0, 0.0]
-        self.integral_limit = 0.3           
+        self.integral_limit  = 0.3           
 
         # ── Watchdog: stop robot if perception node dies ──────────────────────
         self.watchdog_timeout = 0.5         

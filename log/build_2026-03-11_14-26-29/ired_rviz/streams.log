@@ -1,0 +1,27 @@
+[0.424s] Invoking command in '/home/pp/Tawan-pe-/build/ired_rviz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pp/Tawan-pe-/build/ired_rviz -- -j12 -l12
+[1.470s] Invoked command in '/home/pp/Tawan-pe-/build/ired_rviz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pp/Tawan-pe-/build/ired_rviz -- -j12 -l12
+[1.472s] Invoking command in '/home/pp/Tawan-pe-/build/ired_rviz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pp/Tawan-pe-/build/ired_rviz
+[1.498s] -- Install configuration: ""
+[1.499s] -- Execute custom install script
+[1.500s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_rviz/share/ired_rviz/launch/navigation.launch.py
+[1.513s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_rviz/share/ired_rviz/launch/slam.launch.py
+[1.517s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_rviz/share/ired_rviz/rviz/bringup.rviz
+[1.518s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_rviz/share/ired_rviz/rviz/navi.rviz
+[1.518s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_rviz/share/ired_rviz/rviz/robot_urdf.rviz
+[1.518s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_rviz/share/ired_rviz/rviz/slam.rviz
+[1.518s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_rviz/share/ament_index/resource_index/package_run_dependencies/ired_rviz
+[1.518s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_rviz/share/ament_index/resource_index/parent_prefix_path/ired_rviz
+[1.518s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_rviz/share/ired_rviz/environment/ament_prefix_path.sh
+[1.523s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_rviz/share/ired_rviz/environment/ament_prefix_path.dsv
+[1.523s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_rviz/share/ired_rviz/environment/path.sh
+[1.523s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_rviz/share/ired_rviz/environment/path.dsv
+[1.524s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_rviz/share/ired_rviz/local_setup.bash
+[1.524s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_rviz/share/ired_rviz/local_setup.sh
+[1.524s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_rviz/share/ired_rviz/local_setup.zsh
+[1.525s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_rviz/share/ired_rviz/local_setup.dsv
+[1.525s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_rviz/share/ired_rviz/package.dsv
+[1.544s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_rviz/share/ament_index/resource_index/packages/ired_rviz
+[1.544s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_rviz/share/ired_rviz/cmake/ired_rvizConfig.cmake
+[1.544s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_rviz/share/ired_rviz/cmake/ired_rvizConfig-version.cmake
+[1.544s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_rviz/share/ired_rviz/package.xml
+[1.588s] Invoked command in '/home/pp/Tawan-pe-/build/ired_rviz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pp/Tawan-pe-/build/ired_rviz

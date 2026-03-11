@@ -1,0 +1,30 @@
+[0.426s] Invoking command in '/home/pp/Tawan-pe-/build/ired_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pp/Tawan-pe-/build/ired_navigation -- -j12 -l12
+[1.474s] Invoked command in '/home/pp/Tawan-pe-/build/ired_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pp/Tawan-pe-/build/ired_navigation -- -j12 -l12
+[1.475s] Invoking command in '/home/pp/Tawan-pe-/build/ired_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pp/Tawan-pe-/build/ired_navigation
+[1.496s] -- Install configuration: ""
+[1.496s] -- Execute custom install script
+[1.497s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_navigation/share/ired_navigation/config/ired_rplidar_2d.lua
+[1.502s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_navigation/share/ired_navigation/launch/navigation.launch.py
+[1.503s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_navigation/share/ired_navigation/launch/occupancy_grid.launch.py
+[1.503s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_navigation/share/ired_navigation/launch/save_map.launch.py
+[1.503s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_navigation/share/ired_navigation/launch/slam.launch.py
+[1.503s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_navigation/share/ired_navigation/maps/1
+[1.504s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_navigation/share/ired_navigation/maps/map.pgm
+[1.505s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_navigation/share/ired_navigation/maps/map.yaml
+[1.507s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_navigation/share/ired_navigation/param/navigation.yaml
+[1.511s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_navigation/share/ament_index/resource_index/package_run_dependencies/ired_navigation
+[1.518s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_navigation/share/ament_index/resource_index/parent_prefix_path/ired_navigation
+[1.518s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_navigation/share/ired_navigation/environment/ament_prefix_path.sh
+[1.522s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_navigation/share/ired_navigation/environment/ament_prefix_path.dsv
+[1.522s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_navigation/share/ired_navigation/environment/path.sh
+[1.523s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_navigation/share/ired_navigation/environment/path.dsv
+[1.525s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_navigation/share/ired_navigation/local_setup.bash
+[1.525s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_navigation/share/ired_navigation/local_setup.sh
+[1.525s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_navigation/share/ired_navigation/local_setup.zsh
+[1.525s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_navigation/share/ired_navigation/local_setup.dsv
+[1.526s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_navigation/share/ired_navigation/package.dsv
+[1.548s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_navigation/share/ament_index/resource_index/packages/ired_navigation
+[1.548s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_navigation/share/ired_navigation/cmake/ired_navigationConfig.cmake
+[1.549s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_navigation/share/ired_navigation/cmake/ired_navigationConfig-version.cmake
+[1.549s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_navigation/share/ired_navigation/package.xml
+[1.559s] Invoked command in '/home/pp/Tawan-pe-/build/ired_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pp/Tawan-pe-/build/ired_navigation

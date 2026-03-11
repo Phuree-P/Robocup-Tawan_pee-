@@ -1,0 +1,1050 @@
+[0.131s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.131s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7223f09a8890>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7223f0accec0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7223f0accec0>>, mixin_verb=('build',))
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.184s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pp/Tawan-pe-'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker) by extension 'ros'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker) by extensions ['cmake', 'python']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker) by extension 'cmake'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker) by extension 'python'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker) by extensions ['python_setup_py']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker) by extension 'python_setup_py'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ired_aruco) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ired_aruco) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ired_aruco) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ired_aruco) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ired_aruco) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ired_aruco) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ired_aruco) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ired_aruco) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ired_aruco) by extension 'ros'
+[0.215s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aruco_marker/ired_aruco' with type 'ros.ament_cmake' and name 'ired_aruco'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ros2_aruco) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ros2_aruco) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ros2_aruco) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ros2_aruco) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ros2_aruco) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ros2_aruco) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ros2_aruco) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ros2_aruco) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ros2_aruco) by extension 'ros'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ros2_aruco) by extensions ['cmake', 'python']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ros2_aruco) by extension 'cmake'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ros2_aruco) by extension 'python'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ros2_aruco) by extensions ['python_setup_py']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ros2_aruco) by extension 'python_setup_py'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ros2_aruco/ros2_aruco) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ros2_aruco/ros2_aruco) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ros2_aruco/ros2_aruco) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ros2_aruco/ros2_aruco) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ros2_aruco/ros2_aruco) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ros2_aruco/ros2_aruco) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ros2_aruco/ros2_aruco) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ros2_aruco/ros2_aruco) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ros2_aruco/ros2_aruco) by extension 'ros'
+[0.217s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aruco_marker/ros2_aruco/ros2_aruco' with type 'ros.ament_python' and name 'ros2_aruco'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ros2_aruco/ros2_aruco_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ros2_aruco/ros2_aruco_interfaces) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ros2_aruco/ros2_aruco_interfaces) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ros2_aruco/ros2_aruco_interfaces) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ros2_aruco/ros2_aruco_interfaces) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ros2_aruco/ros2_aruco_interfaces) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ros2_aruco/ros2_aruco_interfaces) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ros2_aruco/ros2_aruco_interfaces) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker/ros2_aruco/ros2_aruco_interfaces) by extension 'ros'
+[0.218s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aruco_marker/ros2_aruco/ros2_aruco_interfaces' with type 'ros.ament_cmake' and name 'ros2_aruco_interfaces'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_bringup) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_bringup) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_bringup) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_bringup) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_bringup) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_bringup) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_bringup) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_bringup) by extension 'ros'
+[0.219s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar_bringup' with type 'ros.ament_cmake' and name 'lidar_bringup'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'ros'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['cmake', 'python']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'cmake'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'python'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['python_setup_py']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'python_setup_py'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/cms) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/cms) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/cms) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/cms) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/cms) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/cms) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/cms) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/cms) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/cms) by extension 'ros'
+[0.221s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot/cms' with type 'ros.ament_cmake' and name 'csm'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_bringup) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_bringup) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_bringup) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_bringup) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_bringup) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_bringup) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_bringup) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_bringup) by extension 'ros'
+[0.222s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot/ired_bringup' with type 'ros.ament_cmake' and name 'ired_bringup'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_movetogoal) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_movetogoal) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_movetogoal) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_movetogoal) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_movetogoal) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_movetogoal) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_movetogoal) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_movetogoal) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_movetogoal) by extension 'ros'
+[0.223s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot/ired_movetogoal' with type 'ros.ament_python' and name 'ired_movetogoal'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_msgs) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_msgs) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_msgs) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_msgs) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_msgs) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_msgs) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_msgs) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_msgs) by extension 'ros'
+[0.224s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot/ired_msgs' with type 'ros.ament_cmake' and name 'ired_msgs'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_navigation) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_navigation) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_navigation) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_navigation) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_navigation) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_navigation) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_navigation) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_navigation) by extension 'ros'
+[0.225s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot/ired_navigation' with type 'ros.ament_cmake' and name 'ired_navigation'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_rviz) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_rviz) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_rviz) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_rviz) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_rviz) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_rviz) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_rviz) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_rviz) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_rviz) by extension 'ros'
+[0.226s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot/ired_rviz' with type 'ros.ament_cmake' and name 'ired_rviz'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_teleop) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_teleop) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_teleop) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_teleop) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_teleop) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_teleop) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_teleop) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_teleop) by extension 'ros'
+[0.227s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot/ired_teleop' with type 'ros.ament_python' and name 'ired_teleop'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/motion_control) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/motion_control) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/motion_control) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/motion_control) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/motion_control) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/motion_control) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/motion_control) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/motion_control) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/motion_control) by extension 'ros'
+[0.227s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot/motion_control' with type 'ros.ament_python' and name 'motion_control'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ros2_laser_scan_matcher) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ros2_laser_scan_matcher) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ros2_laser_scan_matcher) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ros2_laser_scan_matcher) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ros2_laser_scan_matcher) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ros2_laser_scan_matcher) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ros2_laser_scan_matcher) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ros2_laser_scan_matcher) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ros2_laser_scan_matcher) by extension 'ros'
+[0.228s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot/ros2_laser_scan_matcher' with type 'ros.ament_cmake' and name 'ros2_laser_scan_matcher'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/rplidar_ros) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/rplidar_ros) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/rplidar_ros) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/rplidar_ros) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/rplidar_ros) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/rplidar_ros) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/rplidar_ros) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/rplidar_ros) by extension 'ros'
+[0.229s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/station_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/station_pkg) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/station_pkg) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/station_pkg) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/station_pkg) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/station_pkg) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/station_pkg) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/station_pkg) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/station_pkg) by extension 'ros'
+[0.230s] DEBUG:colcon.colcon_core.package_identification:Package 'src/station_pkg' with type 'ros.ament_python' and name 'station_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.258s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 15 installed packages in /home/pp/Tawan-pe-/install
+[0.259s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 305 installed packages in /opt/ros/jazzy
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'cmake_target' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'cmake_clean_cache' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'cmake_clean_first' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'cmake_force_configure' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'ament_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'catkin_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.299s] DEBUG:colcon.colcon_core.verb:Building package 'csm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pp/Tawan-pe-/build/csm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pp/Tawan-pe-/install/csm', 'merge_install': False, 'path': '/home/pp/Tawan-pe-/src/robot/cms', 'symlink_install': False, 'test_result_base': None}
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'ired_aruco' build argument 'cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'ired_aruco' build argument 'cmake_target' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'ired_aruco' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'ired_aruco' build argument 'cmake_clean_cache' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'ired_aruco' build argument 'cmake_clean_first' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'ired_aruco' build argument 'cmake_force_configure' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'ired_aruco' build argument 'ament_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'ired_aruco' build argument 'catkin_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'ired_aruco' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.299s] DEBUG:colcon.colcon_core.verb:Building package 'ired_aruco' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pp/Tawan-pe-/build/ired_aruco', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pp/Tawan-pe-/install/ired_aruco', 'merge_install': False, 'path': '/home/pp/Tawan-pe-/src/aruco_marker/ired_aruco', 'symlink_install': False, 'test_result_base': None}
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'ired_movetogoal' build argument 'cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'ired_movetogoal' build argument 'cmake_target' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'ired_movetogoal' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'ired_movetogoal' build argument 'cmake_clean_cache' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'ired_movetogoal' build argument 'cmake_clean_first' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'ired_movetogoal' build argument 'cmake_force_configure' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'ired_movetogoal' build argument 'ament_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'ired_movetogoal' build argument 'catkin_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'ired_movetogoal' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.300s] DEBUG:colcon.colcon_core.verb:Building package 'ired_movetogoal' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pp/Tawan-pe-/build/ired_movetogoal', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pp/Tawan-pe-/install/ired_movetogoal', 'merge_install': False, 'path': '/home/pp/Tawan-pe-/src/robot/ired_movetogoal', 'symlink_install': False, 'test_result_base': None}
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'ired_msgs' build argument 'cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'ired_msgs' build argument 'cmake_target' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'ired_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'ired_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'ired_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'ired_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'ired_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'ired_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'ired_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.300s] DEBUG:colcon.colcon_core.verb:Building package 'ired_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pp/Tawan-pe-/build/ired_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pp/Tawan-pe-/install/ired_msgs', 'merge_install': False, 'path': '/home/pp/Tawan-pe-/src/robot/ired_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'ired_navigation' build argument 'cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'ired_navigation' build argument 'cmake_target' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'ired_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'ired_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'ired_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'ired_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'ired_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'ired_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'ired_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.300s] DEBUG:colcon.colcon_core.verb:Building package 'ired_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pp/Tawan-pe-/build/ired_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pp/Tawan-pe-/install/ired_navigation', 'merge_install': False, 'path': '/home/pp/Tawan-pe-/src/robot/ired_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'ired_rviz' build argument 'cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'ired_rviz' build argument 'cmake_target' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'ired_rviz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'ired_rviz' build argument 'cmake_clean_cache' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'ired_rviz' build argument 'cmake_clean_first' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'ired_rviz' build argument 'cmake_force_configure' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'ired_rviz' build argument 'ament_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'ired_rviz' build argument 'catkin_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'ired_rviz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.300s] DEBUG:colcon.colcon_core.verb:Building package 'ired_rviz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pp/Tawan-pe-/build/ired_rviz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pp/Tawan-pe-/install/ired_rviz', 'merge_install': False, 'path': '/home/pp/Tawan-pe-/src/robot/ired_rviz', 'symlink_install': False, 'test_result_base': None}
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'ired_teleop' build argument 'cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'ired_teleop' build argument 'cmake_target' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'ired_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'ired_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'ired_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'ired_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'ired_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'ired_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'ired_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.301s] DEBUG:colcon.colcon_core.verb:Building package 'ired_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pp/Tawan-pe-/build/ired_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pp/Tawan-pe-/install/ired_teleop', 'merge_install': False, 'path': '/home/pp/Tawan-pe-/src/robot/ired_teleop', 'symlink_install': False, 'test_result_base': None}
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'lidar_bringup' build argument 'cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'lidar_bringup' build argument 'cmake_target' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'lidar_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'lidar_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'lidar_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'lidar_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'lidar_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'lidar_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'lidar_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.301s] DEBUG:colcon.colcon_core.verb:Building package 'lidar_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pp/Tawan-pe-/build/lidar_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pp/Tawan-pe-/install/lidar_bringup', 'merge_install': False, 'path': '/home/pp/Tawan-pe-/src/lidar_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'motion_control' build argument 'cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'motion_control' build argument 'cmake_target' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'motion_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'motion_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'motion_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'motion_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'motion_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'motion_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'motion_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.301s] DEBUG:colcon.colcon_core.verb:Building package 'motion_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pp/Tawan-pe-/build/motion_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pp/Tawan-pe-/install/motion_control', 'merge_install': False, 'path': '/home/pp/Tawan-pe-/src/robot/motion_control', 'symlink_install': False, 'test_result_base': None}
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_target' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_clean_cache' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_clean_first' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_force_configure' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'ament_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'catkin_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.302s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_aruco' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pp/Tawan-pe-/build/ros2_aruco', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pp/Tawan-pe-/install/ros2_aruco', 'merge_install': False, 'path': '/home/pp/Tawan-pe-/src/aruco_marker/ros2_aruco/ros2_aruco', 'symlink_install': False, 'test_result_base': None}
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.302s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_aruco_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pp/Tawan-pe-/build/ros2_aruco_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces', 'merge_install': False, 'path': '/home/pp/Tawan-pe-/src/aruco_marker/ros2_aruco/ros2_aruco_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.302s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pp/Tawan-pe-/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pp/Tawan-pe-/install/rplidar_ros', 'merge_install': False, 'path': '/home/pp/Tawan-pe-/src/robot/rplidar_ros', 'symlink_install': False, 'test_result_base': None}
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'station_pkg' build argument 'cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'station_pkg' build argument 'cmake_target' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'station_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'station_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'station_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'station_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'station_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'station_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'station_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.302s] DEBUG:colcon.colcon_core.verb:Building package 'station_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pp/Tawan-pe-/build/station_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pp/Tawan-pe-/install/station_pkg', 'merge_install': False, 'path': '/home/pp/Tawan-pe-/src/station_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'ired_bringup' build argument 'cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'ired_bringup' build argument 'cmake_target' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'ired_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'ired_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'ired_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'ired_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'ired_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'ired_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'ired_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.303s] DEBUG:colcon.colcon_core.verb:Building package 'ired_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pp/Tawan-pe-/build/ired_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pp/Tawan-pe-/install/ired_bringup', 'merge_install': False, 'path': '/home/pp/Tawan-pe-/src/robot/ired_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'cmake_target' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'cmake_clean_first' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'cmake_force_configure' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'ament_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.303s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_laser_scan_matcher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pp/Tawan-pe-/build/ros2_laser_scan_matcher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher', 'merge_install': False, 'path': '/home/pp/Tawan-pe-/src/robot/ros2_laser_scan_matcher', 'symlink_install': False, 'test_result_base': None}
+[0.303s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.304s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.304s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pp/Tawan-pe-/src/robot/cms' with build type 'ament_cmake'
+[0.304s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pp/Tawan-pe-/src/robot/cms'
+[0.309s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.309s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.309s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.313s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pp/Tawan-pe-/src/robot/ired_msgs' with build type 'ament_cmake'
+[0.313s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pp/Tawan-pe-/src/robot/ired_msgs'
+[0.313s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.313s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.316s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pp/Tawan-pe-/src/aruco_marker/ired_aruco' with build type 'ament_cmake'
+[0.316s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pp/Tawan-pe-/src/aruco_marker/ired_aruco'
+[0.316s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.316s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.320s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pp/Tawan-pe-/src/robot/ired_movetogoal' with build type 'ament_python'
+[0.320s] Level 1:colcon.colcon_core.shell:create_environment_hook('ired_movetogoal', 'ament_prefix_path')
+[0.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ired_movetogoal/share/ired_movetogoal/hook/ament_prefix_path.ps1'
+[0.320s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pp/Tawan-pe-/install/ired_movetogoal/share/ired_movetogoal/hook/ament_prefix_path.dsv'
+[0.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ired_movetogoal/share/ired_movetogoal/hook/ament_prefix_path.sh'
+[0.321s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.321s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.324s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pp/Tawan-pe-/src/robot/ired_navigation' with build type 'ament_cmake'
+[0.324s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pp/Tawan-pe-/src/robot/ired_navigation'
+[0.325s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.325s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.327s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pp/Tawan-pe-/src/robot/ired_rviz' with build type 'ament_cmake'
+[0.328s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pp/Tawan-pe-/src/robot/ired_rviz'
+[0.328s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.328s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.331s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pp/Tawan-pe-/src/robot/ired_teleop' with build type 'ament_python'
+[0.331s] Level 1:colcon.colcon_core.shell:create_environment_hook('ired_teleop', 'ament_prefix_path')
+[0.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ired_teleop/share/ired_teleop/hook/ament_prefix_path.ps1'
+[0.332s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pp/Tawan-pe-/install/ired_teleop/share/ired_teleop/hook/ament_prefix_path.dsv'
+[0.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ired_teleop/share/ired_teleop/hook/ament_prefix_path.sh'
+[0.332s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.332s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.336s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pp/Tawan-pe-/src/lidar_bringup' with build type 'ament_cmake'
+[0.336s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pp/Tawan-pe-/src/lidar_bringup'
+[0.336s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.336s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.340s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pp/Tawan-pe-/src/robot/motion_control' with build type 'ament_python'
+[0.340s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_control', 'ament_prefix_path')
+[0.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/motion_control/share/motion_control/hook/ament_prefix_path.ps1'
+[0.340s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pp/Tawan-pe-/install/motion_control/share/motion_control/hook/ament_prefix_path.dsv'
+[0.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/motion_control/share/motion_control/hook/ament_prefix_path.sh'
+[0.341s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.341s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.344s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pp/Tawan-pe-/src/aruco_marker/ros2_aruco/ros2_aruco' with build type 'ament_python'
+[0.344s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco', 'ament_prefix_path')
+[0.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ros2_aruco/share/ros2_aruco/hook/ament_prefix_path.ps1'
+[0.344s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pp/Tawan-pe-/install/ros2_aruco/share/ros2_aruco/hook/ament_prefix_path.dsv'
+[0.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ros2_aruco/share/ros2_aruco/hook/ament_prefix_path.sh'
+[0.345s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.345s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.348s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pp/Tawan-pe-/src/aruco_marker/ros2_aruco/ros2_aruco_interfaces' with build type 'ament_cmake'
+[0.348s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pp/Tawan-pe-/src/aruco_marker/ros2_aruco/ros2_aruco_interfaces'
+[0.348s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.348s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.352s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pp/Tawan-pe-/src/robot/rplidar_ros' with build type 'ament_cmake'
+[0.352s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pp/Tawan-pe-/src/robot/rplidar_ros'
+[0.352s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.352s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pp/Tawan-pe-/build/csm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pp/Tawan-pe-/build/csm -- -j12 -l12
+[0.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pp/Tawan-pe-/build/ired_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pp/Tawan-pe-/build/ired_msgs -- -j12 -l12
+[0.364s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pp/Tawan-pe-/build/ired_aruco': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pp/Tawan-pe-/build/ired_aruco -- -j12 -l12
+[0.548s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pp/Tawan-pe-/src/robot/ired_movetogoal'
+[0.548s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.548s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.554s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pp/Tawan-pe-/build/ired_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pp/Tawan-pe-/build/ired_navigation -- -j12 -l12
+[0.556s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pp/Tawan-pe-/build/ired_rviz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pp/Tawan-pe-/build/ired_rviz -- -j12 -l12
+[0.733s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pp/Tawan-pe-/src/robot/ired_teleop'
+[0.733s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.733s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.739s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pp/Tawan-pe-/build/lidar_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pp/Tawan-pe-/build/lidar_bringup -- -j12 -l12
+[0.910s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pp/Tawan-pe-/src/robot/motion_control'
+[0.911s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.911s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.080s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pp/Tawan-pe-/src/aruco_marker/ros2_aruco/ros2_aruco'
+[1.080s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.080s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.085s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pp/Tawan-pe-/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pp/Tawan-pe-/build/ros2_aruco_interfaces -- -j12 -l12
+[1.088s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pp/Tawan-pe-/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pp/Tawan-pe-/build/rplidar_ros -- -j12 -l12
+[1.092s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pp/Tawan-pe-/build/csm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pp/Tawan-pe-/build/csm -- -j12 -l12
+[1.102s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pp/Tawan-pe-/build/csm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pp/Tawan-pe-/build/csm
+[1.102s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pp/Tawan-pe-/build/ired_aruco' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pp/Tawan-pe-/build/ired_aruco -- -j12 -l12
+[1.104s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pp/Tawan-pe-/build/ired_aruco': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pp/Tawan-pe-/build/ired_aruco
+[1.104s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pp/Tawan-pe-/build/ired_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pp/Tawan-pe-/build/ired_msgs -- -j12 -l12
+[1.105s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pp/Tawan-pe-/build/ired_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pp/Tawan-pe-/build/ired_msgs
+[1.106s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pp/Tawan-pe-/build/ired_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pp/Tawan-pe-/build/ired_navigation -- -j12 -l12
+[1.107s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pp/Tawan-pe-/build/ired_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pp/Tawan-pe-/build/ired_navigation
+[1.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pp/Tawan-pe-/build/lidar_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pp/Tawan-pe-/build/lidar_bringup -- -j12 -l12
+[1.110s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pp/Tawan-pe-/build/lidar_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pp/Tawan-pe-/build/lidar_bringup
+[1.110s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pp/Tawan-pe-/build/ired_rviz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pp/Tawan-pe-/build/ired_rviz -- -j12 -l12
+[1.112s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pp/Tawan-pe-/build/ired_rviz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pp/Tawan-pe-/build/ired_rviz
+[1.139s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_bringup)
+[1.148s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pp/Tawan-pe-/build/lidar_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pp/Tawan-pe-/build/lidar_bringup
+[1.156s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/lidar_bringup' for CMake module files
+[1.158s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/lidar_bringup' for CMake config files
+[1.158s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_bringup', 'cmake_prefix_path')
+[1.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/lidar_bringup/share/lidar_bringup/hook/cmake_prefix_path.ps1'
+[1.159s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pp/Tawan-pe-/install/lidar_bringup/share/lidar_bringup/hook/cmake_prefix_path.dsv'
+[1.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/lidar_bringup/share/lidar_bringup/hook/cmake_prefix_path.sh'
+[1.162s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/lidar_bringup/bin'
+[1.162s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/lidar_bringup/lib/pkgconfig/lidar_bringup.pc'
+[1.162s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/lidar_bringup/lib/python3.12/site-packages'
+[1.162s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/lidar_bringup/bin'
+[1.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/lidar_bringup/share/lidar_bringup/package.ps1'
+[1.165s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pp/Tawan-pe-/install/lidar_bringup/share/lidar_bringup/package.dsv'
+[1.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/lidar_bringup/share/lidar_bringup/package.sh'
+[1.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/lidar_bringup/share/lidar_bringup/package.bash'
+[1.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/lidar_bringup/share/lidar_bringup/package.zsh'
+[1.171s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pp/Tawan-pe-/install/lidar_bringup/share/colcon-core/packages/lidar_bringup)
+[1.172s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_bringup)
+[1.172s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/lidar_bringup' for CMake module files
+[1.173s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/lidar_bringup' for CMake config files
+[1.173s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_bringup', 'cmake_prefix_path')
+[1.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/lidar_bringup/share/lidar_bringup/hook/cmake_prefix_path.ps1'
+[1.174s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pp/Tawan-pe-/install/lidar_bringup/share/lidar_bringup/hook/cmake_prefix_path.dsv'
+[1.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/lidar_bringup/share/lidar_bringup/hook/cmake_prefix_path.sh'
+[1.176s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/lidar_bringup/bin'
+[1.176s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/lidar_bringup/lib/pkgconfig/lidar_bringup.pc'
+[1.177s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/lidar_bringup/lib/python3.12/site-packages'
+[1.177s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/lidar_bringup/bin'
+[1.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/lidar_bringup/share/lidar_bringup/package.ps1'
+[1.179s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pp/Tawan-pe-/install/lidar_bringup/share/lidar_bringup/package.dsv'
+[1.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/lidar_bringup/share/lidar_bringup/package.sh'
+[1.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/lidar_bringup/share/lidar_bringup/package.bash'
+[1.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/lidar_bringup/share/lidar_bringup/package.zsh'
+[1.183s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pp/Tawan-pe-/install/lidar_bringup/share/colcon-core/packages/lidar_bringup)
+[1.183s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ired_aruco)
+[1.184s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_aruco' for CMake module files
+[1.185s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_aruco' for CMake config files
+[1.185s] Level 1:colcon.colcon_core.shell:create_environment_hook('ired_aruco', 'cmake_prefix_path')
+[1.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ired_aruco/share/ired_aruco/hook/cmake_prefix_path.ps1'
+[1.187s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pp/Tawan-pe-/build/ired_aruco' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pp/Tawan-pe-/build/ired_aruco
+[1.188s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pp/Tawan-pe-/install/ired_aruco/share/ired_aruco/hook/cmake_prefix_path.dsv'
+[1.189s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ired_aruco/share/ired_aruco/hook/cmake_prefix_path.sh'
+[1.191s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_aruco/bin'
+[1.191s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_aruco/lib/pkgconfig/ired_aruco.pc'
+[1.191s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_aruco/lib/python3.12/site-packages'
+[1.192s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_aruco/bin'
+[1.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_aruco/share/ired_aruco/package.ps1'
+[1.193s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pp/Tawan-pe-/install/ired_aruco/share/ired_aruco/package.dsv'
+[1.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_aruco/share/ired_aruco/package.sh'
+[1.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_aruco/share/ired_aruco/package.bash'
+[1.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_aruco/share/ired_aruco/package.zsh'
+[1.195s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pp/Tawan-pe-/install/ired_aruco/share/colcon-core/packages/ired_aruco)
+[1.196s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ired_aruco)
+[1.197s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_aruco' for CMake module files
+[1.198s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_aruco' for CMake config files
+[1.198s] Level 1:colcon.colcon_core.shell:create_environment_hook('ired_aruco', 'cmake_prefix_path')
+[1.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ired_aruco/share/ired_aruco/hook/cmake_prefix_path.ps1'
+[1.199s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pp/Tawan-pe-/install/ired_aruco/share/ired_aruco/hook/cmake_prefix_path.dsv'
+[1.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ired_aruco/share/ired_aruco/hook/cmake_prefix_path.sh'
+[1.200s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_aruco/bin'
+[1.200s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_aruco/lib/pkgconfig/ired_aruco.pc'
+[1.201s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_aruco/lib/python3.12/site-packages'
+[1.201s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_aruco/bin'
+[1.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_aruco/share/ired_aruco/package.ps1'
+[1.202s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pp/Tawan-pe-/install/ired_aruco/share/ired_aruco/package.dsv'
+[1.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_aruco/share/ired_aruco/package.sh'
+[1.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_aruco/share/ired_aruco/package.bash'
+[1.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_aruco/share/ired_aruco/package.zsh'
+[1.205s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pp/Tawan-pe-/install/ired_aruco/share/colcon-core/packages/ired_aruco)
+[1.205s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pp/Tawan-pe-/src/station_pkg' with build type 'ament_python'
+[1.206s] Level 1:colcon.colcon_core.shell:create_environment_hook('station_pkg', 'ament_prefix_path')
+[1.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/station_pkg/share/station_pkg/hook/ament_prefix_path.ps1'
+[1.206s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pp/Tawan-pe-/install/station_pkg/share/station_pkg/hook/ament_prefix_path.dsv'
+[1.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/station_pkg/share/station_pkg/hook/ament_prefix_path.sh'
+[1.209s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.209s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.220s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(csm)
+[1.220s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/csm' for CMake module files
+[1.222s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pp/Tawan-pe-/build/csm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pp/Tawan-pe-/build/csm
+[1.223s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/csm' for CMake config files
+[1.224s] Level 1:colcon.colcon_core.shell:create_environment_hook('csm', 'cmake_prefix_path')
+[1.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/csm/share/csm/hook/cmake_prefix_path.ps1'
+[1.225s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pp/Tawan-pe-/install/csm/share/csm/hook/cmake_prefix_path.dsv'
+[1.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/csm/share/csm/hook/cmake_prefix_path.sh'
+[1.227s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/csm/lib'
+[1.227s] Level 1:colcon.colcon_core.shell:create_environment_hook('csm', 'ld_library_path_lib')
+[1.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/csm/share/csm/hook/ld_library_path_lib.ps1'
+[1.228s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pp/Tawan-pe-/install/csm/share/csm/hook/ld_library_path_lib.dsv'
+[1.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/csm/share/csm/hook/ld_library_path_lib.sh'
+[1.229s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/csm/bin'
+[1.229s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/csm/lib/pkgconfig/csm.pc'
+[1.229s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/csm/lib/python3.12/site-packages'
+[1.229s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/csm/bin'
+[1.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/csm/share/csm/package.ps1'
+[1.230s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pp/Tawan-pe-/install/csm/share/csm/package.dsv'
+[1.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/csm/share/csm/package.sh'
+[1.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/csm/share/csm/package.bash'
+[1.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/csm/share/csm/package.zsh'
+[1.232s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pp/Tawan-pe-/install/csm/share/colcon-core/packages/csm)
+[1.233s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(csm)
+[1.233s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/csm' for CMake module files
+[1.233s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/csm' for CMake config files
+[1.233s] Level 1:colcon.colcon_core.shell:create_environment_hook('csm', 'cmake_prefix_path')
+[1.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/csm/share/csm/hook/cmake_prefix_path.ps1'
+[1.234s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pp/Tawan-pe-/install/csm/share/csm/hook/cmake_prefix_path.dsv'
+[1.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/csm/share/csm/hook/cmake_prefix_path.sh'
+[1.235s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/csm/lib'
+[1.235s] Level 1:colcon.colcon_core.shell:create_environment_hook('csm', 'ld_library_path_lib')
+[1.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/csm/share/csm/hook/ld_library_path_lib.ps1'
+[1.235s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pp/Tawan-pe-/install/csm/share/csm/hook/ld_library_path_lib.dsv'
+[1.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/csm/share/csm/hook/ld_library_path_lib.sh'
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/csm/bin'
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/csm/lib/pkgconfig/csm.pc'
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/csm/lib/python3.12/site-packages'
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/csm/bin'
+[1.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/csm/share/csm/package.ps1'
+[1.237s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pp/Tawan-pe-/install/csm/share/csm/package.dsv'
+[1.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/csm/share/csm/package.sh'
+[1.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/csm/share/csm/package.bash'
+[1.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/csm/share/csm/package.zsh'
+[1.239s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pp/Tawan-pe-/install/csm/share/colcon-core/packages/csm)
+[1.240s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pp/Tawan-pe-/src/robot/ros2_laser_scan_matcher' with build type 'ament_cmake'
+[1.240s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pp/Tawan-pe-/src/robot/ros2_laser_scan_matcher'
+[1.240s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.240s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.246s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ired_rviz)
+[1.246s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_rviz' for CMake module files
+[1.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pp/Tawan-pe-/build/ired_rviz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pp/Tawan-pe-/build/ired_rviz
+[1.247s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_rviz' for CMake config files
+[1.248s] Level 1:colcon.colcon_core.shell:create_environment_hook('ired_rviz', 'cmake_prefix_path')
+[1.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ired_rviz/share/ired_rviz/hook/cmake_prefix_path.ps1'
+[1.248s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pp/Tawan-pe-/install/ired_rviz/share/ired_rviz/hook/cmake_prefix_path.dsv'
+[1.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ired_rviz/share/ired_rviz/hook/cmake_prefix_path.sh'
+[1.249s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_rviz/bin'
+[1.249s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_rviz/lib/pkgconfig/ired_rviz.pc'
+[1.249s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_rviz/lib/python3.12/site-packages'
+[1.250s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_rviz/bin'
+[1.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_rviz/share/ired_rviz/package.ps1'
+[1.250s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pp/Tawan-pe-/install/ired_rviz/share/ired_rviz/package.dsv'
+[1.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_rviz/share/ired_rviz/package.sh'
+[1.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_rviz/share/ired_rviz/package.bash'
+[1.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_rviz/share/ired_rviz/package.zsh'
+[1.252s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pp/Tawan-pe-/install/ired_rviz/share/colcon-core/packages/ired_rviz)
+[1.252s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ired_rviz)
+[1.252s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_rviz' for CMake module files
+[1.253s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_rviz' for CMake config files
+[1.253s] Level 1:colcon.colcon_core.shell:create_environment_hook('ired_rviz', 'cmake_prefix_path')
+[1.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ired_rviz/share/ired_rviz/hook/cmake_prefix_path.ps1'
+[1.254s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pp/Tawan-pe-/install/ired_rviz/share/ired_rviz/hook/cmake_prefix_path.dsv'
+[1.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ired_rviz/share/ired_rviz/hook/cmake_prefix_path.sh'
+[1.255s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_rviz/bin'
+[1.255s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_rviz/lib/pkgconfig/ired_rviz.pc'
+[1.255s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_rviz/lib/python3.12/site-packages'
+[1.256s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_rviz/bin'
+[1.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_rviz/share/ired_rviz/package.ps1'
+[1.257s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pp/Tawan-pe-/install/ired_rviz/share/ired_rviz/package.dsv'
+[1.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_rviz/share/ired_rviz/package.sh'
+[1.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_rviz/share/ired_rviz/package.bash'
+[1.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_rviz/share/ired_rviz/package.zsh'
+[1.259s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pp/Tawan-pe-/install/ired_rviz/share/colcon-core/packages/ired_rviz)
+[1.259s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ired_navigation)
+[1.259s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_navigation' for CMake module files
+[1.260s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pp/Tawan-pe-/build/ired_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pp/Tawan-pe-/build/ired_navigation
+[1.261s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_navigation' for CMake config files
+[1.261s] Level 1:colcon.colcon_core.shell:create_environment_hook('ired_navigation', 'cmake_prefix_path')
+[1.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ired_navigation/share/ired_navigation/hook/cmake_prefix_path.ps1'
+[1.262s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pp/Tawan-pe-/install/ired_navigation/share/ired_navigation/hook/cmake_prefix_path.dsv'
+[1.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ired_navigation/share/ired_navigation/hook/cmake_prefix_path.sh'
+[1.263s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_navigation/bin'
+[1.263s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_navigation/lib/pkgconfig/ired_navigation.pc'
+[1.263s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_navigation/lib/python3.12/site-packages'
+[1.263s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_navigation/bin'
+[1.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_navigation/share/ired_navigation/package.ps1'
+[1.264s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pp/Tawan-pe-/install/ired_navigation/share/ired_navigation/package.dsv'
+[1.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_navigation/share/ired_navigation/package.sh'
+[1.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_navigation/share/ired_navigation/package.bash'
+[1.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_navigation/share/ired_navigation/package.zsh'
+[1.266s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pp/Tawan-pe-/install/ired_navigation/share/colcon-core/packages/ired_navigation)
+[1.266s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ired_navigation)
+[1.266s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_navigation' for CMake module files
+[1.267s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_navigation' for CMake config files
+[1.268s] Level 1:colcon.colcon_core.shell:create_environment_hook('ired_navigation', 'cmake_prefix_path')
+[1.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ired_navigation/share/ired_navigation/hook/cmake_prefix_path.ps1'
+[1.269s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pp/Tawan-pe-/install/ired_navigation/share/ired_navigation/hook/cmake_prefix_path.dsv'
+[1.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ired_navigation/share/ired_navigation/hook/cmake_prefix_path.sh'
+[1.270s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_navigation/bin'
+[1.270s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_navigation/lib/pkgconfig/ired_navigation.pc'
+[1.270s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_navigation/lib/python3.12/site-packages'
+[1.270s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_navigation/bin'
+[1.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_navigation/share/ired_navigation/package.ps1'
+[1.272s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pp/Tawan-pe-/install/ired_navigation/share/ired_navigation/package.dsv'
+[1.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_navigation/share/ired_navigation/package.sh'
+[1.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_navigation/share/ired_navigation/package.bash'
+[1.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_navigation/share/ired_navigation/package.zsh'
+[1.273s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pp/Tawan-pe-/install/ired_navigation/share/colcon-core/packages/ired_navigation)
+[1.274s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pp/Tawan-pe-/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pp/Tawan-pe-/build/rplidar_ros -- -j12 -l12
+[1.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pp/Tawan-pe-/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pp/Tawan-pe-/build/rplidar_ros
+[1.499s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pp/Tawan-pe-/src/station_pkg'
+[1.500s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.500s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.504s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ired_msgs)
+[1.504s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_msgs' for CMake module files
+[1.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pp/Tawan-pe-/build/ired_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pp/Tawan-pe-/build/ired_msgs
+[1.505s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_msgs' for CMake config files
+[1.505s] Level 1:colcon.colcon_core.shell:create_environment_hook('ired_msgs', 'cmake_prefix_path')
+[1.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/hook/cmake_prefix_path.ps1'
+[1.506s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/hook/cmake_prefix_path.dsv'
+[1.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/hook/cmake_prefix_path.sh'
+[1.507s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_msgs/lib'
+[1.507s] Level 1:colcon.colcon_core.shell:create_environment_hook('ired_msgs', 'ld_library_path_lib')
+[1.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/hook/ld_library_path_lib.ps1'
+[1.507s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/hook/ld_library_path_lib.dsv'
+[1.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/hook/ld_library_path_lib.sh'
+[1.508s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_msgs/bin'
+[1.508s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_msgs/lib/pkgconfig/ired_msgs.pc'
+[1.508s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages'
+[1.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('ired_msgs', 'pythonpath')
+[1.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/hook/pythonpath.ps1'
+[1.509s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/hook/pythonpath.dsv'
+[1.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/hook/pythonpath.sh'
+[1.510s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_msgs/bin'
+[1.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/package.ps1'
+[1.511s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/package.dsv'
+[1.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/package.sh'
+[1.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/package.bash'
+[1.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/package.zsh'
+[1.512s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pp/Tawan-pe-/install/ired_msgs/share/colcon-core/packages/ired_msgs)
+[1.512s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ired_msgs)
+[1.513s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_msgs' for CMake module files
+[1.513s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_msgs' for CMake config files
+[1.513s] Level 1:colcon.colcon_core.shell:create_environment_hook('ired_msgs', 'cmake_prefix_path')
+[1.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/hook/cmake_prefix_path.ps1'
+[1.514s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/hook/cmake_prefix_path.dsv'
+[1.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/hook/cmake_prefix_path.sh'
+[1.514s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_msgs/lib'
+[1.514s] Level 1:colcon.colcon_core.shell:create_environment_hook('ired_msgs', 'ld_library_path_lib')
+[1.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/hook/ld_library_path_lib.ps1'
+[1.515s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/hook/ld_library_path_lib.dsv'
+[1.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/hook/ld_library_path_lib.sh'
+[1.515s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_msgs/bin'
+[1.515s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_msgs/lib/pkgconfig/ired_msgs.pc'
+[1.515s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages'
+[1.516s] Level 1:colcon.colcon_core.shell:create_environment_hook('ired_msgs', 'pythonpath')
+[1.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/hook/pythonpath.ps1'
+[1.516s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/hook/pythonpath.dsv'
+[1.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/hook/pythonpath.sh'
+[1.517s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_msgs/bin'
+[1.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/package.ps1'
+[1.517s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/package.dsv'
+[1.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/package.sh'
+[1.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/package.bash'
+[1.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_msgs/share/ired_msgs/package.zsh'
+[1.518s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pp/Tawan-pe-/install/ired_msgs/share/colcon-core/packages/ired_msgs)
+[1.521s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pp/Tawan-pe-/src/robot/ired_bringup' with build type 'ament_cmake'
+[1.522s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pp/Tawan-pe-/src/robot/ired_bringup'
+[1.522s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.522s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.522s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pp/Tawan-pe-/build/ros2_laser_scan_matcher': CMAKE_PREFIX_PATH=/home/pp/Tawan-pe-/install/csm:/home/pp/Tawan-pe-/install/rplidar_ros:/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher:/home/pp/Tawan-pe-/install/ros2_aruco_interfaces:/home/pp/Tawan-pe-/install/lidar_bringup:/home/pp/Tawan-pe-/install/ired_rviz:/home/pp/Tawan-pe-/install/ired_navigation:/home/pp/Tawan-pe-/install/ired_bringup:/home/pp/Tawan-pe-/install/ired_msgs:/home/pp/Tawan-pe-/install/ired_aruco:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pp/Tawan-pe-/install/csm/lib:/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/lib:/home/pp/Tawan-pe-/install/ired_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --build /home/pp/Tawan-pe-/build/ros2_laser_scan_matcher -- -j12 -l12
+[1.528s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[1.528s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/rplidar_ros' for CMake module files
+[1.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pp/Tawan-pe-/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pp/Tawan-pe-/build/rplidar_ros
+[1.529s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/rplidar_ros' for CMake config files
+[1.530s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[1.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[1.530s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pp/Tawan-pe-/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[1.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[1.531s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/rplidar_ros/lib'
+[1.532s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/rplidar_ros/bin'
+[1.532s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[1.532s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/rplidar_ros/lib/python3.12/site-packages'
+[1.532s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/rplidar_ros/bin'
+[1.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[1.533s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pp/Tawan-pe-/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[1.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/rplidar_ros/share/rplidar_ros/package.sh'
+[1.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/rplidar_ros/share/rplidar_ros/package.bash'
+[1.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[1.534s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pp/Tawan-pe-/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[1.534s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[1.534s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/rplidar_ros' for CMake module files
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/rplidar_ros' for CMake config files
+[1.535s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[1.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[1.535s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pp/Tawan-pe-/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[1.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[1.536s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/rplidar_ros/lib'
+[1.536s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/rplidar_ros/bin'
+[1.536s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[1.536s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/rplidar_ros/lib/python3.12/site-packages'
+[1.537s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/rplidar_ros/bin'
+[1.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[1.537s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pp/Tawan-pe-/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[1.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/rplidar_ros/share/rplidar_ros/package.sh'
+[1.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/rplidar_ros/share/rplidar_ros/package.bash'
+[1.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[1.538s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pp/Tawan-pe-/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[1.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pp/Tawan-pe-/build/ros2_aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pp/Tawan-pe-/build/ros2_aruco_interfaces -- -j12 -l12
+[1.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pp/Tawan-pe-/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pp/Tawan-pe-/build/ros2_aruco_interfaces
+[1.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pp/Tawan-pe-/build/ired_bringup': CMAKE_PREFIX_PATH=/home/pp/Tawan-pe-/install/ired_msgs:/home/pp/Tawan-pe-/install/rplidar_ros:/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher:/home/pp/Tawan-pe-/install/ros2_aruco_interfaces:/home/pp/Tawan-pe-/install/lidar_bringup:/home/pp/Tawan-pe-/install/ired_rviz:/home/pp/Tawan-pe-/install/ired_navigation:/home/pp/Tawan-pe-/install/ired_bringup:/home/pp/Tawan-pe-/install/ired_aruco:/home/pp/Tawan-pe-/install/csm:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pp/Tawan-pe-/install/ired_msgs/lib:/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/lib:/home/pp/Tawan-pe-/install/csm/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages:/home/pp/Tawan-pe-/install/station_pkg/lib/python3.12/site-packages:/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/lib/python3.12/site-packages:/home/pp/Tawan-pe-/install/ros2_aruco/lib/python3.12/site-packages:/home/pp/Tawan-pe-/install/motion_control/lib/python3.12/site-packages:/home/pp/Tawan-pe-/install/ired_teleop/lib/python3.12/site-packages:/home/pp/Tawan-pe-/install/ired_movetogoal/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/pp/Tawan-pe-/build/ired_bringup -- -j12 -l12
+[1.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pp/Tawan-pe-/build/ired_bringup' returned '0': CMAKE_PREFIX_PATH=/home/pp/Tawan-pe-/install/ired_msgs:/home/pp/Tawan-pe-/install/rplidar_ros:/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher:/home/pp/Tawan-pe-/install/ros2_aruco_interfaces:/home/pp/Tawan-pe-/install/lidar_bringup:/home/pp/Tawan-pe-/install/ired_rviz:/home/pp/Tawan-pe-/install/ired_navigation:/home/pp/Tawan-pe-/install/ired_bringup:/home/pp/Tawan-pe-/install/ired_aruco:/home/pp/Tawan-pe-/install/csm:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pp/Tawan-pe-/install/ired_msgs/lib:/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/lib:/home/pp/Tawan-pe-/install/csm/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages:/home/pp/Tawan-pe-/install/station_pkg/lib/python3.12/site-packages:/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/lib/python3.12/site-packages:/home/pp/Tawan-pe-/install/ros2_aruco/lib/python3.12/site-packages:/home/pp/Tawan-pe-/install/motion_control/lib/python3.12/site-packages:/home/pp/Tawan-pe-/install/ired_teleop/lib/python3.12/site-packages:/home/pp/Tawan-pe-/install/ired_movetogoal/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/pp/Tawan-pe-/build/ired_bringup -- -j12 -l12
+[1.633s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pp/Tawan-pe-/build/ired_bringup': CMAKE_PREFIX_PATH=/home/pp/Tawan-pe-/install/ired_msgs:/home/pp/Tawan-pe-/install/rplidar_ros:/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher:/home/pp/Tawan-pe-/install/ros2_aruco_interfaces:/home/pp/Tawan-pe-/install/lidar_bringup:/home/pp/Tawan-pe-/install/ired_rviz:/home/pp/Tawan-pe-/install/ired_navigation:/home/pp/Tawan-pe-/install/ired_bringup:/home/pp/Tawan-pe-/install/ired_aruco:/home/pp/Tawan-pe-/install/csm:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pp/Tawan-pe-/install/ired_msgs/lib:/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/lib:/home/pp/Tawan-pe-/install/csm/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages:/home/pp/Tawan-pe-/install/station_pkg/lib/python3.12/site-packages:/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/lib/python3.12/site-packages:/home/pp/Tawan-pe-/install/ros2_aruco/lib/python3.12/site-packages:/home/pp/Tawan-pe-/install/motion_control/lib/python3.12/site-packages:/home/pp/Tawan-pe-/install/ired_teleop/lib/python3.12/site-packages:/home/pp/Tawan-pe-/install/ired_movetogoal/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/pp/Tawan-pe-/build/ired_bringup
+[1.644s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_aruco_interfaces)
+[1.645s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces' for CMake module files
+[1.645s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pp/Tawan-pe-/build/ros2_aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pp/Tawan-pe-/build/ros2_aruco_interfaces
+[1.646s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces' for CMake config files
+[1.646s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco_interfaces', 'cmake_prefix_path')
+[1.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.ps1'
+[1.647s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.dsv'
+[1.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.sh'
+[1.649s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/lib'
+[1.649s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco_interfaces', 'ld_library_path_lib')
+[1.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.ps1'
+[1.650s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.dsv'
+[1.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.sh'
+[1.651s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/bin'
+[1.651s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/lib/pkgconfig/ros2_aruco_interfaces.pc'
+[1.651s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/lib/python3.12/site-packages'
+[1.651s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco_interfaces', 'pythonpath')
+[1.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/pythonpath.ps1'
+[1.652s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/pythonpath.dsv'
+[1.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/pythonpath.sh'
+[1.652s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/bin'
+[1.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.ps1'
+[1.653s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.dsv'
+[1.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.sh'
+[1.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.bash'
+[1.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.zsh'
+[1.654s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/share/colcon-core/packages/ros2_aruco_interfaces)
+[1.655s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_aruco_interfaces)
+[1.655s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces' for CMake module files
+[1.655s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces' for CMake config files
+[1.656s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco_interfaces', 'cmake_prefix_path')
+[1.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.ps1'
+[1.656s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.dsv'
+[1.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.sh'
+[1.657s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/lib'
+[1.657s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco_interfaces', 'ld_library_path_lib')
+[1.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.ps1'
+[1.657s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.dsv'
+[1.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.sh'
+[1.658s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/bin'
+[1.658s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/lib/pkgconfig/ros2_aruco_interfaces.pc'
+[1.658s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/lib/python3.12/site-packages'
+[1.658s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco_interfaces', 'pythonpath')
+[1.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/pythonpath.ps1'
+[1.659s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/pythonpath.dsv'
+[1.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/pythonpath.sh'
+[1.660s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/bin'
+[1.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.ps1'
+[1.661s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.dsv'
+[1.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.sh'
+[1.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.bash'
+[1.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.zsh'
+[1.662s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/share/colcon-core/packages/ros2_aruco_interfaces)
+[1.663s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pp/Tawan-pe-/build/ros2_laser_scan_matcher' returned '0': CMAKE_PREFIX_PATH=/home/pp/Tawan-pe-/install/csm:/home/pp/Tawan-pe-/install/rplidar_ros:/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher:/home/pp/Tawan-pe-/install/ros2_aruco_interfaces:/home/pp/Tawan-pe-/install/lidar_bringup:/home/pp/Tawan-pe-/install/ired_rviz:/home/pp/Tawan-pe-/install/ired_navigation:/home/pp/Tawan-pe-/install/ired_bringup:/home/pp/Tawan-pe-/install/ired_msgs:/home/pp/Tawan-pe-/install/ired_aruco:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pp/Tawan-pe-/install/csm/lib:/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/lib:/home/pp/Tawan-pe-/install/ired_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --build /home/pp/Tawan-pe-/build/ros2_laser_scan_matcher -- -j12 -l12
+[1.665s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pp/Tawan-pe-/build/ros2_laser_scan_matcher': CMAKE_PREFIX_PATH=/home/pp/Tawan-pe-/install/csm:/home/pp/Tawan-pe-/install/rplidar_ros:/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher:/home/pp/Tawan-pe-/install/ros2_aruco_interfaces:/home/pp/Tawan-pe-/install/lidar_bringup:/home/pp/Tawan-pe-/install/ired_rviz:/home/pp/Tawan-pe-/install/ired_navigation:/home/pp/Tawan-pe-/install/ired_bringup:/home/pp/Tawan-pe-/install/ired_msgs:/home/pp/Tawan-pe-/install/ired_aruco:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pp/Tawan-pe-/install/csm/lib:/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/lib:/home/pp/Tawan-pe-/install/ired_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --install /home/pp/Tawan-pe-/build/ros2_laser_scan_matcher
+[1.665s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ired_bringup)
+[1.665s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_bringup' for CMake module files
+[1.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pp/Tawan-pe-/build/ired_bringup' returned '0': CMAKE_PREFIX_PATH=/home/pp/Tawan-pe-/install/ired_msgs:/home/pp/Tawan-pe-/install/rplidar_ros:/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher:/home/pp/Tawan-pe-/install/ros2_aruco_interfaces:/home/pp/Tawan-pe-/install/lidar_bringup:/home/pp/Tawan-pe-/install/ired_rviz:/home/pp/Tawan-pe-/install/ired_navigation:/home/pp/Tawan-pe-/install/ired_bringup:/home/pp/Tawan-pe-/install/ired_aruco:/home/pp/Tawan-pe-/install/csm:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pp/Tawan-pe-/install/ired_msgs/lib:/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/lib:/home/pp/Tawan-pe-/install/csm/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/pp/Tawan-pe-/install/ired_msgs/lib/python3.12/site-packages:/home/pp/Tawan-pe-/install/station_pkg/lib/python3.12/site-packages:/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/lib/python3.12/site-packages:/home/pp/Tawan-pe-/install/ros2_aruco/lib/python3.12/site-packages:/home/pp/Tawan-pe-/install/motion_control/lib/python3.12/site-packages:/home/pp/Tawan-pe-/install/ired_teleop/lib/python3.12/site-packages:/home/pp/Tawan-pe-/install/ired_movetogoal/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/pp/Tawan-pe-/build/ired_bringup
+[1.666s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_bringup' for CMake config files
+[1.666s] Level 1:colcon.colcon_core.shell:create_environment_hook('ired_bringup', 'cmake_prefix_path')
+[1.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ired_bringup/share/ired_bringup/hook/cmake_prefix_path.ps1'
+[1.667s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pp/Tawan-pe-/install/ired_bringup/share/ired_bringup/hook/cmake_prefix_path.dsv'
+[1.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ired_bringup/share/ired_bringup/hook/cmake_prefix_path.sh'
+[1.668s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_bringup/lib'
+[1.668s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_bringup/bin'
+[1.668s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_bringup/lib/pkgconfig/ired_bringup.pc'
+[1.668s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_bringup/lib/python3.12/site-packages'
+[1.668s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_bringup/bin'
+[1.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_bringup/share/ired_bringup/package.ps1'
+[1.669s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pp/Tawan-pe-/install/ired_bringup/share/ired_bringup/package.dsv'
+[1.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_bringup/share/ired_bringup/package.sh'
+[1.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_bringup/share/ired_bringup/package.bash'
+[1.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_bringup/share/ired_bringup/package.zsh'
+[1.670s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pp/Tawan-pe-/install/ired_bringup/share/colcon-core/packages/ired_bringup)
+[1.670s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ired_bringup)
+[1.670s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_bringup' for CMake module files
+[1.671s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_bringup' for CMake config files
+[1.671s] Level 1:colcon.colcon_core.shell:create_environment_hook('ired_bringup', 'cmake_prefix_path')
+[1.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ired_bringup/share/ired_bringup/hook/cmake_prefix_path.ps1'
+[1.672s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pp/Tawan-pe-/install/ired_bringup/share/ired_bringup/hook/cmake_prefix_path.dsv'
+[1.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ired_bringup/share/ired_bringup/hook/cmake_prefix_path.sh'
+[1.673s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_bringup/lib'
+[1.673s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_bringup/bin'
+[1.673s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_bringup/lib/pkgconfig/ired_bringup.pc'
+[1.673s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_bringup/lib/python3.12/site-packages'
+[1.673s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_bringup/bin'
+[1.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_bringup/share/ired_bringup/package.ps1'
+[1.674s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pp/Tawan-pe-/install/ired_bringup/share/ired_bringup/package.dsv'
+[1.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_bringup/share/ired_bringup/package.sh'
+[1.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_bringup/share/ired_bringup/package.bash'
+[1.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_bringup/share/ired_bringup/package.zsh'
+[1.675s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pp/Tawan-pe-/install/ired_bringup/share/colcon-core/packages/ired_bringup)
+[1.691s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_laser_scan_matcher)
+[1.691s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher' for CMake module files
+[1.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pp/Tawan-pe-/build/ros2_laser_scan_matcher' returned '0': CMAKE_PREFIX_PATH=/home/pp/Tawan-pe-/install/csm:/home/pp/Tawan-pe-/install/rplidar_ros:/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher:/home/pp/Tawan-pe-/install/ros2_aruco_interfaces:/home/pp/Tawan-pe-/install/lidar_bringup:/home/pp/Tawan-pe-/install/ired_rviz:/home/pp/Tawan-pe-/install/ired_navigation:/home/pp/Tawan-pe-/install/ired_bringup:/home/pp/Tawan-pe-/install/ired_msgs:/home/pp/Tawan-pe-/install/ired_aruco:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pp/Tawan-pe-/install/csm/lib:/home/pp/Tawan-pe-/install/ros2_aruco_interfaces/lib:/home/pp/Tawan-pe-/install/ired_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --install /home/pp/Tawan-pe-/build/ros2_laser_scan_matcher
+[1.692s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher' for CMake config files
+[1.692s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_laser_scan_matcher', 'cmake_prefix_path')
+[1.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/hook/cmake_prefix_path.ps1'
+[1.693s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/hook/cmake_prefix_path.dsv'
+[1.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/hook/cmake_prefix_path.sh'
+[1.694s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher/lib'
+[1.694s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher/bin'
+[1.694s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher/lib/pkgconfig/ros2_laser_scan_matcher.pc'
+[1.695s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher/lib/python3.12/site-packages'
+[1.695s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher/bin'
+[1.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.ps1'
+[1.696s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.dsv'
+[1.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.sh'
+[1.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.bash'
+[1.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.zsh'
+[1.697s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher/share/colcon-core/packages/ros2_laser_scan_matcher)
+[1.698s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_laser_scan_matcher)
+[1.698s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher' for CMake module files
+[1.698s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher' for CMake config files
+[1.698s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_laser_scan_matcher', 'cmake_prefix_path')
+[1.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/hook/cmake_prefix_path.ps1'
+[1.699s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/hook/cmake_prefix_path.dsv'
+[1.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/hook/cmake_prefix_path.sh'
+[1.699s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher/lib'
+[1.699s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher/bin'
+[1.699s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher/lib/pkgconfig/ros2_laser_scan_matcher.pc'
+[1.700s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher/lib/python3.12/site-packages'
+[1.700s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher/bin'
+[1.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.ps1'
+[1.700s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.dsv'
+[1.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.sh'
+[1.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.bash'
+[1.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.zsh'
+[1.701s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pp/Tawan-pe-/install/ros2_laser_scan_matcher/share/colcon-core/packages/ros2_laser_scan_matcher)
+[1.931s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pp/Tawan-pe-/src/aruco_marker/ros2_aruco/ros2_aruco': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pp/Tawan-pe-/build/ros2_aruco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pp/Tawan-pe-/install/ros2_aruco/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/ros2_aruco build --build-base /home/pp/Tawan-pe-/build/ros2_aruco/build install --record /home/pp/Tawan-pe-/build/ros2_aruco/install.log --single-version-externally-managed install_data
+[1.951s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pp/Tawan-pe-/src/robot/motion_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pp/Tawan-pe-/build/motion_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pp/Tawan-pe-/install/motion_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/motion_control build --build-base /home/pp/Tawan-pe-/build/motion_control/build install --record /home/pp/Tawan-pe-/build/motion_control/install.log --single-version-externally-managed install_data
+[1.953s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pp/Tawan-pe-/src/robot/ired_movetogoal': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pp/Tawan-pe-/build/ired_movetogoal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pp/Tawan-pe-/install/ired_movetogoal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ired_movetogoal build --build-base /home/pp/Tawan-pe-/build/ired_movetogoal/build install --record /home/pp/Tawan-pe-/build/ired_movetogoal/install.log --single-version-externally-managed install_data
+[1.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pp/Tawan-pe-/src/robot/ired_teleop': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pp/Tawan-pe-/build/ired_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pp/Tawan-pe-/install/ired_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ired_teleop build --build-base /home/pp/Tawan-pe-/build/ired_teleop/build install --record /home/pp/Tawan-pe-/build/ired_teleop/install.log --single-version-externally-managed install_data
+[2.099s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pp/Tawan-pe-/src/station_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pp/Tawan-pe-/build/station_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pp/Tawan-pe-/install/station_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/station_pkg build --build-base /home/pp/Tawan-pe-/build/station_pkg/build install --record /home/pp/Tawan-pe-/build/station_pkg/install.log --single-version-externally-managed install_data
+[2.399s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ros2_aruco' for CMake module files
+[2.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pp/Tawan-pe-/src/aruco_marker/ros2_aruco/ros2_aruco' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pp/Tawan-pe-/build/ros2_aruco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pp/Tawan-pe-/install/ros2_aruco/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/ros2_aruco build --build-base /home/pp/Tawan-pe-/build/ros2_aruco/build install --record /home/pp/Tawan-pe-/build/ros2_aruco/install.log --single-version-externally-managed install_data
+[2.400s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ros2_aruco' for CMake config files
+[2.400s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ros2_aruco/lib'
+[2.401s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ros2_aruco/bin'
+[2.401s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ros2_aruco/lib/pkgconfig/ros2_aruco.pc'
+[2.401s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ros2_aruco/lib/python3.12/site-packages'
+[2.401s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco', 'pythonpath')
+[2.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ros2_aruco/share/ros2_aruco/hook/pythonpath.ps1'
+[2.402s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pp/Tawan-pe-/install/ros2_aruco/share/ros2_aruco/hook/pythonpath.dsv'
+[2.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ros2_aruco/share/ros2_aruco/hook/pythonpath.sh'
+[2.402s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ros2_aruco/bin'
+[2.402s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_aruco)
+[2.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ros2_aruco/share/ros2_aruco/package.ps1'
+[2.403s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pp/Tawan-pe-/install/ros2_aruco/share/ros2_aruco/package.dsv'
+[2.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ros2_aruco/share/ros2_aruco/package.sh'
+[2.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ros2_aruco/share/ros2_aruco/package.bash'
+[2.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ros2_aruco/share/ros2_aruco/package.zsh'
+[2.404s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pp/Tawan-pe-/install/ros2_aruco/share/colcon-core/packages/ros2_aruco)
+[2.405s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/motion_control' for CMake module files
+[2.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pp/Tawan-pe-/src/robot/motion_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pp/Tawan-pe-/build/motion_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pp/Tawan-pe-/install/motion_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/motion_control build --build-base /home/pp/Tawan-pe-/build/motion_control/build install --record /home/pp/Tawan-pe-/build/motion_control/install.log --single-version-externally-managed install_data
+[2.406s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/motion_control' for CMake config files
+[2.407s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/motion_control/lib'
+[2.407s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/motion_control/bin'
+[2.407s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/motion_control/lib/pkgconfig/motion_control.pc'
+[2.407s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/motion_control/lib/python3.12/site-packages'
+[2.407s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_control', 'pythonpath')
+[2.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/motion_control/share/motion_control/hook/pythonpath.ps1'
+[2.408s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pp/Tawan-pe-/install/motion_control/share/motion_control/hook/pythonpath.dsv'
+[2.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/motion_control/share/motion_control/hook/pythonpath.sh'
+[2.409s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/motion_control/bin'
+[2.409s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motion_control)
+[2.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/motion_control/share/motion_control/package.ps1'
+[2.410s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pp/Tawan-pe-/install/motion_control/share/motion_control/package.dsv'
+[2.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/motion_control/share/motion_control/package.sh'
+[2.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/motion_control/share/motion_control/package.bash'
+[2.411s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/motion_control/share/motion_control/package.zsh'
+[2.411s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pp/Tawan-pe-/install/motion_control/share/colcon-core/packages/motion_control)
+[2.428s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_movetogoal' for CMake module files
+[2.429s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pp/Tawan-pe-/src/robot/ired_movetogoal' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pp/Tawan-pe-/build/ired_movetogoal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pp/Tawan-pe-/install/ired_movetogoal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ired_movetogoal build --build-base /home/pp/Tawan-pe-/build/ired_movetogoal/build install --record /home/pp/Tawan-pe-/build/ired_movetogoal/install.log --single-version-externally-managed install_data
+[2.429s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_movetogoal' for CMake config files
+[2.430s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_movetogoal/lib'
+[2.430s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_movetogoal/bin'
+[2.430s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_movetogoal/lib/pkgconfig/ired_movetogoal.pc'
+[2.430s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_movetogoal/lib/python3.12/site-packages'
+[2.430s] Level 1:colcon.colcon_core.shell:create_environment_hook('ired_movetogoal', 'pythonpath')
+[2.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ired_movetogoal/share/ired_movetogoal/hook/pythonpath.ps1'
+[2.431s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pp/Tawan-pe-/install/ired_movetogoal/share/ired_movetogoal/hook/pythonpath.dsv'
+[2.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ired_movetogoal/share/ired_movetogoal/hook/pythonpath.sh'
+[2.432s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_movetogoal/bin'
+[2.432s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ired_movetogoal)
+[2.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_movetogoal/share/ired_movetogoal/package.ps1'
+[2.432s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pp/Tawan-pe-/install/ired_movetogoal/share/ired_movetogoal/package.dsv'
+[2.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_movetogoal/share/ired_movetogoal/package.sh'
+[2.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_movetogoal/share/ired_movetogoal/package.bash'
+[2.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_movetogoal/share/ired_movetogoal/package.zsh'
+[2.433s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pp/Tawan-pe-/install/ired_movetogoal/share/colcon-core/packages/ired_movetogoal)
+[2.434s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_teleop' for CMake module files
+[2.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pp/Tawan-pe-/src/robot/ired_teleop' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pp/Tawan-pe-/build/ired_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pp/Tawan-pe-/install/ired_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ired_teleop build --build-base /home/pp/Tawan-pe-/build/ired_teleop/build install --record /home/pp/Tawan-pe-/build/ired_teleop/install.log --single-version-externally-managed install_data
+[2.435s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_teleop' for CMake config files
+[2.435s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_teleop/lib'
+[2.435s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_teleop/bin'
+[2.436s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_teleop/lib/pkgconfig/ired_teleop.pc'
+[2.436s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_teleop/lib/python3.12/site-packages'
+[2.436s] Level 1:colcon.colcon_core.shell:create_environment_hook('ired_teleop', 'pythonpath')
+[2.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ired_teleop/share/ired_teleop/hook/pythonpath.ps1'
+[2.436s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pp/Tawan-pe-/install/ired_teleop/share/ired_teleop/hook/pythonpath.dsv'
+[2.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/ired_teleop/share/ired_teleop/hook/pythonpath.sh'
+[2.437s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/ired_teleop/bin'
+[2.437s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ired_teleop)
+[2.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_teleop/share/ired_teleop/package.ps1'
+[2.438s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pp/Tawan-pe-/install/ired_teleop/share/ired_teleop/package.dsv'
+[2.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_teleop/share/ired_teleop/package.sh'
+[2.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_teleop/share/ired_teleop/package.bash'
+[2.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/ired_teleop/share/ired_teleop/package.zsh'
+[2.439s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pp/Tawan-pe-/install/ired_teleop/share/colcon-core/packages/ired_teleop)
+[2.573s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/station_pkg' for CMake module files
+[2.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pp/Tawan-pe-/src/station_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pp/Tawan-pe-/build/station_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pp/Tawan-pe-/install/station_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/station_pkg build --build-base /home/pp/Tawan-pe-/build/station_pkg/build install --record /home/pp/Tawan-pe-/build/station_pkg/install.log --single-version-externally-managed install_data
+[2.574s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/station_pkg' for CMake config files
+[2.574s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/station_pkg/lib'
+[2.574s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/station_pkg/bin'
+[2.574s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/station_pkg/lib/pkgconfig/station_pkg.pc'
+[2.574s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/station_pkg/lib/python3.12/site-packages'
+[2.575s] Level 1:colcon.colcon_core.shell:create_environment_hook('station_pkg', 'pythonpath')
+[2.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/station_pkg/share/station_pkg/hook/pythonpath.ps1'
+[2.575s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pp/Tawan-pe-/install/station_pkg/share/station_pkg/hook/pythonpath.dsv'
+[2.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pp/Tawan-pe-/install/station_pkg/share/station_pkg/hook/pythonpath.sh'
+[2.576s] Level 1:colcon.colcon_core.environment:checking '/home/pp/Tawan-pe-/install/station_pkg/bin'
+[2.576s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(station_pkg)
+[2.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/station_pkg/share/station_pkg/package.ps1'
+[2.576s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pp/Tawan-pe-/install/station_pkg/share/station_pkg/package.dsv'
+[2.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/station_pkg/share/station_pkg/package.sh'
+[2.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/station_pkg/share/station_pkg/package.bash'
+[2.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/pp/Tawan-pe-/install/station_pkg/share/station_pkg/package.zsh'
+[2.577s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pp/Tawan-pe-/install/station_pkg/share/colcon-core/packages/station_pkg)
+[2.577s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.578s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.578s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.578s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.584s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.584s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.584s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.600s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.600s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pp/Tawan-pe-/install/local_setup.ps1'
+[2.601s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pp/Tawan-pe-/install/_local_setup_util_ps1.py'
+[2.602s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pp/Tawan-pe-/install/setup.ps1'
+[2.603s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pp/Tawan-pe-/install/local_setup.sh'
+[2.604s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pp/Tawan-pe-/install/_local_setup_util_sh.py'
+[2.604s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pp/Tawan-pe-/install/setup.sh'
+[2.606s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pp/Tawan-pe-/install/local_setup.bash'
+[2.606s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pp/Tawan-pe-/install/setup.bash'
+[2.607s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pp/Tawan-pe-/install/local_setup.zsh'
+[2.608s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pp/Tawan-pe-/install/setup.zsh'
