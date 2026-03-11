@@ -1,0 +1,36 @@
+[0.090s] Invoking command in '/home/pp/Tawan-pe-/build/csm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pp/Tawan-pe-/build/csm -- -j12 -l12
+[1.478s] [100%] Built target csm
+[1.491s] Invoked command in '/home/pp/Tawan-pe-/build/csm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pp/Tawan-pe-/build/csm -- -j12 -l12
+[1.504s] Invoking command in '/home/pp/Tawan-pe-/build/csm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pp/Tawan-pe-/build/csm
+[1.522s] -- Install configuration: ""
+[1.523s] -- Execute custom install script
+[1.523s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/csm/lib/libcsm.so
+[1.523s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/csm/include/..//include/csm/algos.h
+[1.525s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/csm/include/..//include/csm/csm.h
+[1.525s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/csm/include/..//include/csm/laser_data.h
+[1.526s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/csm/include/..//include/csm/laser_data_inline.h
+[1.526s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/csm/include/..//include/csm/restrict.h
+[1.526s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/csm/include/..//include/gsl_eigen/gsl_eigen.h
+[1.527s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/csm/share/csm/resource/csm
+[1.527s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/csm/include/../gsl_eigen/gsl_eigen.h
+[1.527s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/csm/share/csm/environment/library_path.sh
+[1.528s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/csm/share/csm/environment/library_path.dsv
+[1.530s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/csm/share/ament_index/resource_index/package_run_dependencies/csm
+[1.531s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/csm/share/ament_index/resource_index/parent_prefix_path/csm
+[1.531s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/csm/share/csm/environment/ament_prefix_path.sh
+[1.531s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/csm/share/csm/environment/ament_prefix_path.dsv
+[1.532s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/csm/share/csm/environment/path.sh
+[1.532s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/csm/share/csm/environment/path.dsv
+[1.533s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/csm/share/csm/local_setup.bash
+[1.537s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/csm/share/csm/local_setup.sh
+[1.537s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/csm/share/csm/local_setup.zsh
+[1.537s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/csm/share/csm/local_setup.dsv
+[1.538s] -- Symlinking: /home/pp/Tawan-pe-/install/csm/share/csm/package.dsv
+[1.580s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/csm/share/ament_index/resource_index/packages/csm
+[1.581s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/csm/share/csm/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.582s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/csm/share/csm/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.582s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/csm/share/csm/cmake/ament_cmake_export_libraries-extras.cmake
+[1.582s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/csm/share/csm/cmake/csmConfig.cmake
+[1.583s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/csm/share/csm/cmake/csmConfig-version.cmake
+[1.583s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/csm/share/csm/package.xml
+[1.635s] Invoked command in '/home/pp/Tawan-pe-/build/csm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pp/Tawan-pe-/build/csm

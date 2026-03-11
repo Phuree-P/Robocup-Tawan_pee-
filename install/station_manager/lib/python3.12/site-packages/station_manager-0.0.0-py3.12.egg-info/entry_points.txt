@@ -1,0 +1,2 @@
+[console_scripts]
+identifier = station_manager.identifier_node:main

@@ -1,0 +1,22 @@
+[2.574s] Invoking command in '/home/pp/Tawan-pe-/src/aruco_marker/ros2_aruco/ros2_aruco': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pp/Tawan-pe-/build/ros2_aruco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pp/Tawan-pe-/install/ros2_aruco/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/ros2_aruco build --build-base /home/pp/Tawan-pe-/build/ros2_aruco/build install --record /home/pp/Tawan-pe-/build/ros2_aruco/install.log --single-version-externally-managed install_data
+[2.808s] running egg_info
+[2.825s] writing ../../../../build/ros2_aruco/ros2_aruco.egg-info/PKG-INFO
+[2.825s] writing dependency_links to ../../../../build/ros2_aruco/ros2_aruco.egg-info/dependency_links.txt
+[2.825s] writing entry points to ../../../../build/ros2_aruco/ros2_aruco.egg-info/entry_points.txt
+[2.826s] writing requirements to ../../../../build/ros2_aruco/ros2_aruco.egg-info/requires.txt
+[2.826s] writing top-level names to ../../../../build/ros2_aruco/ros2_aruco.egg-info/top_level.txt
+[2.861s] reading manifest file '../../../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'
+[2.861s] writing manifest file '../../../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'
+[2.862s] running build
+[2.862s] running build_py
+[2.862s] running install
+[2.867s] running install_lib
+[2.884s] running install_data
+[2.884s] running install_egg_info
+[2.902s] removing '/home/pp/Tawan-pe-/install/ros2_aruco/lib/python3.12/site-packages/ros2_aruco-0.1.0-py3.12.egg-info' (and everything under it)
+[2.903s] Copying ../../../../build/ros2_aruco/ros2_aruco.egg-info to /home/pp/Tawan-pe-/install/ros2_aruco/lib/python3.12/site-packages/ros2_aruco-0.1.0-py3.12.egg-info
+[2.903s] running install_scripts
+[3.022s] Installing aruco_generate_marker script to /home/pp/Tawan-pe-/install/ros2_aruco/lib/ros2_aruco
+[3.022s] Installing aruco_node script to /home/pp/Tawan-pe-/install/ros2_aruco/lib/ros2_aruco
+[3.023s] writing list of installed files to '/home/pp/Tawan-pe-/build/ros2_aruco/install.log'
+[3.071s] Invoked command in '/home/pp/Tawan-pe-/src/aruco_marker/ros2_aruco/ros2_aruco' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pp/Tawan-pe-/build/ros2_aruco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pp/Tawan-pe-/install/ros2_aruco/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/ros2_aruco build --build-base /home/pp/Tawan-pe-/build/ros2_aruco/build install --record /home/pp/Tawan-pe-/build/ros2_aruco/install.log --single-version-externally-managed install_data

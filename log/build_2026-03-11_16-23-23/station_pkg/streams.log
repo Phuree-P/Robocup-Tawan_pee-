@@ -1,0 +1,31 @@
+[2.477s] Invoking command in '/home/pp/Tawan-pe-/build/station_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pp/Tawan-pe-/build/station_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pp/Tawan-pe-/install/station_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/pp/Tawan-pe-/build/station_pkg/build
+[3.097s] running develop
+[3.553s] Removing /home/pp/Tawan-pe-/install/station_pkg/lib/python3.12/site-packages/station-pkg.egg-link (link to .)
+[3.614s] Invoked command in '/home/pp/Tawan-pe-/build/station_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pp/Tawan-pe-/build/station_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pp/Tawan-pe-/install/station_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/pp/Tawan-pe-/build/station_pkg/build
+[3.616s] Invoking command in '/home/pp/Tawan-pe-/src/station_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pp/Tawan-pe-/build/station_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pp/Tawan-pe-/install/station_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/station_pkg build --build-base /home/pp/Tawan-pe-/build/station_pkg/build install --record /home/pp/Tawan-pe-/build/station_pkg/install.log --single-version-externally-managed install_data --force
+[4.196s] running egg_info
+[4.242s] writing ../../build/station_pkg/station_pkg.egg-info/PKG-INFO
+[4.243s] writing dependency_links to ../../build/station_pkg/station_pkg.egg-info/dependency_links.txt
+[4.243s] writing entry points to ../../build/station_pkg/station_pkg.egg-info/entry_points.txt
+[4.244s] writing requirements to ../../build/station_pkg/station_pkg.egg-info/requires.txt
+[4.244s] writing top-level names to ../../build/station_pkg/station_pkg.egg-info/top_level.txt
+[4.340s] reading manifest file '../../build/station_pkg/station_pkg.egg-info/SOURCES.txt'
+[4.341s] writing manifest file '../../build/station_pkg/station_pkg.egg-info/SOURCES.txt'
+[4.342s] running build
+[4.342s] running build_py
+[4.343s] running install
+[4.356s] running install_lib
+[4.395s] creating /home/pp/Tawan-pe-/install/station_pkg/lib/python3.12/site-packages/station_pkg
+[4.395s] copying /home/pp/Tawan-pe-/build/station_pkg/build/lib/station_pkg/__init__.py -> /home/pp/Tawan-pe-/install/station_pkg/lib/python3.12/site-packages/station_pkg
+[4.395s] copying /home/pp/Tawan-pe-/build/station_pkg/build/lib/station_pkg/station_detector.py -> /home/pp/Tawan-pe-/install/station_pkg/lib/python3.12/site-packages/station_pkg
+[4.396s] byte-compiling /home/pp/Tawan-pe-/install/station_pkg/lib/python3.12/site-packages/station_pkg/__init__.py to __init__.cpython-312.pyc
+[4.396s] byte-compiling /home/pp/Tawan-pe-/install/station_pkg/lib/python3.12/site-packages/station_pkg/station_detector.py to station_detector.cpython-312.pyc
+[4.398s] running install_data
+[4.398s] copying resource/station_pkg -> /home/pp/Tawan-pe-/install/station_pkg/share/ament_index/resource_index/packages
+[4.398s] copying package.xml -> /home/pp/Tawan-pe-/install/station_pkg/share/station_pkg
+[4.398s] running install_egg_info
+[4.441s] Copying ../../build/station_pkg/station_pkg.egg-info to /home/pp/Tawan-pe-/install/station_pkg/lib/python3.12/site-packages/station_pkg-0.0.0-py3.12.egg-info
+[4.443s] running install_scripts
+[4.751s] Installing station_detector script to /home/pp/Tawan-pe-/install/station_pkg/lib/station_pkg
+[4.751s] writing list of installed files to '/home/pp/Tawan-pe-/build/station_pkg/install.log'
+[4.793s] Invoked command in '/home/pp/Tawan-pe-/src/station_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pp/Tawan-pe-/build/station_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pp/Tawan-pe-/install/station_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/station_pkg build --build-base /home/pp/Tawan-pe-/build/station_pkg/build install --record /home/pp/Tawan-pe-/build/station_pkg/install.log --single-version-externally-managed install_data --force

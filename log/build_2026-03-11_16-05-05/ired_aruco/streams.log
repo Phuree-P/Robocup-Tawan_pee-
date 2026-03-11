@@ -1,0 +1,25 @@
+[0.043s] Invoking command in '/home/pp/Tawan-pe-/build/ired_aruco': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/station_manager:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pp/Tawan-pe-/build/ired_aruco -- -j12 -l12
+[0.968s] Invoked command in '/home/pp/Tawan-pe-/build/ired_aruco' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/station_manager:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pp/Tawan-pe-/build/ired_aruco -- -j12 -l12
+[0.970s] Invoking command in '/home/pp/Tawan-pe-/build/ired_aruco': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/station_manager:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pp/Tawan-pe-/build/ired_aruco
+[0.990s] -- Install configuration: ""
+[0.990s] -- Execute custom install script
+[0.991s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_aruco/share/ired_aruco/launch/aruco_detect.launch.py
+[0.992s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_aruco/share/ired_aruco/rviz/aruco.rviz
+[0.992s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_aruco/share/ired_aruco/config/camera_calibration/ost.txt
+[0.994s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_aruco/share/ired_aruco/config/camera_calibration/ost.yaml
+[1.004s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_aruco/share/ament_index/resource_index/package_run_dependencies/ired_aruco
+[1.004s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_aruco/share/ament_index/resource_index/parent_prefix_path/ired_aruco
+[1.004s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_aruco/share/ired_aruco/environment/ament_prefix_path.sh
+[1.004s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_aruco/share/ired_aruco/environment/ament_prefix_path.dsv
+[1.005s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_aruco/share/ired_aruco/environment/path.sh
+[1.005s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_aruco/share/ired_aruco/environment/path.dsv
+[1.005s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_aruco/share/ired_aruco/local_setup.bash
+[1.005s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_aruco/share/ired_aruco/local_setup.sh
+[1.006s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_aruco/share/ired_aruco/local_setup.zsh
+[1.006s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_aruco/share/ired_aruco/local_setup.dsv
+[1.006s] -- Symlinking: /home/pp/Tawan-pe-/install/ired_aruco/share/ired_aruco/package.dsv
+[1.047s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_aruco/share/ament_index/resource_index/packages/ired_aruco
+[1.047s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_aruco/share/ired_aruco/cmake/ired_arucoConfig.cmake
+[1.048s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_aruco/share/ired_aruco/cmake/ired_arucoConfig-version.cmake
+[1.055s] -- Up-to-date symlink: /home/pp/Tawan-pe-/install/ired_aruco/share/ired_aruco/package.xml
+[1.114s] Invoked command in '/home/pp/Tawan-pe-/build/ired_aruco' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pp/Tawan-pe-/install/station_pkg:/home/pp/Tawan-pe-/install/station_manager:/home/pp/Tawan-pe-/install/ros2_aruco:/home/pp/Tawan-pe-/install/motion_control:/home/pp/Tawan-pe-/install/ired_teleop:/home/pp/Tawan-pe-/install/ired_movetogoal:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pp/Tawan-pe-/build/ired_aruco

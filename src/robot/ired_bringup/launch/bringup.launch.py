@@ -107,12 +107,12 @@ def generate_launch_description():
             output='screen'),
             
         # --- โหนด Docking สำหรับหุ่นล้อ Omni ---
-        Node(
-            package='motion_control',
-            executable='omni_docking_controller', 
-            name='omni_docking_controller',
-            output='screen'
-        ),
+        #Node(
+        #    package='motion_control',
+        #    executable='omni_docking_controller', 
+        #    name='omni_docking_controller',
+        #    output='screen'
+        #),
         # --------------------------------
         Node(
             package='robot_localization',

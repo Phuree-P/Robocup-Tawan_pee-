@@ -43,6 +43,12 @@ def generate_launch_description() -> LaunchDescription:
         output='screen',
         condition=IfCondition(use_rviz),
     )
+    
+    station_id_node = Node(
+        package='ired_aruco',
+        executable='station_identifier.py',
+        output='screen'
+    )
 
     return LaunchDescription([
         remap_image,  # Applies the remapping
